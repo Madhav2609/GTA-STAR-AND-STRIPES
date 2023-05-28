@@ -1,0 +1,62 @@
+objs
+27810, cooker1, dynjunk, 42, 128
+27811, rockpatch1, rocky, 299, 128
+27812, rockpatch03, rocky, 299, 128
+27813, kb_couch06_vc, vc_hi_cutbnkcoch, 80, 4
+27814, miamphon, dynphnm, 42, 128
+27815, miamifirehyd, firem, 35, 128
+27816, miamibin, miamibin, 15, 132
+27817, newsstand1, dynnewstnd, 42, 0
+27818, gardenbencha, vc_benches, 45, 0
+27819, pickupmusic, icons4, 100, 128
+27820, kb_planterbush2, vcgeneric, 40, 132
+27821, lf_mediastage, lf_mediastage, 100, 128
+27822, lf_banner, lofbanner, 100, 128
+27823, lodxrefhirise1, vc_wshxreflod, 700, 128
+27824, wshxrefhirise1, wshxrefhirise, 65, 128
+27825, jw_coffin, jwcoffin, 35, 0
+27826, odrampbit_vc, odnrooft_vc, 80, 132
+27827, Xnbt_chaseroom, nbtrooftop, 150, 128
+27828, dts_bbdoor0, dts_grassbits, 200, 4
+27829, cranetopa0, cranetopa, 299, 2097156
+27856, nbdecoshop01_glass1, vcgeneric, 80, 2098244
+27857, nbdecoshop01_glass2, vcgeneric, 80, 2098244
+27858, nbdecoshop01_glass3, vcgeneric, 80, 2098244
+27859, shopfronts03_glass1, vcgeneric, 80, 2098244
+27860, shopfronts03_glass2, vcgeneric, 80, 2098244
+end
+tobj
+27831, lodlightbeam, lodlightbeam, 1500, 68, 21, 5
+27832, xod_beacon_dy, xrefhotels, 200, 128, 5, 21
+27833, xod_beacon_nt, xrefhotels, 200, 128, 21, 5
+27834, xod_starlite_dy, xrefhotels, 200, 128, 5, 21
+27835, xod_starlite_nt, xrefhotels, 200, 128, 21, 5
+27836, xod_leslie_nt, xrefhotels, 200, 128, 21, 5
+27837, xod_leslie_dy, xrefhotels, 200, 128, 5, 21
+27838, xod_majestic_dy, xrefhotels, 200, 128, 5, 21
+27839, xod_majestic_nt, xrefhotels, 200, 128, 21, 5
+27840, xod_macalpin_dy, xrefhotels, 200, 128, 5, 21
+27841, xod_macalpin_nt, xrefhotels, 200, 128, 21, 5
+27842, lod_macalpin_dy, LODxrefhot, 900, 128, 5, 21
+27843, xod_tides_dy, xrefhotels, 200, 128, 5, 21
+27844, xod_tides_nt, xrefhotels, 200, 128, 21, 5
+27845, lod_tides_dy, LODxrefhot, 900, 128, 5, 21
+27846, lod_majestic_dy, LODxrefhot, 900, 128, 5, 21
+27847, lod_starlite_dy, LODxrefhot, 900, 128, 5, 21
+27848, lod_leslie_dy, LODxrefhot, 900, 128, 5, 21
+27849, lod_beacon_dy, LODxrefhot, 900, 128, 5, 21
+27850, lod_beacon_nt, LODxrefhot, 900, 128, 21, 5
+27851, lod_starlite_nt, LODxrefhot, 900, 128, 21, 5
+27852, lod_macalpin_nt, LODxrefhot, 900, 128, 21, 5
+27853, lod_leslie_nt, LODxrefhot, 900, 128, 21, 5
+27854, lod_majestic_nt, LODxrefhot, 900, 128, 21, 5
+27855, lod_tides_nt, LODxrefhot, 900, 128, 21, 5
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

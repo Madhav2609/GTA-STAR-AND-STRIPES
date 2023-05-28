@@ -1,0 +1,26 @@
+objs
+25675, lw_room_main, hi_cutlaw2, 100, 33
+25676, lw_lights, hi_cutlaw1, 100, 37
+25677, lw_palm1, vcgeneric, 100, 37
+25678, lw_floor_opac, hi_cutlaw1, 100, 37
+25679, lw_rug, hi_cutlaw1, 100, 33
+25680, lw_shado, hi_cutlawshad, 100, 37
+25681, lw_officedesk01, hi_cutlaw1, 100, 33
+25682, lawcutmapb, lawcutext, 140, 0
+25683, lawcutmapc, lawcutext, 140, 0
+25684, lawcutmapa, lawcutext, 140, 0
+25685, lw_roombitsb, hi_cutlaw3, 100, 37
+25686, fixedbects06, hi_cutlaw1, 7, 33
+25687, lw_roombitsc, hi_cutlaw3b, 100, 37
+25688, lw_roombitsbb, hi_cutlaw3c, 100, 37
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

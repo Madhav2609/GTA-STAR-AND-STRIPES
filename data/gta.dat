@@ -1,0 +1,193 @@
+################################################################################################
+########################################## IMAGES ##############################################
+################################################################################################
+IMG S&S\CDimages\default\componentpeds.img
+IMG DATA\PATHS\CARREC.IMG
+IMG DATA\SCRIPT\SCRIPT.IMG
+IMG MODELS\CUTSCENE.IMG
+IMG Anim\anim.img
+IMG S&S\CDimages\default\nodes.img
+IMG S&S\CDimages\default\txd.img
+IMG S&S\CDimages\default\vehicles.img
+IMG S&S\CDimages\default\weapons.img
+IMG S&S\CDimages\default\veh_mods.img
+IMG S&S\CDimages\default\generic.img
+IMG S&S\CDIMAGES\DEFAULT\RADAR.IMG
+
+###################################### SAN ANDREAS ###########################################
+
+IMG S&S\CDimages\andreas\GAME_LA.img
+IMG S&S\CDimages\andreas\GAME_SA.img
+IMG S&S\CDimages\andreas\GAME_LV.img
+IMG S&S\CDimages\andreas\GAME_SF.img
+IMG S&S\CDimages\default\interiors.img
+
+###################################### STARS & STRIPES #######################################
+
+IMG S&S\CDIMAGES\ANDREAS\GAME_GRAP.IMG
+IMG S&S\CDIMAGES\ROBADA\GAME_ROB.IMG
+IMG S&S\CDIMAGES\CHEYENE\GAME_CY.IMG
+IMG S&S\CDIMAGES\ROSE\GAME_RC.IMG
+IMG S&S\CDIMAGES\CORDILLERA\GAME_CO.IMG
+#IMG S&S\CDIMAGES\WINDY\GAME_WB.IMG
+#IMG S&S\CDIMAGES\CARCER\GAME_CC.IMG
+#IMG S&S\CDIMAGES\FROST\GAME_FW.IMG
+#IMG S&S\CDIMAGES\RAINER\GAME_RN.IMG
+#IMG S&S\CDIMAGES\CAPITAL\GAME_CAP.IMG
+#IMG S&S\CDIMAGES\COTTON\GAME_CM.IMG
+#IMG S&S\CDIMAGES\DARIO\GAME_SD.IMG
+
+IMG S&S\CDIMAGES\UPSTATE\GAME_UPS.IMG
+IMG S&S\CDIMAGES\PERRA\GAME_PERRA.IMG
+#################################### VICE CITY #################################################
+
+IMG S&S\CDIMAGES\VICE\GAME_VC.IMG
+IMG S&S\CDIMAGES\VICE\GAME_VCS.IMG
+#IMG S&S\CDIMAGES\VICE\NEONS.IMG
+
+
+
+SPLASH loadsc2
+
+
+# have to load map.zon before any of the IPLs
+IPL DATA\MAP.ZON
+# IPL DATA\NAVIG.ZON
+IPL S&S\ZON\INFO.ZON
+
+#
+# Scene information
+#
+
+##############################################################################################
+##################################### ITEM PLACMENTS #########################################
+##############################################################################################
+
+
+SPLASH loadsc2
+##################################### SAN ANDREAS ############################################
+
+IPL S&S\maps\sa\LA\LAn.IPL
+IPL S&S\maps\sa\LA\LAn2.IPL
+IPL S&S\maps\sa\LA\LAs.IPL
+IPL S&S\maps\sa\LA\LAs2.IPL
+IPL S&S\maps\sa\LA\LAe.IPL
+IPL S&S\maps\sa\LA\LAe2.IPL
+IPL S&S\maps\sa\LA\LAw.IPL
+IPL S&S\maps\sa\LA\LAwn.IPL
+IPL S&S\maps\sa\LA\LAw2.IPL
+IPL S&S\maps\sa\LA\LAhills.IPL
+IPL S&S\maps\sa\SF\SFn.IPL
+IPL S&S\maps\sa\SF\SFs.IPL
+IPL S&S\maps\sa\SF\SFse.IPL
+IPL S&S\maps\sa\SF\SFe.IPL
+IPL S&S\maps\sa\SF\SFw.IPL
+IPL S&S\maps\sa\LV\vegasN.IPL
+IPL S&S\maps\sa\LV\vegasS.IPL
+IPL S&S\maps\sa\LV\vegasE.IPL
+IPL S&S\maps\sa\LV\vegasW.IPL
+IPL S&S\maps\sa\country\countryN.IPL
+IPL S&S\maps\sa\country\countN2.IPL
+IPL S&S\maps\sa\country\countrys.IPL
+IPL S&S\maps\sa\country\countryE.IPL
+IPL S&S\maps\sa\country\countryW.IPL
+
+
+######################################## VICE CITY #############################################
+
+IPL S&S\MAPS\VC\airport.IPL	
+IPL S&S\MAPS\VC\downtown.IPL
+IPL S&S\MAPS\VC\haiti.IPL
+IPL S&S\MAPS\VC\littleha.IPL
+IPL S&S\MAPS\VC\washintn.IPL
+IPL S&S\MAPS\VC\washints.IPL
+IPL S&S\MAPS\VC\oceandn.IPL
+IPL S&S\MAPS\VC\oceandrv.IPL
+IPL S&S\MAPS\VC\nbeach.IPL
+IPL S&S\MAPS\VC\nbeachbt.IPL
+IPL S&S\MAPS\VC\VC_SEABED.IPL
+IPL S&S\MAPS\VC\golf.IPL
+IPL S&S\MAPS\VC\bank.IPL
+IPL S&S\MAPS\VC\stadint.IPL
+IPL S&S\MAPS\VC\starisl.IPL
+IPL S&S\MAPS\VC\bridge.IPL
+IPL S&S\MAPS\VC\mall.IPL
+IPL S&S\MAPS\VC\islandsf.IPL
+IPL S&S\MAPS\VC\lawyers.IPL
+IPL S&S\MAPS\VC\mansion.IPL
+IPL S&S\MAPS\VC\club.IPL
+IPL S&S\MAPS\VC\concerth.IPL
+IPL S&S\MAPS\VC\stripclb.IPL
+IPL S&S\MAPS\VC\hotel.IPL
+IPL S&S\MAPS\VC\VCS.IPL
+#IPL S&S\MAPS\VC\neons.IPL
+IPL S&S\MAPS\VC\cisland.IPL
+IPL S&S\MAPS\VC\docks.IPL
+IPL S&S\MAPS\VC\nbeachw.IPL
+IPL S&S\MAPS\VC\VC_SEABED.IPL
+
+
+
+
+
+####################################### Stars&Stripes ##########################################
+#
+IPL S&S\MAPS\ROB\ROB.IPL
+IPL S&S\MAPS\ROB\ASH.IPL
+IPL S&S\MAPS\SA\GRAPE.IPL
+IPL S&S\MAPS\CY\CY.IPL
+IPL S&S\MAPS\CY\CYW.IPL
+IPL S&S\MAPS\CY\CYE.IPL
+IPL S&S\MAPS\CY\CYVEG.IPL
+IPL S&S\MAPS\CY\CYSNO.IPL
+IPL S&S\MAPS\RC\RC.IPL
+IPL S&S\MAPS\SPL\SPL.IPL
+#IPL S&S\MAPS\CO\CO.IPL
+#IPL S&S\MAPS\CO\CODEC.IPL
+
+IPL S&S\MAPS\UPS\UPS.IPL
+
+
+######################################## SA interiors #############################################
+
+IPL S&S\interior\int_LA.IPL
+IPL S&S\interior\int_SF.IPL
+IPL S&S\interior\int_veg.IPL
+IPL S&S\interior\int_cont.IPL
+IPL S&S\interior\gen_int1.IPL
+IPL S&S\interior\gen_int2.IPL
+IPL S&S\interior\gen_intb.IPL
+IPL S&S\interior\gen_int3.IPL
+IPL S&S\interior\gen_int4.IPL
+IPL S&S\interior\gen_int5.IPL
+IPL S&S\interior\stadint.IPL
+IPL S&S\interior\savehous.IPL
+
+
+###################################### S&S interiors ##########################################
+IPL S&S\interior\int_ROB.IPL
+
+###################################### level design ###########################################
+IPL S&S\maps\sa\leveldes\levelmap.IPL
+IPL S&S\maps\sa\leveldes\seabed.IPL
+IPL S&S\paths.ipl
+IPL S&S\paths2.ipl
+IPL S&S\paths3.ipl
+IPL S&S\paths4.ipl
+IPL S&S\paths5.ipl
+IPL S&S\cull\cull.ipl
+IPL S&S\tunnels.ipl
+IPL S&S\occl\occluSF.ipl
+IPL S&S\occl\occluveg.ipl
+IPL S&S\occl\occluLA.ipl
+IPL S&S\occl\occluint.ipl
+IPL S&S\audiozon.ipl
+
+
+
+#
+#  Interiors
+#
+SPLASH loadsc4
+
+

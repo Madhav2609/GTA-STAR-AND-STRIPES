@@ -1,0 +1,226 @@
+# AVAILABLE MELEE FLAGS (stored in hex):
+# 1st digit 1:ATTACK_2	2:ATTACK_3	4:GROUND	8:RUNNING	f:ALL
+# 2nd digit 1:FALL_1	2:FALL_2	4:FALL_3	8:FALL_GROUND (don't set!!)
+# 3rd digit 1:FALL_RUN	2:BLOCK		4:OWN_IDLE
+# 4th digit 1:NOFALL_1	2:NOFALL_2	4:NOFALL_3
+# HITLEVELS
+# H:HIGH	L:LOW	G:GROUND	B:BEHIND	N:NONE
+#
+
+START_LEVELS:
+	LEVEL_H:	[0.0,		0.7,	0.5]
+	LEVEL_L:	[0.0,		0.7,	0.0]
+	LEVEL_G:	[0.0,		0.7,	-1.0]
+	LEVEL_B:	[0.0,		0.7,	0.4]
+	LEVEL_HL:	[0.0,		0.7,	0.5]
+	LEVEL_LL:	[0.0,		0.7,	0.0]
+	LEVEL_GL:	[0.0,		0.7,	-1.0]
+END_COMBO
+
+# standard fist combo
+START_COMBO	UNARMED:
+	ANIMGROUP:		melee_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		5.0,	10.0,	0.4,	H,			6,		HIGH_UNARMED,	LOW_UNARMED
+	ATTACK2:		8.0,	17.0,	0.4,	H,			9,		HIGH_UNARMED,	LOW_UNARMED
+	ATTACK3:		10.0,	20.0,	0.4,	H,			15,		HIGH,			LOW
+	AGROUND:		10.5,	20.0,	0.4,	G,			25,		GROUND_KICK,	GROUND_KICK,	8.5
+	AMOVING:		7.0,	10.0,	0.4,	HL,			5,		HIGH_UNARMED,	LOW_UNARMED
+	ABLOCK:			6.0,	11.0
+	#--------------------
+	BLOCK_LEVEL:	1
+	STRIKE_LEVEL:	0
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, BLOCK, OWN_IDLE]
+END_COMBO
+
+# boxing combo (LS gym)
+START_COMBO	UNARMED_2:
+	ANIMGROUP:		melee_2
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		6.0,	18.0,	0.4,	L,			10,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK2:		8.0,	27.0,	0.4,	H,			7,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK3:		11.0,	99.0,	0.4,	H,			16,		MARTIAL_KICK,	MARTIAL_KICK
+	AGROUND:		12.0,	21.0,	0.4,	G,			25,		GROUND_KICK,	GROUND_KICK,	8.0
+	AMOVING:		4.0,	10.0,	0.35,	HL,			5,		MARTIAL_KICK,	MARTIAL_KICK
+	ABLOCK:			6.0,	11.0
+	#--------------------
+	BLOCK_LEVEL:	1
+	STRIKE_LEVEL:	0
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, BLOCK, OWN_IDLE]
+END_COMBO
+
+# kung-fu combo (SF gym)
+START_COMBO	UNARMED_3:
+	ANIMGROUP:		melee_3
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		9.0,	15.0,	0.4,	H,			6,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK2:		13.0,	23.0,	0.4,	H,			9,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK3:		15.0,	99.0,	0.4,	H,			15,		MARTIAL_KICK,	MARTIAL_KICK
+	AGROUND:		8.0,	17.0,	0.4,	G,			25,		GROUND_KICK,	GROUND_KICK,		4.0
+	AMOVING:		7.0,	10.0,	0.4,	HL,			5,		MARTIAL_KICK,	MARTIAL_KICK
+	ABLOCK:			6.0,	100.0
+	#--------------------
+	BLOCK_LEVEL:	1
+	STRIKE_LEVEL:	0
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, BLOCK, OWN_IDLE]
+END_COMBO
+
+# toughguy combo (LV gym)
+START_COMBO	UNARMED_4:
+	ANIMGROUP:		melee_4
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		13.0,	25.0,	0.4,	L,			12,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK2:		6.0,	48.0,	0.5,	HL,			15,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK3:		9.0,	99.0,	0.4,	L,			200,	MARTIAL_KICK,	MARTIAL_KICK
+	AGROUND:		11.0,	99.0,	0.4,	G,			25,		GROUND_KICK,	GROUND_KICK,	4.0
+	AMOVING:		9.0,	10.0,	0.4,	HL,			5,		MARTIAL_KICK,	MARTIAL_KICK
+	ABLOCK:			6.0,	100.0
+	#--------------------
+	BLOCK_LEVEL:	1
+	STRIKE_LEVEL:	0
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, BLOCK, OWN_IDLE, NOFALL_2]
+END_COMBO
+
+START_COMBO	BBALLBAT:
+	ANIMGROUP:		bbbat_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		11.0,	22.0,	0.5,	L,			18,		LOW,			LOW
+	ATTACK2:		14.0,	28.0,	0.5,	L,			18,		LOW,			LOW
+	ATTACK3:		13.0,	99.0,	0.5,	L,			25,		LOW,			LOW
+	AGROUND:		18.0,	30.0,	0.4,	GL,			25,		GROUND,			GROUND,			7.0
+	AMOVING:		11.0,	13.0,	0.5,	LL,			10,		LOW,			LOW
+	ABLOCK:			6.0,	100.0
+	#--------------------
+	BLOCK_LEVEL:	3
+	STRIKE_LEVEL:	2
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, BLOCK, OWN_IDLE]
+END_COMBO
+
+START_COMBO	KNIFE:
+	ANIMGROUP:		knife_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		8.0,	20.0,	0.4,	H,			10,		HIGH,			LOW
+	ATTACK2:		9.0,	24.0,	0.4,	H,			10,		HIGH,			LOW
+	ATTACK3:		10.0,	99.0,	0.4,	H,			25,		HIGH,			LOW
+	AGROUND:		11.0,	21.0,	0.4,	G,			25,		GROUND,			GROUND,			10.0
+	AMOVING:		6.0,	10.0,	0.4,	HL,			10,		HIGH,			LOW
+	ABLOCK:			6.0,	100.0
+	#--------------------
+	BLOCK_LEVEL:	2
+	STRIKE_LEVEL:	1
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, BLOCK, OWN_IDLE]
+END_COMBO
+
+START_COMBO	GOLFCLUB:
+	ANIMGROUP:		bbbat_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		11.0,	20.0,	0.5,	H,			18,		HIGH,			LOW
+	ATTACK2:		11.0,	21.0,	0.5,	H,			15,		HIGH,			LOW
+	ATTACK3:		15.0,	99.0,	0.5,	H,			25,		HIGH,			LOW
+	AGROUND:		18.0,	30.0,	0.5,	G,			25,		GROUND,			GROUND,			4.0
+	AMOVING:		11.0,	10.0,	0.5,	HL,			10,		HIGH,			LOW
+	#--------------------
+	STRIKE_LEVEL:	2
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING]
+END_COMBO
+
+START_COMBO	SWORD:
+	ANIMGROUP:		sword_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		11.0,	20.0,	0.5,	H,			10,		HIGH,			LOW
+	ATTACK2:		15.0,	22.0,	0.5,	H,			15,		HIGH,			LOW
+	ATTACK3:		12.0,	99.0,	0.5,	H,			25,		HIGH,			LOW
+	AGROUND:		18.0,	30.0,	0.4,	G,			25,		GROUND,			GROUND,			4.0
+	AMOVING:		8.0,	10.0,	0.5,	HL,			10,		HIGH,			LOW
+	ABLOCK:			6.0,	100.0
+	#--------------------
+	BLOCK_LEVEL:	3
+	STRIKE_LEVEL:	2
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, BLOCK, OWN_IDLE]
+END_COMBO
+
+START_COMBO	CHAINSAW:
+	ANIMGROUP:		csaw_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		14.0,	25.0,	0.5,	LL,			50,		LOW,			LOW
+	ATTACK2:		14.0,	20.0,	0.5,	LL,			60,		LOW,			LOW
+	ATTACK3:		13.0,	99.0,	0.5,	LL,			100,	LOW,			LOW
+	AGROUND:		10.0,	11.0,	0.4,	G,			25,		GROUND,			GROUND,			9.0
+	AMOVING:		1.0,	1.1,	0.4,	LL,			25,		LOW,			LOW
+	#--------------------
+	STRIKE_LEVEL:	3
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, RUNNING, FALL_3, OWN_IDLE]
+END_COMBO
+
+#START_COMBO SKATEBOARD:
+#	ANIMGROUP:		sk8_1
+#	RANGES:			1.6
+#	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+#	ATTACK1:		11.0,	20.0,	0.5,	H,			10,		HIGH,			LOW
+#	ATTACK2:		11.0,	21.0,	0.5,	H,			15,		HIGH,			LOW
+#	ATTACK3:		15.0,	99.0,	0.5,	H,			25,		HIGH,			LOW
+#	AGROUND:		10.0,	20.0,	0.5,	G,			25,		GROUND,			GROUND,			7.0
+#	#--------------------
+#	BLOCK_LEVEL:	1
+#	STRIKE_LEVEL:	0
+#	FLAGS:			[ATTACK_2, ATTACK_3, GROUND]
+#END_COMBO
+
+START_COMBO	DILDO:
+	ANIMGROUP:		dildo_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		11.0,	22.0,	0.5,	L,			18,		LOW,			LOW
+	ATTACK2:		15.0,	28.0,	0.5,	L,			18,		LOW,			LOW
+	ATTACK3:		13.0,	99.0,	0.5,	L,			25,		LOW,			LOW
+	AGROUND:		18.0,	30.0,	0.5,	G,			25,		GROUND,			GROUND,			7.0
+	ABLOCK:			6.0,	100.0
+	#--------------------
+	BLOCK_LEVEL:	2
+	STRIKE_LEVEL:	1
+	FLAGS:			[ATTACK_2, ATTACK_3, GROUND, BLOCK, OWN_IDLE]
+END_COMBO
+
+START_COMBO	FLOWERS:
+	ANIMGROUP:		flowers_1
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		6.0,	21.0,	0.5,	H,			18,		HIGH,			LOW
+	#--------------------
+	STRIKE_LEVEL:	0
+	#FLAGS:
+END_COMBO
+
+# std extra combo (punch + kick)
+START_COMBO	KICK_STD:
+	ANIMGROUP:		kick_std
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		6.0,	16.0,	0.5,	L,			8,		MARTIAL_KICK,	MARTIAL_KICK
+	ATTACK2:		10.0,	99.0,	0.5,	HL,			20,		MARTIAL_KICK,	MARTIAL_KICK
+	#--------------------
+	STRIKE_LEVEL:	0
+	FLAGS:			[ATTACK_2, FALL_2]
+END_COMBO
+
+START_COMBO	PISTOL_WHIP:
+	ANIMGROUP:		pistlwhp
+	RANGES:			1.6
+	#---------------hit-----chain---radius--hitlevel----damage--hit-------------altHit----------groundLoop
+	ATTACK1:		7.0,	99.0,	0.5,	L,			10,		LOW,			LOW
+	ATTACK2:		7.0,	99.0,	0.5,	L,			10,		LOW,			LOW
+	#--------------------
+	FLAGS:			[ATTACK_2]
+END_COMBO
+
+
+END_MELEE_DATA

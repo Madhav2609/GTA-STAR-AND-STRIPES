@@ -1,0 +1,30 @@
+objs
+#PARAISO
+35125, fbmp_a_prs, paraiso, 100, 2101248
+35126, fbmp_b_prs, paraiso, 100, 2101248
+35127, fbmp_c_prs, paraiso, 100, 2101248
+35128, fbmp_d_prs, paraiso, 100, 2101248
+35129, rbmp_a_prs, paraiso, 100, 2101248
+35130, rbmp_c_prs, paraiso, 100, 2101248
+35131, wg_l_lr_prs, paraiso, 100, 0
+35132, wg_r_lr_prs, paraiso, 100, 0
+35133, wg_l_lr_pr2, paraiso, 100, 0
+35134, wg_r_lr_pr2, paraiso, 100, 0
+35135, lgt_b_prs, vehicle, 70, 0
+35136, rf_a_prs, vehicle, 100, 2097152
+#	Vapid Peyote
+35137, rbmp_lr_pyt1, peyote, 100, 2101248
+35138, rbmp_lr_pyt2, peyote, 100, 2101248
+35139, rf_lr_pyt1, peyote, 100, 2101248
+35140, bnt_lr_pyt1, peyote, 100, 2101248
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

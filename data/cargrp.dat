@@ -1,0 +1,38 @@
+# Group							Models
+
+WORKERS,						linerun, packer, taxi, cabbie, mule, bus, coach, rumpo, pony, flatbed, yankee, topfun, cement, towtruck, burrito, boxville, benson, utility, pizzaboy, trash, dft30
+BUSINESS,						bravura, taxi, cabbie, premier, securica, elegant, fortune, feltzer, merit, elegant, huntley, zr350, sentinel
+CLUBBERS,						buffalo, stretch, taxi, cabbie, coach, flash, sultan, club
+FARMERS,						sanchez, walton, rancher, journey, tractor, wayfarer, freeway, linerun, petro
+BEACHFOLK,						taxi, cabbie, bfinject, faggio, glendale, oceanic, mesa, bmx, mtbike, mrwhoop, washing, previon, pcj600, cadrona, sunrise, yosemite, bravura, primo
+PARKFOLK,						taxi, cabbie, bfinject, faggio, glendale, mesa, bmx, mtbike, washing, previon, pcj600, cadrona, yosemite, bravura, primo
+CASUAL_RICH,					stretch, buffalo, elegant, premier, stratum, infernus, cheetah, banshee, freeway, zr350, comet, supergt, fcr900, windsor, jester, elegy, broadway, stafford, huntley, taxi, cabbie, alpha, slamvan, euros, phoenix, emperor
+CASUAL_AVERAGE,					taxi, cabbie, premier, elegant, fortune, bobcat, primo, landstal, bravura, washing, previon, admiral, solair, pcj600, blistac, nebula, cadrona, vincent, sunrise, yosemite, stratum, bf400, emperor, tahoma, picador, bmx, tornado, euros, sentinel
+CASUAL_POOR,					esperant, bobcat, sabre, regina, virgo, greenwoo, willard, clover, sadler, intruder, primo, bike, bravura, remingtn, hermes, camper, stallion, tahoma, picador, bmx, moonbeam, newsvan
+PROSTITUTES,					peren
+CRIMINALS,						peren, blade, clover
+GOLFERS,						caddy
+SERVANTS,						stretch, broadway, bobcat
+AIRCREW,						bravura, washing, previon, admiral, solair, pcj600, blistac, nebula, cadrona, vincent, sunrise, yosemite, uranus, stratum, bf400, emperor, wayfarer
+ENTERTAINERS,					turismo, hustler, bullet, buffalo, stretch, taxi, cabbie, coach, flash, sultan, club
+OUT_OF_TOWN_FACTORY_WORKERS,	mule, rumpo, pony, flatbed, yankee, topfun, cement, burrito, boxville, benson, utility, dft30, forklift
+DESERT_FOLK,					sanchez, walton, rancher, wayfarer, freeway, petro, rdtrain
+AIRCREW_RUNWAY,					baggage, tug, forklift
+
+GANG,	BALLAS,					majestic, tahoma,
+GANG,	FAMILIES,				greenwoo, savanna, voodoo
+GANG,	VAGOS,					oceanic, tornado, hermes
+GANG,	RIFA,					sabre, stallion, blade
+GANG,	DA_NANG,				buccanee, manana, tampa
+GANG,	ITALIAN_MAFIA,			sentinel, admiral, feltzer
+GANG,	TRIADS,					sultan, stratum, elegy
+GANG,	AZTECAS,				hermes, broadway, glendale
+GANG,	RUSSIAN_MAFIA,			sentinel
+GANG,	BIKERS,					sentinel
+
+DEALERS,						rancher
+BOATS,							squalo, speeder, reefer, tropic, coastg, dinghy, marquis, jetmax
+SHIT_CARS,						clover, peren, manana, moonbeam, previon, rumpo, glendale, oceanic, hermes, virgo, greenwoo, buccanee, willard, remingtn, hustler, intruder, broadway, tornado, primo, tampa, tahoma, savanna
+FAST_CARS,						buffalo, infernus, cheetah, banshee, hotknife, turismo, zr350, comet, supergt, bullet, uranus, jester, sultan, elegy, flash, euros, club, phoenix
+NINJA_THEME,					pcj600, fcr900, bf400
+FUN_HOUSE,						hotknife, tug, mrwhoop, pizzaboy, hotdog, bfinject, caddy, quad, bandito, kart, mower

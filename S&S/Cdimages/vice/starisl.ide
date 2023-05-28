@@ -1,0 +1,110 @@
+objs
+27165, stglue, star4, 100, 132
+27166, rose_bush01, star5, 100, 4
+27167, mansion2_c_fence, star4, 150, 128
+27168, mansion2_a, stmansion, 120, 128
+27169, boat_housea, star3, 150, 132
+27170, boat_housea01, star5, 150, 4
+27171, mansion3_c, star5, 130, 0
+27172, st_garden1, star2, 130, 0
+27173, stargate, star2, 100, 4
+27174, stglue01, star2, 100, 4
+27175, stpoolwater, starpool, 100, 5
+27176, rose_bush03, star5, 100, 4
+27177, stpoolw1, transbits2, 150, 4
+27178, mansion1gardens, star4, 200, 0
+27179, starisland_road6, starroad, 250, 0
+27180, starisland_road2, starroad, 200, 0
+27181, starisland_road4, starroad, 250, 0
+27182, starisland_road1, starroad, 200, 0
+27183, boatpole, star5, 150, 128
+27184, starisland_road3, starroad, 170, 0
+27185, mansion3gardens, star3, 299, 0
+27186, mansion2_b, star3, 200, 128
+27187, mansion3a, star4, 200, 128
+27188, mansion3_b, star5, 230, 128
+27189, mansion1b, star1, 230, 128
+27190, starhouse, star2, 200, 128
+27191, lodrisland_road3, lod_starsmall, 750, 128
+27192, lodrisland_road1, lod_starsmall, 750, 128
+27193, lodsion3_b, lod_starsmall, 700, 128
+27194, lodrhouse, lod_starsmall, 700, 128
+27195, lodrisland_road2, lod_starsmall, 750, 128
+27196, lodrisland_road4, lod_starsmall, 750, 128
+27197, lodrisland_road6, lod_starsmall, 750, 128
+27198, lodsion1gardens, lod_starbig, 1500, 128
+27199, stobject23, starpool, 100, 4
+27200, stpoolwater5, starpool, 100, 5
+27201, stglue06, star2, 100, 132
+27202, stglue07, star4, 100, 132
+27203, starladder, star5, 100, 0
+27204, mansion4gate, star1, 100, 132
+27205, man4garagedoors, star1, 100, 2048
+27206, stpoolwater02, starpool, 100, 4
+27207, starrockpool, star1, 130, 128
+27208, man4ladderpool01, star1, 100, 0
+27209, mansion1_base, star1, 190, 0
+27210, lodsion1_base, lod_starsmall, 750, 128
+27211, lodsion1b, lod_starsmall, 700, 128
+27212, lodsion1_a, lod_starsmall, 700, 128
+27213, mansion1_a, star1, 200, 128
+27214, lodsion2_b, lod_starsmall, 700, 128
+27215, lodrtrees3, vcgeneric, 1000, 4
+27216, lodrtrees5, vcgeneric, 1000, 4
+27217, lodrtrees4, vcgeneric, 1000, 4
+27218, lodrtrees2, vcgeneric, 1000, 4
+27219, lodrtrees1, vcgeneric, 1000, 4
+27220, lodgarden1, lod_starbig, 1500, 128
+27221, gate4, star4, 100, 4
+27222, gate5, star4, 150, 4
+27223, starbbnet02, starf, 200, 132
+27224, mansion2c, star4, 150, 128
+27225, starbridge2, starbridge, 180, 4
+27226, starmainwall1, mansionwall, 200, 0
+27227, starwallmain2, mansionwall, 200, 0
+27228, starwallmain4, mansionwall, 200, 0
+27229, sb, star5, 130, 128
+27230, starfbed02, starf, 100, 132
+27231, starfbed03, starf, 100, 4
+27232, starfbed04, starf, 100, 132
+27233, starfbed05, starf, 150, 132
+27234, starfbed06, starf, 100, 132
+27235, pollstaeps1, star2, 100, 0
+27236, lodsion3gardens, lod_starbig, 1500, 128
+27237, lodsion2_a, lod_starsmall, 700, 128
+27238, lodrbridge2, lod_starbig, 1500, 128
+27239, lodsion2c, lod_starsmall, 700, 128
+27240, lodsion3a, lod_starsmall, 700, 128
+27241, starbridge2b, starbridge, 180, 0
+27242, starwallmain5, mansionwall, 200, 128
+27243, comgate2, starroad, 150, 132
+27244, comgate2open, StarLD, 150, 132
+27245, comgate1open, StarLD, 150, 132
+27246, comgate1, starroad, 150, 132
+27247, comgate1closed, StarLD, 150, 132
+27248, comgate2closed, StarLD, 150, 128
+27249, lodgate2, lod_starsmall, 700, 128
+27250, lodgate1, lod_starsmall, 700, 128
+27251, comgate03, starroad, 150, 128
+27252, starblocker1, star5, 130, 132
+27253, starblocker02, star5, 130, 132
+27254, lodgate03, lod_starsmall, 700, 128
+27255, lodsion3_c, lod_starsmall, 700, 128
+27256, mansion3gardens2, star3, 299, 0
+27257, man1garden_hedge, star4, 200, 128
+27258, man3_base_hedge, star5, 130, 128
+27259, man3ghedge, star3, 130, 128
+27260, man1_basehedge, star1, 190, 128
+27261, lodsion3_base, lod_starbig, 1500, 128
+27262, mansion3_base, star5, 299, 0
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

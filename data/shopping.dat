@@ -1,0 +1,1726 @@
+#
+# filename:		shopping.dat
+# description:	File which has every object's price in it. The file is
+#				broken into sections by type of object eg car mod, furniture
+# Author: B1ack_Wh1te
+
+section prices
+
+	section CarMods
+
+# TransFender
+	# Bonnet
+		#name,			nametag,	price
+		bnt_b_sc_l		BMBLBS		150
+		bnt_b_sc_m		BMBMBS		100
+		bnt_b_sc_p_l	BMBLCS		250
+		bnt_b_sc_p_m	BMBMCS		220
+	# Hood vents
+		bntl_b_ov		BMBOBV		150
+		bntl_b_sq		BMBSBV		100
+	# Exhaust
+		exh_b_l			BMBLE		250
+		exh_b_m			BMBME		200
+		exh_b_s			BMBSE		150
+		exh_b_t			BMBTE		300
+		exh_b_ts		BMBUE		350
+	# Lights
+		lgt_b_rspt		BMBRSL		100
+		lgt_b_sspt		BMBSSL		50
+	# Roof
+		rf_b_sc_r  		BMBRS		80
+	# Spoiler
+		spl_b_bab_m		BMMABBS		550
+		spl_b_bar_l		BMLARBS		400
+		spl_b_bar_m		BMMARBS		200
+		spl_b_bbb_m		BMMBS		350
+		spl_b_bbr_l		BMLRS		500
+		spl_b_bbr_m		BMMRS		200
+		spl_b_mab_m		BMMABS		250
+		spl_b_mar_m		BMMARS		400
+	# Wings
+		wg_l_b_ssk		BMWNG1		500
+		wg_r_b_ssk		BMWNG2		500
+
+# Wheel Arch Angels
+	# FLASH
+		exh_a_f			FLSAE		710
+		exh_c_f			FLSCE		510
+		fbmp_a_f		FLSAFF		1200
+		fbmp_c_f		FLSCFF		910
+		rbmp_a_f		FLSARF		1090
+		rbmp_c_f		FLSCRF		840
+	   	rf_a_f			FLSARV		210
+		rf_c_f			FLSCRV		130
+		spl_a_f_r		FLSAS		810
+		spl_c_f_r		FLSCS		620
+		wg_l_a_f		FLSASI		670
+		wg_l_c_f		FLSCSI		530
+
+	# JESTER
+		exh_a_j			JSTAE		850
+		exh_c_j			JSTCE		750
+		fbmp_a_j		JSTAFF		1050
+		fbmp_c_j		JSTCFF		950
+		rbmp_a_j		JSTARF		1050
+		rbmp_c_j		JSTCRF		950
+	   	rf_a_j			JSTARV		250
+		rf_c_j  		JSTCRV		200
+		spl_a_j_b	 	JSTAS		650
+		spl_c_j_b	 	JSTCS		550
+		wg_l_a_j	 	JSTASI		550
+		wg_l_c_j		JSTCSI		450
+
+	# ELEGY
+		exh_a_l			LGDAE		790
+		exh_c_l			LGDCE		690
+		fbmp_a_l		LGDAFF		990
+		fbmp_c_l		LGDCFF		900
+		rbmp_a_l		LGDARF		1000
+		rbmp_c_l		LGDCRF   	890
+		rf_a_l			LGDARV		190
+		rf_c_l			LGDCRV		150
+		spl_a_l_b  		LGDAS		600
+		spl_c_l_b  		LGDCS		490
+		wg_l_a_l  		LGDASI		500
+		wg_l_c_l		LGDCSI		390
+
+	# STRATUM
+		exh_a_st		STRAE		830
+		exh_c_st		STRCE		720
+		fbmp_a_st		STRAFF		1030
+		fbmp_c_st		STRCFF		930
+		rbmp_a_st		STRARF		1030
+		rbmp_c_st		STRCRF		920
+		rf_a_st			STRARV		230
+		rf_c_st			STRCRV		180
+		spl_a_st_r		STRAS		620
+		spl_c_st_r		STRCS		530
+		wg_l_a_st		STRASI 		520
+		wg_l_c_st		SRTCSI		430
+
+	# SULTAN
+	   	exh_a_s		  	SULAE		770
+		exh_c_s			SULCE		680
+		fbmp_a_s		SULAFF		970
+		fbmp_c_s		SULCFF  	880
+		rbmp_a_s		SULARF		980
+		rbmp_c_s		SULCRF		870
+		rf_a_s			SULARV		170
+		rf_c_s			SULCRV		120
+		spl_a_s_b		SULAS		580
+		spl_c_s_b		SULCS		470
+	   	wg_l_a_s		SULASI		480
+		wg_l_c_s		SULCSI		370
+
+	# URANUS
+		exh_a_u			URAAE		750
+		exh_c_u			URACE		650
+		fbmp_a_u		URAAFF		950
+		fbmp_c_u		URACFF		850
+		rbmp_a_u		URAARF		950
+		rbmp_c_u		URACRF		850
+		rf_a_u			URAARV		150
+		rf_c_u			URACRV		100
+		spl_a_u_b		URAAUB		550
+		spl_c_u_b		URACUB		450
+		wg_l_a_u		URAASI		450
+		wg_l_c_u		URACSI		350
+
+# Loco Low Co.
+	# BLADE
+		rf_lr_bl1		BLDVH		3340
+		rf_lr_bl2		BLDCR		3250
+		rbmp_lr_bl1 	BLDRF1		2150
+		rbmp_lr_bl2		BLDRF2		2040
+		fbmp_lr_bl1		BLDFF1 		2130
+		fbmp_lr_bl2		BLDFF2		2050
+		exh_lr_bl1		BLDE1		1610
+		exh_lr_bl2		BLDE2   	1540
+		wg_l_lr_bl1		BLDCS   	780
+
+	# REMMINGTON
+		exh_lr_rem1		REME1		3340
+		exh_lr_rem2		REME2		3250
+		fbmp_lr_rem1	REMFF1		2150
+		fbmp_lr_rem2	REMFF2		2040
+		rbmp_lr_rem1	REMRF1	   	2130
+		rbmp_lr_rem2	REMRF2		2050
+		wg_l_lr_rem1	REMCA		780
+		wg_l_lr_rem2	REMCA2		780
+		misc_a_lr_rem1	REMCG		940
+		misc_b_lr_rem2	REMCB		860
+		misc_c_lr_rem3	REMCL		1120
+
+	# SAVANNA
+		rf_lr_sv1		SAVHA		3380
+		rf_lr_sv2		SAVST		3290
+		fbmp_lr_sv1		SAVFF1		2200
+		fbmp_lr_sv2		SAVFF2		2080
+		rbmp_lr_sv1		SAVRF1		2175
+		rbmp_lr_sv2		SAVRF2		2095
+		exh_lr_sv1		SAVEX1		1650
+		exh_lr_sv2		SAVEX2		1590
+	   	wg_l_lr_sv		SAVCS		830
+
+	# BROADWAY
+		exh_lr_br1		BRDEXH1		500
+		exh_lr_br2		BRDEXH2		500
+		fbmp_lr_br1		BRDFBM1		1000
+		fbmp_lr_br2		BRDFBM2		900
+		rbmp_lr_br1		BRDRBM1		1000
+		rbmp_lr_br2		BRDRBM2		900
+		wg_l_lr_br1		BRDWNG1		1000
+
+	# SLAMVAN
+		exh_lr_slv1		SLAE1		3340
+		exh_lr_slv2		SLAE2		3250
+		fbmp_lr_slv1	SLAFF	   	2040
+		fbb_lr_slv1		SLAFB1		2130
+		fbb_lr_slv2		SLAFB2		2050
+		bbb_lr_slv1		SLARB1		1610
+		bbb_lr_slv2		SLARB2		1540
+		wg_l_lr_slv1	SLACT		780
+		wg_l_lr_slv2	SLAWC		940
+
+	# TORNADO
+		exh_lr_t1		TOREX1		1000
+		exh_lr_t2		TOREX2		1500
+		fbmp_lr_t1		TORFB1		1040
+		fbmp_lr_t2		TORFB2		1200
+		rbmp_lr_t1		TORRB1		940
+		rbmp_lr_t2		TORRB2		1100
+		wg_l_lr_t1		TORWNG		800
+
+# Other tuning
+	# Wheels
+		wheel_sr1		SRW1		1030
+		wheel_sr2		SRW2		980
+		wheel_lr1		LRDW1   	1620
+		wheel_lr2		LRDW2		1560
+		wheel_gn1		GENWH1		820
+		wheel_gn2		GENWH2		770
+		wheel_sr3		SRW3		1030
+		wheel_sr4		SRW4		1230
+		wheel_sr5		SRW5		900
+		wheel_sr6		SRW6		1100
+		wheel_lr3		LRDW3		1200
+		wheel_lr4		LRDW4		1560
+		wheel_lr5		LRDW5		1350
+		wheel_or1		GENWH6		1000
+		wheel_gn3		GENWH3		1000
+		wheel_gn4		GENWH4		620
+		wheel_gn5		GENWH5		1140
+	# Stereo
+		stereo			STEREO		100
+	# Hydralics
+		hydralics		HYDRAU		1500
+	# Nitro
+		nto_b_l		   	BMBLN		500
+		nto_b_s			BMBSM		200
+		nto_b_tw   		BMBTN		1000
+	end
+
+	section Clothes
+		#type is a number and can be one of the following
+		# 0 = torso cant go over 25 for stats
+		# 2 = legs cant go over 10 for stats
+		# 3 = shoes cant go over 5 for stats
+		# 13 = necklace cant go over 2 for stats
+		# 14 = bracelet/watch cant go over 3 for stats
+		# 15 = glasses cant go over 2 for stats
+		# 16 = hats cant go over 3 for stats
+		# 17 = special
+		# 19 = gloves
+		# 20 = masks
+		# 21 = earring
+		# 22 = bag
+
+# TORSO
+	# DEFUALT PLAYER TORSO
+		#texturename,		nametag,	modelname,	type,	stats to change,		price
+		player_torso		TORSO		torso		0		respect 5 	sexy 20		0
+
+	# BINCO TORSO
+		vestblack			VESTA		vest		0		respect 2 	sexy 3		10
+		vest				VESTWH		vest		0		respect 2 	sexy 3		10
+		tshirt2horiz        TSRTHS1     tshirt2		0		respect 0 	sexy 0		10
+		tshirtwhite			TSHIRTC		tshirt		0		respect 0 	sexy 0		15
+		tshirtilovels		LOVETS1		tshirt		0		respect 0 	sexy 0		10
+		tshirtblunts		TSHIRTA		tshirt		0		respect 2 	sexy 0		20
+		shirtbplaid			SHIRTBB		shirtb		0		respect 3 	sexy 0		20
+		shirtbcheck			CHEKSH1		shirtb		0		respect 3 	sexy 0		20
+		field				FIELDA		field		0		respect 10 	sexy 0		30
+		tshirterisyell  	ERSTSH1		tshirt		0		respect 15 	sexy 7		35
+		tshirterisorn		ERISTS2		tshirt		0		respect 5 	sexy 7		35
+		trackytop2eris		TRAKER1		trackytop1	0		respect 5 	sexy 9		70
+
+	# PRO-LAPS TORSO
+		bbjackrim       	BASJCT2     bbjack		0		respect 10 	sexy 5		150
+		bballjackrstar		BASJCT3     bbjack		0		respect 10 	sexy 5		200
+		baskballdrib		BASKA		baskball	0		respect 7 	sexy 5		30
+		baskballrim			BASKC		baskball	0		respect 7 	sexy 5		30
+		sixtyniners			TSHRT69		tshirt		0		respect 7 	sexy 5		50
+		bandits				BANDITS		baseball    0		respect 7   sexy 5      70
+		tshirtprored		PROSHRD		tshirt		0		respect 7 	sexy 10		50
+		tshirtproblk		PROTSH1		tshirt		0		respect 7 	sexy 10		50
+	    trackytop1pro		TRAKPR1		trackytop1	0		respect 10 	sexy 15		85
+	    hockeytop			HCKYTOP		sweat		0       respect 5   sexy 2		150
+		bbjersey			BBJERY1		sleevt		0		respect 10  sexy 5		80
+		shellsuit			SHELSUT		trackytop1	0		respect 0   sexy 0		30
+
+	# SUB URBAN TORSO
+	    tshirtheatwht		HEATSH1		tshirt		0		respect 5 	sexy 0		35
+		tshirtbobomonk		TSHRBO1		tshirt		0		respect 17 	sexy 13		115
+		tshirtbobored		TSHRBO2		tshirt		0		respect 12 	sexy 12		80
+		tshirtbase5			TSRTBA1		tshirt		0		respect 15 	sexy 12		80
+		tshirtsuburb		TSRTSB1		tshirt		0		respect 15 	sexy 10		60
+		hoodyamerc			HODMRC1		hoodya		0		respect 15 	sexy 10		70
+		hoodyabase5			HODBSE1		hoodya		0		respect 20 	sexy 14		105
+		hoodyarockstar		HODRST1		hoodya		0		respect 17 	sexy 15		120
+		wcoatblue			WCOATA		wcoat		0		respect 0 	sexy 0		30
+		coach				COACHA		coach		0		respect 15 	sexy 5		30
+		coachsemi			COACHB		coach		0		respect 5 	sexy 5		30
+		sweatrstar			RSTRSWE		sweat		0		respect 10 	sexy 10		60
+
+	# ZIP TORSO
+		hoodyAblue			HOODB		hoodyA		0		respect 5 	sexy 5 		65
+		hoodyAblack			HOODBL		hoodyA		0		respect 5 	sexy 5 		65
+		hoodyAgreen			HOODG		hoodyA		0		respect 15  sexy 5 		45
+		sleevtbrown			SLEVB1		sleevt		0		respect 5 	sexy 10	    40
+		shirtablue			BSHIRT		shirta		0		respect 7 	sexy 10		40
+		shirtayellow		YSHIRT		shirta		0		respect 7 	sexy 10 	40
+		shirtagrey			GSHIRT		shirta		0		respect 7 	sexy 10 	40
+		shirtbgang			SHTBG1		shirtb		0		respect 15 	sexy 3 		40
+	    tshirtzipcrm		TSHZIP1		tshirt		0		respect 0  	sexy 5		35
+		tshirtzipgry		TSHZIP2		tshirt		0		respect 0  	sexy 5		35
+	    denimfade			DENJCK1		denim		0		respect 10 	sexy 20		90
+	    bowling 			BOWLSH1		hawaii 		0		respect 7 	sexy 13		70
+
+	# VICTIM TORSO
+		hoodjackbeige		HODJCK1		hoodjack	0		respect 17 	sexy 15		75
+		baskballloc			BASKB		baskball	0		respect 5 	sexy 5		300
+		tshirtlocgrey		TSHIRTB		tshirt		0		respect 5 	sexy 5		200
+		tshirtmaddgrey		TSHRTMG		tshirt		0		respect 5 	sexy 5		30
+		tshirtmaddgrn		TSRTMGN		tshirt		0		respect 5 	sexy 5		30
+		suit1grey			SUT1GRY		suit1		0		respect 20 	sexy 25		1620
+		suit1blk			SUT1BLK		suit1		0		respect 10 	sexy 20		300
+		leather        		BIKERJ		leather		0		respect 17 	sexy 15		320
+		painter             PAINT1 		painter		0		respect 15 	sexy 10		320
+		hawaiiwht			HAWAI1		hawaii		0		respect 7 	sexy 13		200
+		hawaiired			HAWAI2		hawaii		0		respect 7 	sexy 13		300
+		sportjack			SPRJCT		trackytop1	0		respect	15	sexy 17		450
+
+	# DIDIE SACHS TORSO
+		suit1red			SUIT1		suit1		0		respect 23 	sexy 25		4000
+		suit1blue			SUIT2		suit1		0		respect 22 	sexy 25		3000
+		suit1yellow			SUIT3		suit1		0		respect 25 	sexy 25		6000
+		suit2grn 			SUT2GRN		suit2		0		respect 25 	sexy 25		5500
+		tuxedo				TUXEDO		suit2		0		respect	20	sexy 25		7000
+		suit1gang			SUITGNG		suit1		0		respect 25	sexy 15		5500
+		letter				LETTER		sleevt		0		respect 15	sexy 5		1525
+
+# LEGS
+	# DEFUALT PLAYER LEGS
+		player_legs			LEGS		legs		2		respect 0 	sexy 0		0
+
+	# BINCO LEGS
+		worktrcamogrn		WORKA		worktr		2		respect 6 	sexy 1	 	55
+		worktrcamogry		WORKB		worktr		2		respect 2 	sexy 1 		55
+		worktrgrey			WORKC		worktr		2		respect 0	sexy 1 		55
+		worktrkhaki			WORKD		worktr		2		respect 5 	sexy 1 		55
+		tracktr				TRABOTA		tracktr		2		respect 3 	sexy 2	 	60
+		tracktreris			TRAKERI		tracktr		2		respect 5 	sexy 5 		70
+		jeansdenim			JEANSBL		jeans		2		respect 0 	sexy 0 		50
+		legsblack			BOXBLK		legs		2		respect 1 	sexy 1 		10
+		legsheart			BOXHRT		legs		2		respect 1 	sexy 2 		12
+		biegetr				BEITROS		chinosb		2		respect 1 	sexy 0 		35
+
+	# PRO-LAPS LEGS
+		tracktrpro			TRACKT1		tracktr		2		respect 5 	sexy 5 		100
+		tracktrwhstr		TRACKT2		tracktr		2		respect 5 	sexy 5 		120
+		tracktrblue			TRACKT3		tracktr		2		respect 5 	sexy 5 		140
+		tracktrgang			TRACKT4		tracktr		2		respect 9 	sexy 2 		40
+		bbshortwht	   		BOXSRT1		boxingshort	2		respect 5 	sexy 1 		60
+		boxshort			BOXSRT2		boxingshort	2		respect 5 	sexy 1 		60
+		bbshortred			BOXSRT3		boxingshort 2		respect 5 	sexy 1 		60
+		shellsuittr			SHELBOT		tracktr		2		respect 0 	sexy 0		50
+
+	# SUBURBAN LEGS
+		shortsgrey      	SHORT1		shorts		2		respect 0 	sexy 0		30
+		shortskhaki     	SHORT2		shorts		2		respect 5 	sexy 0		30
+		chongergrey			CHONG1		chonger		2		respect 2 	sexy 1		50
+		chongergang			CHONG2		chonger		2		respect 6 	sexy 0		50
+		chongerred			CHONG3		chonger		2		respect 6 	sexy 2		50
+		chongerblue			CHONG4		chonger		2		respect 2 	sexy 2		50
+		shortsgang			SHORT3		shorts		2		respect 0 	sexy 5		30
+		denimsgang			DENIM1		jeans		2		respect 15 	sexy 5		60
+		denimsred			DENIM2		jeans		2		respect 0 	sexy 0		60
+
+	# ZIP LEGS
+		chinosbiege			CHINBIE		chinosb		2		respect 10  sexy 7		150
+		chinoskhaki			CHINOK		chinosb		2		respect 10 	sexy 7 		150
+		cutoffchinos		CUTCHI		shorts		2		respect 6 	sexy 3 		80
+		cutoffchinosblue	CUTCHBU		shorts		2		respect 6 	sexy 3 		80
+		chinosblack			CHINO3		chinosb		2		respect 8   sexy 8		150
+		chinosblue			CHINO4		chinosb		2		respect 8   sexy 7		150
+
+	# VICTIM LEGS
+		leathertr			LEATHA		leathertr	2		respect 8 	sexy 8 	    875
+		leathertrchaps		LEATHB		leathertr	2		respect 0 	sexy 0 	    80
+		suit1trgrey			SUTR1GR		suit1tr		2		respect 8 	sexy 10 	800
+		suit1trblk			SUTR1BL		suit1tr		2		respect 8 	sexy 10 	800
+		cutoffdenims		CUTDENM		shorts		2		respect 9 	sexy 7 	    1000
+
+	# DIDIE SACHS LEGS
+		suit1trred			SUITTR1		suit1tr		2		respect 9 	sexy 10		2000
+		suit1trblue			SUITTR2		suit1tr		2		respect 9 	sexy 10 	2500
+		suit1tryellow		SUITTR3		suit1tr		2		respect 10 	sexy 10 	4000
+		suit1trgreen		SUTR1GN		suit1tr		2		respect 10 	sexy 10 	3000
+		suit1trblk2         SUTR2BL 	suit1tr     2       respect 9   sexy 10     3000
+		suit1trgang			SUTRGNG		suit1tr		2		respect 10  sexy 6		1500
+
+# SHOES
+	# DEFUALT PLAYER SHOES
+		foot				FEET		feet		3		respect 0 	sexy 0		0
+
+	# BINCO SHOES
+		cowboyboot2			COWBOT2		biker		3		respect 1 	sexy 2 		100
+		bask2semi			BASKBO1		bask1		3		respect 2 	sexy 1 		50
+		bask1eris			BASKBO2		bask1		3		respect 3 	sexy 2 		100
+		sneakerbincgang		SNKBGAN		sneaker		3		respect 3 	sexy 1 		50
+		sneakerbincblu		SNKBBLU		sneaker		3		respect 1 	sexy 1 		50
+		sneakerbincblk		SNKBBLK		sneaker		3		respect 1 	sexy 1 		50
+		sandal				SANDIL1		flipflop	3		respect 0 	sexy 0 		15
+		sandalsock			SANDIL2		flipflop	3		respect 0 	sexy 0 		20
+		flipflop			SANDIL3		flipflop	3		respect 0 	sexy 0 		15
+
+	# PRO-LAPS SHOES
+		hitop				HITOP		bask1		3		respect 5   sexy 3 		115
+		convproblk			CHUBLK		conv		3		respect 3   sexy 2 		70
+		convproblu          CONBLUE		conv		3		respect 3  	sexy 2	 	65
+		convprogrn			CONGREN		conv		3		respect 5   sexy 2 		60
+		sneakerprored		PROTRA1		sneaker		3		respect 2  	sexy 3 		80
+		sneakerproblu		PROTRA2		sneaker		3		respect 2  	sexy 2 		75
+		sneakerprowht		PROTRA3		sneaker		3		respect 2   sexy 2 		70
+		bask1prowht			PROWHT1		bask1		3		respect 4   sexy 2 		70
+		bask1problk			PROBLK1		bask1		3		respect 4   sexy 2 		70
+		boxingshoe			BOXSHO1		biker		3		respect 0   sexy 0 		70
+
+	# SUB URBAN SHOES
+		convheatblk			COHEAT1		conv		3		respect 2 	sexy 1		55
+		convheatred			COHEAT2		conv		3		respect 2 	sexy 1		55
+		convheatorn			COHEAT3		conv		3		respect 2 	sexy 1		50
+		sneakerheatwht		SNHEAT1		sneaker		3		respect 2 	sexy 2		70
+		sneakerheatgry		SNHEAT2		sneaker		3		respect 2 	sexy 1		65
+		sneakerheatblk		SNHEAT3		sneaker		3		respect 2 	sexy 2		65
+		bask2heatwht		BSHEAT1		bask1		3		respect 3 	sexy 2		80
+		bask2heatband		BSHEAT2		bask1		3		respect 3 	sexy 2		80
+
+	# ZIP SHOES
+		timbergrey			TIMBER1		bask1		3		respect 5 	sexy 5 		125
+		timberred			TIMBER2		bask1		3		respect 5 	sexy 5 		135
+		timberfawn			TIMBER3		bask1		3		respect 5 	sexy 4 		115
+		timberhike			TIMBER4		bask1		3		respect 4 	sexy 2 		110
+
+	# VICTIM SHOES
+		cowboyboot			COWBOY  	biker		3		respect 4	sexy 5		500
+		biker				BIKEBOT		biker		3		respect 3	sexy 3		145
+		snakeskin			SNAKESN		biker		3		respect 5	sexy 5		1000
+		
+	# DIDIE SACHS SHOES
+		shoedressblk		SHOEDR1		shoe		3		respect 5   sexy 5      2500
+		shoedressbrn		SHOEDR2		shoe		3		respect 4   sexy 5     	1100
+		shoespatz			SHOEDR3		shoe		3		respect 5   sexy 5      350
+
+# CHAINS
+	# BINCO CHAINS
+		dogtag				DOGTAG		neck		13		respect 1   sexy 0		10
+		neckafrica			NECKAFR		neck		13		respect 1   sexy 1		12
+
+	# PRO-LAPS CHAINS
+		stopwatch			STOPWAT		neck		13		respect 0   sexy 0		20
+		necksaints			NECKSNT		neck		13		respect 1   sexy 0		25
+
+	# SUB URBAN CHAINS
+		neckhash			NECKHA		neck    	13		respect 2 	sexy 1		100
+		necksilver			NECKCU1		neck2 		13		respect 2 	sexy 2		200
+		neckgold			NECKCU2		neck2		13		respect 2 	sexy 2		350
+
+	# ZIP CHAINS
+		neckropes			NECKRP1		neck2		13		respect 2 	sexy 1		450
+		neckropeg			NECKRP2		neck2		13		respect 2 	sexy 2		550
+
+	# VICTIM CHAINS
+		neckls				NECKLS		neck    	13		respect 2 	sexy 0		50
+
+	# DIDIE SACHS CHAINS
+		neckdollar			NECKDL		neck    	13		respect 2 	sexy 2		2000
+		neckcross			NECKCR		neck    	13		respect 2 	sexy 2		5000
+
+# WATHES
+	# BINCO WATCHES
+		watchpink			WATCH7		watch		14		respect 0 	sexy 0		15
+		watchyellow			WATCH8		watch		14		respect 0 	sexy 0		15
+
+	# PRO-LAPS WATCHES
+		watchpro			WATCH3		watch		14		respect 0 	sexy 1		440
+		watchpro2			WATCH4		watch		14		respect 1 	sexy 1	    700
+
+	# SUB URBAN WATCHES
+		watchsub1			WATCH9		watch		14		respect 1 	sexy 2		70
+		watchsub2			WATCH10		watch		14		respect 2 	sexy 2		120
+
+	# ZIP WATHES
+		watchzip1			WATCH11		watch		14		respect 2 	sexy 2		100
+		watchzip2			WATCH12		watch		14		respect 2 	sexy 2		220
+
+	# VICTIM WATCHES
+		watchgno			WATCH2		watch		14		respect 1 	sexy 2		1500
+		watchgno2			WATCH5		watch		14		respect 2 	sexy 2		3000
+
+	# DIDIE SACHS WATCHES
+		watchcro			WATCH1		watch		14		respect 3 	sexy 3		8000
+		watchcro2			WATCH6		watch		14		respect 3 	sexy 3		5000
+
+# GLASSES
+	# BINCO GLASSES
+		groucho				GROUCH1		grouchos	15      respect 0 	sexy 0		10
+		zorro				ZORRO		zorromask	15		respect 0	sexy 0		20
+		eyepatch			EYEPCH		eyepatch	15		respect 0 	sexy 0		5
+
+	# PRO-LAPS GLASSES
+		glasses01dark		GLASS5		glasses01   15 		respect 1	sexy 1		150
+		glasses04dark		GLASS6		glasses04   15 		respect 2	sexy 1		150
+
+	# SUB URBAN GLASSES
+		glasses03red		GLASS8		glasses03	15		respect 1	sexy 1		200
+		glasses03blue		GLASS9		glasses03	15		respect 1	sexy 1		220
+
+	# ZIP GLASSES
+		glasses01			GLASS1		glasses01	15      respect 2 	sexy 2		100
+		glasses04			GLASS4		glasses04	15		respect 2	sexy 2		150
+
+	# VICTIM GLASSES
+		glasses03			GLASS3		glasses03	15		respect 2	sexy 2		400
+		glasses03dark		GLASS7		glasses03	15		respect 2	sexy 2		500
+
+	# DIDIE SACHS GLASSES
+		glasses05dark		GLASS10		glasses03	15		respect 1	sexy 2		600
+		glasses05			GLASS11		glasses03	15		respect 2	sexy 2		800
+
+# HATS
+	# BINCO HATS
+		bandred				BANDAN7		bandana		16		respect 1 	sexy 1		25
+		bandblue			BANDAN8		bandana		16		respect 1 	sexy 1		25
+		bandgang			BANDAN9		bandana		16		respect 3 	sexy 1		25
+		bandblack			BANDA10		bandana		16		respect 1 	sexy 1		25
+		bandred2			BANDA11		bandknots	16		respect 1 	sexy 1		25
+		bandblue2			BANDA12		bandknots	16		respect 1 	sexy 1		25
+		bandblack2			BANDA13		bandknots	16		respect 1 	sexy 1		25
+		bandgang2			BANDA14		bandknots	16		respect 3 	sexy 1		25
+		capknitgrn          CAP25       capknit     16		respect 2 	sexy 0		15
+		captruck            CAP26       captruck	16		respect 0 	sexy 0		5
+		cowboy				CAP28       cowboy      16      respect 0 	sexy 0		10
+		hattiger            CAP29       cowboy	    16      respect 0 	sexy 0		10
+
+	# PRO-LAPS HATS
+		helmet				CAP27       helmet		16		respect 0 	sexy 0		150
+	   	moto				CAP30		moto		16		respect 0 	sexy 0		100
+		boxingcap           CAP15       boxingcap   16		respect 0 	sexy 0		80
+		hockey              CAP16       hockeymask	16		respect 2 	sexy 0		40
+		capgang				CAP31		cap			16		respect 1 	sexy 0		40
+		capgangback			CAP32		capback		16		respect 1 	sexy 0		40
+		capgangside			CAP33		capside		16		respect 1 	sexy 0		40
+		capgangover			CAP34		capovereye	16		respect 1 	sexy 0		40
+		capgangup			CAP35		caprimup	16		respect 1 	sexy 0		40
+		bikerhelmet			CAP56		bikerhelmet 16		respect 1	sexy 0		100
+
+	# SUB URBAN HATS
+		capred				CAP36		cap			16		respect 1 	sexy 0		40
+		capredback			CAP37		capback		16		respect 1 	sexy 0		40
+		capredside			CAP38		capside		16		respect 1 	sexy 0		40
+		capredover			CAP39		capovereye	16		respect 1 	sexy 0		40
+		capredup			CAP40		caprimup	16		respect 1 	sexy 0		40
+		capblue				CAP41		cap			16		respect 1 	sexy 0		40
+		capblueback			CAP42		capback		16		respect 1 	sexy 0		40
+		capblueside			CAP43		capside		16		respect 1 	sexy 0		40
+		capblueover			CAP44		capovereye	16		respect 1 	sexy 0		40
+		capblueup			CAP45		caprimup	16		respect 1 	sexy 0		40
+		skullyblk			CAP57		skullycap	16		respect 1	sexy 0		60
+		skullygrn			CAP58		skullycap	16		respect 3	sexy 0		60
+
+	# ZIP HATS
+		hatmancblk			MANCBLK		hatmanc		16		respect 2 	sexy 2		20
+		hatmancplaid		MANCPLD		hatmanc		16		respect 2 	sexy 2		20
+		capzip				CAP46		cap			16		respect 1 	sexy 0		40
+		capzipback			CAP47		capback		16		respect 1 	sexy 0		40
+		capzipside			CAP48		capside		16		respect 1 	sexy 0		40
+		capzipover			CAP49		capovereye	16		respect 1 	sexy 0		40
+		capzipup			CAP50		caprimup	16		respect 1 	sexy 0		40
+
+	# VICTIM HATS
+		beretred            CAP17       beret		16		respect 1 	sexy 2		900
+		beretblk            CAP18       beret		16		respect 1 	sexy 2		900
+		capblk				CAP51		cap			16		respect 1 	sexy 0		40
+		capblkback			CAP52		capback		16		respect 1 	sexy 0		40
+		capblkside			CAP53		capside		16		respect 1 	sexy 0		40
+		capblkover			CAP54		capovereye	16		respect 1 	sexy 0		40
+		capblkup			CAP55		caprimup	16		respect 1 	sexy 0		40
+
+	# DIDIE SACHS HATS
+		trilbydrk			TRIBY1		trilby		16		respect 3 	sexy 2		300
+		trilbylght			TRIBY2		trilby		16		respect 3 	sexy 2		300
+		bowler				BOWLER1		bowler		16		respect	1	sexy 2		500
+		bowlerred			BOWLER2		bowler		16		respect	2	sexy 3		600
+		bowlerblue			BOWLER3		bowler		16		respect	2	sexy 2		600
+		bowleryellow		BOWLER4		bowler		16		respect	2	sexy 2		700
+		boater				BOATHA1		boater		16		respect 3   sexy 2		800
+		bowlergang			BOWLER5		bowler		16 		respect 3   sexy 2      550
+		boaterblk			BOATHA2		boater		16		respect 3   sexy 2		700
+
+# GLOVES
+	# BINCO GLOVES
+		gloves				BLFGLOV		hands		19		respect 0   sexy 0		15
+
+# MASKS
+	# BINCO MASKS
+		bandred3			BANDA15		bandmask	20		respect 1	sexy 0		50
+		bandblue3			BANDA16		bandmask	20		respect 1	sexy 0		50
+		bandgang3			BANDA17		bandmask	20		respect 2	sexy 0		50
+		bandblack3			BANDA18		bandmask	20		respect 1	sexy 0		50
+
+# SPECIAL
+		gimpleg				GIMP		gimpleg		17		respect 10 	sexy 10		0
+		valet				VALETU		valet		17		respect 0 	sexy 0		0
+		countrytr			COUNTRY		countrytr	17 		respect 0 	sexy 0		0
+		croupier			CROUP		valet		17 		respect 0 	sexy 15		0
+		policetr			POLICE		policetr	17		respect 5 	sexy 10		0
+		balaclava			BALACLA		balaclava	17		respect 2 	sexy 0		0
+		pimptr				PIMPSUT		pimptr		17      respect 10  sexy 15     0
+		garageleg			RDRIVER		garagetr	17		respect 5	sexy 5		0
+		medictr				PAMEDIC		medictr		17      respect 15  sexy 10     0
+	end
+
+	section Haircuts
+		#texturename,	nametag,	modelname,	type,	stats to change,	price
+		#type is a number and can be one of the following
+		# 1 = hair cant go over 30 for stats
+		#
+		#texturename,	nametag,	modelname,	type,	stats to change,		price
+		player_face     HEAD        head        1 		respect 5   sexy 15     50
+		cesar			HEAD		head		1		respect 5   sexy 15     50
+		hairblond		BLHAIR		head		1		respect 0   sexy 15     50
+		hairred			REDHAIR		head		1		respect 10  sexy 0      200
+		hairblue		BLUHAIR		head		1		respect 10  sexy 0      200
+		hairgreen		GRNHAIR		head		1		respect 20  sexy 0      200
+		hairpink		PNKHAIR		head		1		respect 0   sexy 0      200
+		bald			BALD		head		1		respect 10  sexy 20     10
+		baldbeard		BLADBEA		head		1		respect 15  sexy 15     50
+		baldtash		BALDTSH		head		1		respect 15  sexy 15     25
+		baldgoatee		BALDGOT		head		1		respect 15  sexy 10     35
+		highfade		HIGHFAD		head		1		respect 20  sexy 20     150
+		highafro		AFROHI		highafro	1		respect 15  sexy 0      150
+		wedge			WEDGE       wedge       1		respect 20  sexy 20     150
+		slope			SLOPE		slope		1		respect 20  sexy 10     200
+		jhericurl		JHERI		jheri		1		respect 5  	sexy 25     350
+		cornrows		CORNROW		cornrows	1		respect 30  sexy 30     500
+		cornrowsb		CORNRO2		cornrows	1		respect 30  sexy 30     550
+		tramline		TRAMLIN		tramline	1		respect 25  sexy 30     400
+		groovecut		GROOVE		head		1		respect 30  sexy 30     500
+		mohawk			MOHAWK		mohawk		1		respect 20	sexy 10		200
+		mohawkblond		MOHAWKB		mohawk		1		respect 10	sexy 15		250
+		mohawkpink		MOHAWKP		mohawk		1		respect 0	sexy 0		400
+		mohawkbeard		MOHAKBE		mohawk		1		respect 10	sexy 0		250
+		afro			AFRO		afro	 	1	   	respect 15	sexy 10		150
+		afrotash		AFROT		afro		1		respect 20	sexy 5		200
+		afrobeard		AFROB		afro		1		respect 20	sexy 5		250
+		afroblond		AFROBL		afro		1		respect 15	sexy 15		300
+		flattop			AFROFL		flattop		1		respect 25	sexy 25		500
+		elvishair		ELVISHA		elvishair	1		respect 0	sexy 0		1000
+		beard			BEARD		head		18		respect 10	sexy 10		80
+		tash			TASH		head		18		respect 10	sexy 10		50
+		goatee			GOATEE		head		18		respect 10	sexy 0		100
+		afrogoatee		AFROGOT		afro		1		respect 20	sexy 0		300
+	end
+
+	section Tattoos
+		#texturename,	nametag,	type1,	type2,	stats to change,	price
+		#type is a number and can be one of the following cant go over 20 for stats
+		# - = no type
+		# 4 = left upper arm
+		# 5 = left lower arm
+		# 6 = right upper arm
+		# 7 = right lower arm
+		# 8 = back top
+		# 9 = left chest
+		# 10 = right chest
+		# 11 = stomach
+		# 12 = lower back
+		#texturename,	nametag,	type1,	type2,	stats to change,			price
+		4weed			4WEED		4		-		respect 1		sexy 2		50
+		4rip			4RIP		4		-		respect 1		sexy 2		45
+		4spider			4SPIDER		4		-		respect 2		sexy 2		60
+		5gun			5GUN		5		-		respect 2		sexy 2		50
+		5cross			5CROSS		5		-		respect 1		sexy 2		70
+		5cross2			5CROSS2		5		-		respect 2		sexy 2		80
+		5cross3			5CROSS3		5		-		respect 1		sexy 2		30
+		6aztec			6AZTEC		6		-		respect 2		sexy 2		40
+		6crown			6CROWN		6		-		respect 1		sexy 2		50
+		6clown			6CLOWN		6		-		respect 2		sexy 2		60
+		6africa			6AFRICA		6		-		respect 2		sexy 2		90
+		7cross			7CROSS		7		-		respect 1		sexy 2		25
+		7cross2			7CROSS2		7		-		respect 1		sexy 2		40
+		7cross3			7CROSS3		7		-		respect 2		sexy 2		70
+		7mary			7MARY		7		-		respect 2		sexy 2		100
+		8sa				8SA			8		-		respect 3		sexy 3		150
+		8sa2			8SA2		8		-		respect 3		sexy 3		250
+		8sa3			8SA3		8		-		respect 3		sexy 3		350
+		8westside		8WESTSD		8		-		respect 3		sexy 3		200
+		8santos			8SANTOS		8		-		respect 3		sexy 3		150
+		8poker			8POKER		8		-		respect 3		sexy 3		200
+		8gun			8GUN		8		-		respect 3		sexy 3		450
+		9crown			9CROWN		9		-		respect 2		sexy 1		125
+		9gun			9GUN		9		-		respect 2		sexy 2		50
+		9gun2			9GUN2		9		-		respect 2		sexy 1		70
+		9homeboy		9HOMBY		9		-		respect 2		sexy 2		100
+		9bullet			9BULLT		9		-		respect 2		sexy 1		90
+		9rasta			9RASTA		9		-		respect 2		sexy 2		125
+		10ls			10LS		10		-		respect 2		sexy 2		80
+		10ls2			10LS2		10		-		respect 2		sexy 2		45
+		10ls3			10LS3		10		-		respect 2		sexy 2		50
+		10ls4			10LS4		10		-		respect 2		sexy 2		100
+		10ls5			10LS5		10		-		respect 2		sexy 2		65
+		10og			10OG		10		-		respect 2		sexy 2		90
+		10weed			10WEED		10		-		respect 2		sexy 2		40
+		11grove			11GROVE		11		-		respect 2		sexy 2		70
+		11grove2		11GROV2		11		-		respect 2		sexy 2		125
+		11grove3		11GROV3		11		-		respect 2		sexy 2		100
+		11dice			11DICE		11		-		respect 2		sexy 2		90
+		11dice2			11DICE2		11		-		respect 2		sexy 2		50
+		11jail			11JAIL		11		-		respect 2		sexy 2		30
+		11godsgift		11GGIFT		11		-		respect 2		sexy 2		200
+		12angels		12ANGEL		12		-		respect 3		sexy 3		450
+		12mayabird		12MAYBR		12		-		respect 3		sexy 3		550
+		12dagger		12DAGER		12		-		respect 3		sexy 3		350
+		12bandit		12BNDIT		12		-		respect 3		sexy 3		600
+		12cross7		12CROSS		12		-		respect 3		sexy 3		500
+		12mayaface		12MYFAC		12		-		respect 3		sexy 3		525
+	end
+
+	section Food
+	# Burger Shot
+		#name,          nametag,	stats to change,	price
+		burgerlow		BURLOW		calories	20		2
+		burgermed		BURMED		calories	40		5
+		burgerhigh		BURHIG		calories	70		10
+		burger_healthy	BURHEAL		health		40		5
+
+	# Cluckin Bell
+		clucklow 		CLULOW		calories	20		2
+		cluckmed		CLUMED		calories	40		5
+		cluckhigh		CLUHIG		calories	70		10
+		cluck_healthy	CLUHEAL		health		40		10
+
+	# Pizza Stack
+		pizzalow		PIZLOW		calories	100		2
+		pizzamed		PIZMED		calories	40		5
+		pizzahigh		PIZHIG		calories	70		10
+		pizza_healthy	PIZHEAL		health		40		10
+
+	# Rusty Browns
+		rustylow		RUSLOW		calories	40		2
+		rustymed		RUSMED		calories 	70		5
+		rustyhigh		RUSHIG		calories	100		10
+	end
+
+	section Weapons
+	# PISTOLS
+		# weapontype,		nametag,	class,	ammo,	anim,	mission		price
+		PISTOL,				$STAT,		1,		30,		1,		0,			200
+		PISTOL_SILENCED,	$STAT,		1,		30,		1,		3,			600
+		DESERT_EAGLE,   	$STAT,		1,		15,		1,		9,			1200
+
+	# SHOTGUNS
+		SHOTGUN,			$STAT,		2,		15,		2,		0,			600
+		SPAS12,				$STAT, 		2,		10,		2,		10,			1000
+		SAWNOFF,			$STAT,	 	2,		12,		2,		2,			800
+
+	# MICRO SMG
+		MICRO_UZI,			'UZI',		3,		60,		1,		0,			500
+		TEC9,				'TEC9',		3,		60,		1,		0,			300
+
+	# SMG
+		MP5,				$STAT,		4,		90,		1,		1,			2000
+
+	# ASSAULT RIFLES
+		AK47,				$STAT,		5,		120,	2,		7,			3500
+		M4,					$STAT,		5,		150,	2,		8,			4500
+
+	# SNIPER RIFLES
+		COUNTRYRIFLE,		'RIFLE',	6,		20,		2,		5,			1000
+		SNIPERRIFLE,		'SNIPE',	6,		10,		2,		6,			5000
+
+	# THROWN
+		GRENADE,			'GRENADE',	7,		5,		1,		0,			300
+		SATCHEL_CHARGE,		'DETONA',	7,		1,		1,		4,			2000
+		MOLOTOV,			'MOLTOV',	7,		5,		1,		7,			600
+		TEARGAS,			'TEARGAS',	7,		5,		1,		10,			1200
+
+	# ARMOUR
+		ARMOUR,				ARMOUR,		8,		1,		3,		0,			200
+
+	# HEAVY
+		RLAUNCHER,			'ROCKET',	9,		5,		5,		10,			10000
+		RLAUNCHER_HS,		'ROCKHS',	9,		5,		5,		10,			12000
+		FTHROWER,			'FLAMET',	9,		80,		4,		10,			6000
+		MINIGUN,			'MINIGU',	9,		500,	4,		10,			10000
+	end
+
+	section Furniture
+	end
+
+	section Gifts
+	end
+
+	section Property
+	end
+end
+
+section shops
+	section uniform
+	type clothes
+		item gimpleg
+		item valet
+		item countrytr
+		item croupier
+		item policetr
+		item pimptr
+		item garageleg
+		item medictr
+	end
+
+	section CSchp # BINCO
+	type clothes
+	# BINCO TORSO
+		item vest
+		item vestblack
+		item hoodyAgreen
+		item tshirtwhite
+		item tshirtilovels
+		item tshirtblunts
+		item shirtbgang
+		item shirtbcheck
+		item field
+		item tshirterisyell
+		item tshirterisorn
+		item trackytop2eris
+
+	# BINCO LEGS
+		item legsblack
+		item legsheart
+		item worktrcamogrn
+		item worktrcamogry
+		item worktrgrey
+		item worktrkhaki
+		item tracktr
+		item jeansdenim
+		item tracktreris
+		item biegetr
+		item denimsgang
+		item tracktrgang
+
+	# BINCO SHOES
+		item sandal
+		item sandalsock
+		item flipflop
+		item cowboyboot2
+		item bask2semi
+		item bask1eris
+		item sneakerbincgang
+		item sneakerbincblu
+		item sneakerbincblk
+
+	# BINCO GLASSES
+		item groucho
+		item zorro
+		item eyepatch
+
+	# BINCO WATHES
+		item watchpink
+		item watchyellow
+
+	# BINCO CHAINS
+		item dogtag
+		item neckafrica
+
+	# BINCO HATS
+		item bandred
+		item bandblue
+		item bandgang
+		item bandblack
+		item bandred2
+		item bandblue2
+		item bandblack2
+		item bandgang2
+		item capknitgrn
+		item captruck
+		item cowboy
+		item hattiger
+
+	# BINCO GLOVES
+		item gloves
+
+	# BINCO MASKS
+		item bandred3
+		item bandblue3
+		item bandgang3
+		item bandblack3
+	end
+
+	section CSsprt # PRO-LAPS
+	type clothes
+	# PRO-LAPS TORSO
+		item bbjackrim
+		item bballjackrstar
+		item baskballdrib
+		item baskballrim
+		item sixtyniners
+		item tshirtprored
+		item tshirtproblk
+		item bandits
+	    item trackytop1pro
+		item shellsuit
+	    item hockeytop
+	    item bbjersey
+
+	# PRO-LAPS LEGS
+		item tracktrpro
+		item tracktrwhstr
+		item tracktrblue
+		item bbshortwht
+		item boxshort
+		item bbshortred
+		item shellsuittr
+
+	# PRO-LAPS SHOES
+		item hitop
+		item convproblk
+		item convproblu
+		item convprogrn
+		item sneakerprored
+		item sneakerproblu
+		item sneakerprowht
+		item bask1prowht
+		item bask1problk
+		item boxingshoe
+
+	# PRO-LAPS CHAIN
+		item stopwatch
+		item necksaints
+
+	# PRO-LAPS WATCHES
+		item watchpro
+		item watchpro2
+
+	# PRO-LAPS GLASSES
+		item glasses01dark
+		item glasses04dark
+
+	# PRO-LAPS HATS
+		item capgang
+		item capgangback
+		item capgangside
+		item capgangover
+		item capgangup
+		item boxingcap
+		item hockey
+		item helmet
+		item moto
+		item bikerhelmet
+	end
+
+	section LACS1 # SUB URBAN
+	type clothes
+	# SUB URBAN TORSO
+		item tshirtheatwht
+		item tshirtbobomonk
+		item tshirtbobored
+		item tshirtbase5
+		item tshirtsuburb
+		item hoodyamerc
+		item hoodyabase5
+		item hoodyarockstar
+		item wcoatblue
+		item coach
+		item coachsemi
+		item sweatrstar
+
+	# SUB URBAN LEGS
+		item shortsgrey
+		item shortskhaki
+		item chongergrey
+		item chongergang
+		item chongerred
+		item chongerblue
+		item shortsgang
+		item denimsred
+
+	# SUB URBAN SHOES
+		item convheatblk
+		item convheatred
+		item convheatorn
+		item sneakerheatwht
+		item sneakerheatgry
+		item sneakerheatblk
+		item bask2heatwht
+		item bask2heatband
+
+	# SUB URBAN GLASSES
+		item glasses03red
+		item glasses03blue
+
+	# SUB URBAN CHAINS
+		item necksilver
+		item neckls
+
+	# SUB URBAN WATHES
+		item watchsub1
+		item watchsub2
+
+	# SUB URBAN HATS
+		item capred
+		item capredback
+		item capredside
+		item capredover
+		item capredup
+		item capblue
+		item capblueback
+		item capblueside
+		item capblueover
+		item capblueup
+		item skullyblk
+		item skullygrn
+	end
+
+	section clothgp # ZIP
+	type clothes
+	# ZIP TORSO
+		item hoodyAblue
+		item hoodyAblack
+		item tshirt2horiz
+		item sleevtbrown
+		item shirtablue
+		item shirtayellow
+		item shirtagrey
+		item shirtbplaid
+	    item tshirtzipcrm
+		item tshirtzipgry
+	    item denimfade
+	    item bowling
+
+	# ZIP LEGS
+		item chinosbiege
+		item chinoskhaki
+		item chinosblack
+		item chinosblue
+		item cutoffchinos
+		item cutoffchinosblue
+
+	# ZIP SHOES
+		item timbergrey
+		item timberred
+		item timberfawn
+		item timberhike
+
+	# ZIP WATHES
+		item neckhash
+		item neckgold
+		item watchzip1
+		item watchzip2
+
+	# ZIP GLASSES
+		item glasses01
+		item glasses04
+
+	# ZIP HATS
+		item hatmancblk
+		item hatmancplaid
+		item capzip
+		item capzipback
+		item capzipside
+		item capzipover
+		item capzipup
+	end
+
+	section Csdesgn # VICTIM
+	type clothes
+	# VICTIM TORSO
+		item hoodjackbeige
+		item suit1grey
+		item suit1blk
+		item leather
+		item painter
+		item hawaiiwht
+		item hawaiired
+		item sportjack
+
+	# VICTIM LEGS
+		item leathertr
+		item leathertrchaps
+		item suit1trgrey
+		item suit1trblk
+		item cutoffdenims
+
+	# VICTIM SHOES
+		item cowboyboot
+		item biker
+		item snakeskin
+
+	# VICTIM CHAINS
+		item neckropes
+		item neckropeg
+
+	# VICTIM WATHES
+		item watchgno
+		item watchgno2
+
+	# VICTIM GLASSES
+		item glasses03dark
+		item glasses03
+
+	# VICTIM HATS
+		item beretred
+		item beretblk
+		item capblk
+		item capblkback
+		item capblkside
+		item capblkover
+		item capblkup
+		item tshirtmaddgrey
+		item tshirtmaddgrn
+		item tshirtlocgrey
+		item baskballloc
+	end
+
+	section Csexl # DIDIE SACHS
+	type clothes
+	# DIDIE SACHS TORSO
+		item suit2grn
+		item suit1red
+		item suit1blue
+		item suit1yellow
+		item tuxedo
+		item suit1gang
+		item letter
+
+	# DIDIE SACHS LEGS
+		item suit1trred
+		item suit1trblue
+		item suit1tryellow
+	    item suit1trgreen
+	    item suit1trblk2
+		item suit1trgang
+
+	# DIDIE SACHS SHOES
+		item shoedressblk
+		item shoedressbrn
+		item shoespatz
+
+	# DIDIE SACHS CHAIN
+		item neckcross
+		item neckdollar
+
+	# DIDIE SACHS GLASSES
+		item glasses05dark
+		item glasses05
+
+	# DIDIE SACHS WATHES
+		item watchcro
+		item watchcro2
+
+	# DIDIE SACHS HATS
+		item trilbydrk
+		item trilbylght
+		item bowler
+		item bowlerred
+		item bowlerblue
+		item bowleryellow
+		item bowlergang
+		item boater
+		item boaterblk
+	end
+
+	section FDchick # Cluckin Bell
+	type food
+		item clucklow
+		item cluckmed
+		item cluckhigh
+		item cluck_healthy
+	end
+
+	section FDpiza # Pizza Stack
+	type food
+		item pizzalow
+		item pizzamed
+		item pizzahigh
+		item pizza_healthy
+	end
+
+	section FDburg # Burger Shot
+	type food
+		item burgerlow
+		item burgermed
+		item burgerhigh
+		item burger_healthy
+	end
+
+
+
+	section ammun1
+	type weapons
+	# PISTOLS
+		item PISTOL
+		item PISTOL_SILENCED
+		item DESERT_EAGLE
+
+	# SHOTGUNS
+		item SHOTGUN
+		item SAWNOFF
+		item SPAS12
+
+	# MICRO SMG
+		item TEC9
+		item MICRO_UZI
+
+	# SMG
+		item MP5
+
+	# ASSAULT RIFLE
+		item AK47
+		item M4
+
+	# SNIPER RIFLE
+		item COUNTRYRIFLE
+		item SNIPERRIFLE
+
+	# ARMOUR
+		item ARMOUR
+
+	# THROWN
+		item GRENADE
+		item SATCHEL_CHARGE
+	end
+
+	section ammun2
+	type weapons
+	# PISTOLS
+		item PISTOL
+		item PISTOL_SILENCED
+		item DESERT_EAGLE
+
+	# SHOTGUNS
+		item SHOTGUN
+		item SAWNOFF
+		item SPAS12
+
+	# MICRO SMG
+		item TEC9
+		item MICRO_UZI
+
+	# SMG
+		item MP5
+
+	# ASSAULT RIFLE
+		item AK47
+		item M4
+
+	# SNIPER RIFLE
+		item COUNTRYRIFLE
+		item SNIPERRIFLE
+
+	# ARMOUR
+		item ARMOUR
+
+	# THROWN
+		item GRENADE
+		item SATCHEL_CHARGE
+	end
+
+	section ammun3
+	type weapons
+	# PISTOLS
+		item PISTOL
+		item PISTOL_SILENCED
+		item DESERT_EAGLE
+
+	# SHOTGUNS
+		item SHOTGUN
+		item SAWNOFF
+		item SPAS12
+
+	# MICRO SMG
+		item TEC9
+		item MICRO_UZI
+
+	# SMG
+		item MP5
+
+	# ASSAULT RIFLE
+		item AK47
+		item M4
+
+	# SNIPER RIFLE
+		item COUNTRYRIFLE
+		item SNIPERRIFLE
+
+	# ARMOUR
+		item ARMOUR
+
+	# THROWN
+		item GRENADE
+		item SATCHEL_CHARGE
+	end
+
+	section ammun4
+	type weapons
+	# PISTOLS
+		item PISTOL
+		item PISTOL_SILENCED
+		item DESERT_EAGLE
+
+	# SHOTGUNS
+		item SHOTGUN
+		item SAWNOFF
+		item SPAS12
+
+	# MICRO SMG
+		item TEC9
+		item MICRO_UZI
+
+	# SMG
+		item MP5
+
+	# ASSAULT RIFLE
+		item AK47
+		item M4
+
+	# SNIPER RIFLE
+		item COUNTRYRIFLE
+		item SNIPERRIFLE
+
+	# ARMOUR
+		item ARMOUR
+
+	# THROWN
+		item GRENADE
+		item SATCHEL_CHARGE
+	end
+
+	section ammun5 # countryside one
+	type weapons
+	# PISTOLS
+		item PISTOL
+		item PISTOL_SILENCED
+		item DESERT_EAGLE
+
+	# SHOTGUNS
+		item SHOTGUN
+		item SAWNOFF
+		item SPAS12
+
+	# MICRO SMG
+		item TEC9
+		item MICRO_UZI
+
+	# SMG
+		item MP5
+
+	# ASSAULT RIFLE
+		item AK47
+		item M4
+
+	# SNIPER RIFLE
+		item COUNTRYRIFLE
+		item SNIPERRIFLE
+
+	# ARMOUR
+		item ARMOUR
+
+	# THROWN
+		item GRENADE
+		item SATCHEL_CHARGE
+	end
+
+
+
+	section tattoo # Tattoo shop Los-Santos
+	type tattoos
+		item 4rip
+		item 5gun
+		item 6africa
+		item 7cross3
+		item 8sa
+		item 8westside
+		item 8santos
+		item 8gun
+		item 9gun
+		item 9bullet
+		item 10ls
+		item 10ls2
+		item 10ls3
+		item 10ls4
+		item 10ls5
+		item 11grove
+		item 11grove2
+		item 11grove3
+		item 12angels
+		item 12dagger
+	end
+
+	section tatto2 # Tattoo shop San-Fierro
+	type tattoos
+		item 4weed
+		item 5cross2
+		item 6aztec
+	   	item 6clown
+		item 7cross
+		item 7cross2
+		item 8sa2
+		item 8sa3
+		item 9gun
+	   	item 9rasta
+		item 10weed
+		item 11jail
+		item 11godsgift
+		item 12mayabird
+		item 12mayaface
+	end
+
+	section tatto3 # tattoo shop Las-Venturas
+	type tattoos
+		item 4spider
+		item 5cross
+		item 5cross3
+		item 6crown
+		item 7mary
+		item 8poker
+		item 9crown
+		item 9homeboy
+		item 10og
+		item 11dice
+		item 11dice2
+		item 12bandit
+		item 12cross7
+	end
+
+	section barbers # Barber shop old Reec
+	type haircuts
+		item cesar
+		item tash
+		item goatee
+		item beard
+		item afro
+	#	item afrotash
+	#	item afrogoatee
+	#	item afrobeard
+	#	item flattop
+	#	item jhericurl
+	#	item cornrows
+		item highfade
+	#	item hairblond
+	#	item hairpink
+	#	item afroblond
+		item cornrowsb
+	#	item highafro
+	#	item wedge
+	#	item tramline
+		item groovecut
+		item mohawk
+	#	item mohawkblond
+	#	item mohawkpink
+	end
+
+	section barber2 # Barber shop 2
+	type haircuts
+		item player_face
+		item hairblond
+		item hairpink
+		item afroblond
+		item cornrowsb
+		item highafro
+		item wedge
+		item tramline
+		item groovecut
+		item mohawk
+		item mohawkblond
+		item mohawkpink
+	end
+
+	section barber3 # Barber shop 3
+	type haircuts
+		item player_face
+		item hairred
+		item hairblue
+		item hairgreen
+		item bald
+		item baldtash
+		item baldgoatee
+		item baldbeard
+		item slope
+		item mohawkbeard
+		item elvishair
+	end
+
+	section carmod1 # TransFender
+	type CarMods
+		item bnt_b_sc_l
+		item bnt_b_sc_m
+		item bnt_b_sc_p_l
+		item bnt_b_sc_p_m
+		item bntl_b_ov
+		item bntl_b_sq
+		item exh_b_l
+		item exh_b_m
+		item exh_b_s
+		item exh_b_t
+		item exh_b_ts
+		item lgt_b_rspt
+		item lgt_b_sspt
+		item rf_b_sc_r
+		item spl_b_bab_m
+		item spl_b_bar_l
+		item spl_b_bar_m
+		item spl_b_bbb_m
+		item spl_b_bbr_l
+		item spl_b_bbr_m
+		item spl_b_mab_m
+		item spl_b_mar_m
+		item wg_l_b_ssk
+		item wg_r_b_ssk
+
+	# OTHER TUNING
+		item wheel_gn1
+		item wheel_gn2
+		item wheel_gn3
+		item wheel_gn4
+		item wheel_gn5
+		item wheel_or1
+		item wheel_sr3
+		item wheel_sr4
+		item wheel_lr1
+		item wheel_lr2
+		item wheel_lr3
+		item wheel_lr4
+		item wheel_lr5
+		item stereo
+		item hydralics
+		item nto_b_s
+		item nto_b_l
+		item nto_b_tw
+	end
+
+	section carmod2 # Loco Low Co.
+	type CarMods
+	# SAVANNA
+		item rf_lr_sv1
+		item rf_lr_sv2
+		item fbmp_lr_sv1
+		item fbmp_lr_sv2
+		item rbmp_lr_sv1
+		item rbmp_lr_sv2
+		item exh_lr_sv1
+		item exh_lr_sv2
+	   	item wg_l_lr_sv
+
+	# BLADE
+		item rf_lr_bl1
+  		item rf_lr_bl2
+  		item rbmp_lr_bl1
+		item rbmp_lr_bl2
+		item fbmp_lr_bl1
+		item fbmp_lr_bl2
+		item exh_lr_bl1
+		item exh_lr_bl2
+		item wg_l_lr_bl1
+
+	# BROADWAY
+		item exh_lr_br1
+		item exh_lr_br2
+		item fbmp_lr_br1
+		item fbmp_lr_br2
+		item rbmp_lr_br1
+		item rbmp_lr_br2
+		item wg_l_lr_br1
+
+	# REMMINGTON
+		item exh_lr_rem1
+		item exh_lr_rem2
+		item fbmp_lr_rem1
+		item fbmp_lr_rem2
+		item misc_a_lr_rem1
+		item misc_b_lr_rem2
+		item misc_c_lr_rem3
+		item rbmp_lr_rem1
+		item rbmp_lr_rem2
+		item wg_l_lr_rem1
+		item wg_l_lr_rem2
+
+	# SLAMVAN
+		item exh_lr_slv1
+		item exh_lr_slv2
+		item fbmp_lr_slv1
+		item fbb_lr_slv1
+		item fbb_lr_slv2
+		item bbb_lr_slv1
+		item bbb_lr_slv2
+		item wg_l_lr_slv1
+		item wg_l_lr_slv2
+
+	# TORNADO
+		item exh_lr_t1
+		item exh_lr_t2
+		item fbmp_lr_t1
+		item fbmp_lr_t2
+		item rbmp_lr_t1
+		item rbmp_lr_t2
+		item wg_l_lr_t1
+
+	# OTHER TUNING
+		item wheel_lr1
+		item wheel_lr2
+		item wheel_lr3
+		item wheel_lr4
+		item wheel_lr5
+		item wheel_sr1
+		item wheel_sr2
+		item wheel_gn4
+		item wheel_gn5
+		item stereo
+		item hydralics
+		item nto_b_s
+		item nto_b_l
+		item nto_b_tw
+	end
+
+	section carmod3 # Wheel Arch Angels
+	type CarMods
+	# SULTAN
+		item exh_a_s
+		item exh_c_s
+		item fbmp_a_s
+		item fbmp_c_s
+		item rbmp_a_s
+		item rbmp_c_s
+		item rf_a_s
+		item rf_c_s
+		item spl_a_s_b
+		item spl_c_s_b
+		item wg_l_a_s
+		item wg_l_c_s
+
+	# FLASH
+		item exh_a_f
+		item exh_c_f
+		item fbmp_a_f
+		item fbmp_c_f
+		item rbmp_a_f
+		item rbmp_c_f
+		item rf_a_f
+		item rf_c_f
+		item spl_a_f_r
+		item spl_c_f_r
+		item wg_l_a_f
+		item wg_l_c_f
+
+	# ELEGY
+		item exh_a_l
+		item exh_c_l
+		item fbmp_a_l
+		item fbmp_c_l
+		item rbmp_a_l
+		item rbmp_c_l
+		item rf_a_l
+		item rf_c_l
+		item spl_a_l_b
+		item spl_c_l_b
+		item wg_l_a_l
+		item wg_l_c_l
+
+	# JESTER
+		item exh_a_j
+		item exh_c_j
+		item fbmp_a_j
+		item fbmp_c_j
+		item rbmp_a_j
+		item rbmp_c_j
+		item rf_a_j
+		item rf_c_j
+		item spl_a_j_b
+		item spl_c_j_b
+		item spl_b_bar_m
+		item spl_b_mab_m
+		item wg_l_a_j
+		item wg_l_c_j
+
+	# URANUS
+		item exh_a_u
+		item exh_c_u
+		item fbmp_a_u
+		item fbmp_c_u
+		item rbmp_a_u
+		item rbmp_c_u
+		item rf_a_u
+		item rf_c_u
+		item spl_a_u_b
+		item spl_c_u_b
+		item wg_l_a_u
+		item wg_l_c_u
+
+	# STRATUM
+		item exh_a_st
+		item exh_c_st
+		item fbmp_a_st
+		item fbmp_c_st
+		item rbmp_a_st
+		item rbmp_c_st
+		item rf_a_st
+		item rf_c_st
+		item spl_a_st_r
+		item spl_c_st_r
+		item wg_l_a_st
+		item wg_l_c_st
+
+	# OTHER TUNING
+		item wheel_gn1
+		item wheel_gn2
+		item wheel_gn3
+		item wheel_gn4
+		item wheel_gn5
+		item wheel_or1
+		item wheel_sr1
+		item wheel_sr2
+		item wheel_sr3
+		item wheel_sr4
+		item wheel_sr5
+		item wheel_sr6
+		item wheel_lr1
+		item wheel_lr2
+		item wheel_lr3
+		item wheel_lr4
+		item wheel_lr5
+		item stereo
+		item hydralics
+		item nto_b_s
+		item nto_b_l
+		item nto_b_tw
+	end
+
+	#INTERIORS THAT MIGHT NOT GET USED.
+	section FDrest # restuarant swank
+	type food
+		item pizzalow
+		item pizzamed
+		item pizzahigh
+	end
+end

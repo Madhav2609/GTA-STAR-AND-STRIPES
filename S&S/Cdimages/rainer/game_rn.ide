@@ -1,0 +1,42 @@
+objs
+45100, bellyup, rainergen, 299, 0
+45101, bellyupfen, rainergen, 299, 0
+45102, con1, rainergen, 299, 0
+45103, con03, rainergen, 299, 0
+45104, con3, rainergen, 299, 0
+45105, gar1, rainergen, 299, 0
+45106, con01, rainergen, 299, 0
+45107, rnport2, rainergen, 299, 0
+45108, gar01, rainergen, 299, 0
+45109, rnport3, rainergen, 299, 0
+45110, con2, rainergen, 299, 0
+45111, rnport1, rainergen, 299, 0
+45112, rnport4, rainergen, 299, 0
+45113, con02, rainergen, 299, 0
+45114, rnboat1, rainergen, 299, 0
+45115, lodgar01, rainerlod, 700, 0
+45116, lodbellyup, rainerlod, 700, 0
+45117, lodbellyupfen, rainerlod, 700, 0
+45118, lodcon1, rainerlod, 700, 0
+45119, lodcon03, rainerlod, 700, 0
+45120, lodcon3, rainerlod, 700, 0
+45121, lodgar1, rainerlod, 700, 0
+45122, lodcon01, rainerlod, 700, 0
+45123, lodrnport2, rainerlod, 1700, 0
+45124, lodrnport1, rainerlod, 1700, 0
+45125, lodcon2, rainerlod, 700, 0
+45126, lodcon02, rainerlod, 700, 0
+45127, lodrnport4, rainerlod, 1700, 0
+45128, lodrnport3, rainerlod, 1700, 0
+45129, lodrnboat1, rainerlod, 1700, 0
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

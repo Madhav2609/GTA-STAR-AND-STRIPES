@@ -1,0 +1,72 @@
+# id - The weapon id in gtasa_weapon_config.dat
+#
+# name - The GXT key in amutext.fxt or in american.gxt
+#
+# anim - The shop clerk animation
+# 0 - SHP_1H_LIFT
+# 1 - SHP_2H_LIFT
+# 2 - SHP_AR_LIFT
+#
+#
+# category - In which category the weapon will be in
+# 0 - Pistols
+# 1 - Micro SMGs
+# 2 - Shotguns
+# 3 - Thrown
+# 4 - Armor
+# 5 - SMG
+# 6 - Rifles
+# 7 - Assault
+# 8 - Heavy
+# 9 - Special
+# 10 - Melee
+#
+# unlockid - When during the game will the weapon be unlocked
+# 0 - Before the mission "The Green Sabre"
+# 1 - After the mission "Robbing Uncle Sam"
+# 2 - After the mission "Just Business"
+# 3 - After the mission "House Party (Cutscene)"
+# 4 - After the mission "Made In Heaven"
+# 5 - After the mission "Body Harvest"
+# 6 - After the mission "Pier 69"
+# 7 - After the mission "Mountain Cloud Boys"
+# 8 - After the mission "Yay Ka-Boom-Boom"
+# 9 - After the mission "Black Project"
+# 10 - After the mission "You've had your Chips"
+#
+#
+# flags - In which stores the weapon is available. 1 = Enable the weapon, 0 = Disable the weapon
+# 1 0 0 0 0 0
+# ^ ^ ^ ^ ^ ^
+# a b c d e f
+#
+# a - This digit must always be 1
+# b - AMMUN1: Ocean Flats SF, Market LS
+# c - AMMUN2: Blueberry, Palomino Creek, Come-A-Lot LV, Old Venturas Strip LV
+# d - AMMUN3: Willowfield LS, Angel Pine, Fort Carson, Bone County
+# e - AMMUN4: unused
+# f - AMMUN5: El Quebrados 
+#
+#
+#
+#id	name	anim	category	unlockid	price	ammo	flags
+22	PISTOL	0	0		0		200	30	111111
+23	PISTSL 	0	0		3		600	30	111111
+24	DEAGLE	0	0		9		1200	15	111111
+32	TEC9	0	1		0		300	60	111111
+28	UZI	0	1		0		500	60	111111
+25	SHOTGN1	1	2		0		600	15	111111
+26	SHOTGN3	1	2		2		800	12	111111
+27	SHOTGN2	1	2		10		1000	10	111111
+16	GRENADE	0	3		0		300	5	111111
+39	DETONA	0	3		4		2000	1	111111
+48	ARMOUR	2	4		0		200	1	111111
+29	MP5	0	5		1		2000	90	111111
+33	RIFLE	1	6		5		1000	20	111111
+34	SNIPE	1	6		6		5000	10	111111
+30	AK	1	7		7		3500	120	111111
+31	M4	1	7		8		4500	150	111111
+35 	WEAP35	1	8		9		7000	10	111111
+36 	WEAP36	1	8		9		8000	10	111111
+37 	WEAP37	1	8		9		5000	100	111111
+38 	WEAP38	1	8		9		10000	250	111111

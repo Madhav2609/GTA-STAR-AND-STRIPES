@@ -1,0 +1,491 @@
+#
+# see default.ide for id ranges
+#
+# flags:
+# 0x01 gets streamed out after 1 car is generated (for dumpsters, MrWoopy etc)
+# 0x02 Don't use. Used by code internally.
+
+cars
+# Id,	Model name, 	Txd name,	Type 		HandlingId	Game name, 	Anims	Class		Frq	flags   Comprules
+#
+# cars have two extra fields wheelmodelId and wheel scale
+# planes have one extra field model id of low level of detail
+400,	landstal, 	landstal, 	car, 		LANDSTAL, 	LANDSTK, 	null,			normal,			10,	{},									0,			-,		0.768,	0.768,	WHEEL:GENERIC
+401, 	bravura, 	bravura, 	car, 		BRAVURA, 	BRAVURA, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+402, 	buffalo, 	buffalo, 	car, 		BUFFALO, 	BUFFALO, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+403, 	linerun, 	linerun, 	car, 		LINERUN, 	LINERUN, 	truck,			worker,			6,	{},									0,			-,		1.1,	1.1,	-
+404, 	peren,		peren, 		car, 		PEREN, 		PEREN,	 	null,			poorfamily,		10,	{},									0,			-,		0.66,	0.66,	WHEEL:GENERIC
+405, 	sentinel, 	sentinel, 	car, 		SENTINEL, 	SENTINL, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+406, 	dumper,		dumper,	 	mtruck, 	DUMPER,		DUMPER,		truck,			worker,			5,	{DELETE_MODEL_AFTER_GENERATION},	0,			-,		2.28,	2.28,	-
+407, 	firetruk, 	firetruk, 	car, 		FIRETRUK, 	FIRETRK, 	truck,			ignore,			10,	{FIRE_ENGINE},						0,			-,		1.0,	1.0,	-
+408, 	trash,		trash,	 	car, 		TRASH, 		TRASHM,		null,			worker,			5,	{},									0,			-,		1.06,	1.06,	-
+409, 	stretch,	stretch, 	car, 		STRETCH, 	STRETCH, 	null,			executive,		5,	{},									0,			-,		0.75,	0.75,	WHEEL:GENERIC
+410, 	manana, 	manana, 	car, 		MANANA, 	MANANA, 	null,			poorfamily,		10,	{},									0,			-,		0.62,	0.62,	WHEEL:GENERIC
+411, 	infernus, 	infernus, 	car, 		INFERNUS, 	INFERNU, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+412, 	voodoo, 	voodoo, 	car, 		VOODOO, 	VOODOO, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+413, 	pony,		pony,		car, 		PONY, 		PONY, 		van,			worker,			10,	{},									0,			-,		0.72,	0.72,	-
+414, 	mule, 		mule, 		car, 		MULE, 		MULE, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+415, 	cheetah, 	cheetah, 	car, 		CHEETAH, 	CHEETAH, 	null,			executive,		5,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+416, 	ambulan, 	ambulan, 	car, 		AMBULAN, 	AMBULAN, 	van,			ignore,			10,	{AMBULANCE},						0,			-,		0.864,	0.864,	-
+417, 	leviathn, 	leviathn, 	heli, 		LEVIATHN, 	LEVIATH, 	null,			ignore,			5,	{},									0,			-,		0.54,	0.4,	-
+418, 	moonbeam, 	moonbeam, 	car, 		MOONBEAM, 	MOONBM, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+419, 	esperant, 	esperant, 	car, 		ESPERANT, 	ESPERAN, 	null,			normal,			10,	{},									0,			-,		0.64,	0.64,	WHEEL:GENERIC
+420, 	taxi, 		taxi, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+421, 	washing, 	washing, 	car, 		WASHING, 	WASHING, 	null,			richfamily,		10,	{},									0,			-,		0.65,	0.65,	WHEEL:GENERIC
+422, 	bobcat, 	bobcat, 	car, 		BOBCAT, 	BOBCAT, 	null,			worker,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+423, 	mrwhoop, 	mrwhoop, 	car, 		MRWHOOP, 	WHOOPEE, 	null,			worker,			4,	{DELETE_MODEL_AFTER_GENERATION},	0,			-,		0.7,	0.7,	-
+424, 	bfinject, 	bfinject, 	car, 		BFINJECT, 	BFINJC,	 	BF_injection,	executive,		6,	{},									0,			-,		0.84,	0.92,	-
+425, 	hunter,		hunter, 	heli, 		HUNTER, 	HUNTER,		rustler,		ignore,			10,	{},									0,			-,		0.64,	0.4,	-
+426, 	premier, 	premier, 	car, 		PREMIER, 	PREMIER,	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+427, 	enforcer, 	enforcer, 	car, 		ENFORCER, 	ENFORCR, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+428, 	securica, 	securica, 	car, 		SECURICA, 	SECURI, 	van,			big,			4,	{},									3f10,		-,		0.914,	0.914,	-
+429, 	banshee, 	banshee, 	car, 		BANSHEE,	BANSHEE, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+430, 	predator, 	predator, 	boat,		PREDATOR,	PREDATR, 	null,			ignore,			10,	{},									0
+431, 	bus, 		bus,	 	car, 		BUS, 		BUS, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+432, 	rhino, 		rhino, 		car, 		RHINO, 		RHINO, 		tank,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		1.3,	1.3,	-
+433, 	barracks, 	barracks, 	car, 		BARRACKS, 	BARRCKS, 	truck,			ignore,			4,	{LAW_ENFORCEMENT},					1f10,		-,		1.2,	1.2,	-
+434, 	hotknife, 	hotknife, 	car, 		HOTKNIFE, 	HOTKNIF, 	null,			executive,		4,	{},									0,			-,		0.72,	0.8,	-
+435, 	artict1, 	artict1, 	trailer,	ARTICT1, 	ARTICT1, 	null,			ignore,			6,	{},									0,			-,		1.1,	1.1,	-
+436, 	previon, 	previon, 	car, 		PREVION, 	PREVION, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+437,	coach, 		coach, 		car, 		COACH, 		COACH, 		coach,			normal,			5,	{},									1f10,		-,		1.0,	1.0,	-
+438, 	cabbie, 	cabbie, 	car, 		CABBIE, 	CABBIE, 	null,			taxi,			6,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+439, 	stallion, 	stallion, 	car, 		STALLION, 	STALION, 	null,			poorfamily,		10,	{},									3210,		-,		0.7,	0.7,	WHEEL:GENERIC
+440, 	rumpo, 		rumpo, 		car, 		RUMPO, 		RUMPO, 		van,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	-
+441, 	rcbandit, 	rcbandit, 	car, 		RCBANDIT, 	RCBANDT, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+442, 	romero,		romero, 	car, 		ROMERO,		ROMERO,	 	null,			normal,			4,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+443, 	packer, 	packer, 	car, 		PACKER, 	PACKER, 	truck,			worker,			5,	{},									0,			-,		1.082,	1.082,	-
+444,	monster, 	monster, 	mtruck,		MONSTER, 	MONSTER, 	truck,			ignore,			1,	{},									0,			-,		1.5,	1.5,	-
+445, 	admiral, 	admiral, 	car, 		ADMIRAL, 	ADMIRAL, 	null,			richfamily,		10,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+446, 	squalo, 	squalo, 	boat,		SQUALO,		SQUALO, 	null,			ignore,			10,	{}, 								0
+447, 	seaspar,	seaspar, 	heli, 		SEASPAR, 	SEASPAR,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+448,	pizzaboy,	pizzaboy,	bike,		MOPED,		PIZZABO,	bikev,			normal,			4,	{DELETE_MODEL_AFTER_GENERATION},	0,			16.0,	0.464,	0.464,	-
+449, 	tram, 		tram, 		train, 		TRAM,		TRAM, 		van,			ignore,			10,	{},									1012,		-,		0.78,	0.78,	-
+450, 	artict2, 	artict2, 	trailer,	ARTICT2, 	ARTICT2, 	null,			ignore,			6,	{},									0,			-,		1.1,	1.1,	-
+451, 	turismo, 	turismo, 	car, 		TURISMO, 	TURISMO, 	null,			executive,		4,	{},									0,			-,		0.7,	0.75,	WHEEL:GENERIC
+452, 	speeder, 	speeder, 	boat,		SPEEDER,	SPEEDER, 	null,			leisureboat,	10,	{}, 								4fff
+453, 	reefer, 	reefer, 	boat,		REEFER,		REEFER, 	null,			workerboat,		10,	{},									3f01
+454, 	tropic, 	tropic, 	boat,		TROPIC,		TROPIC, 	null,			leisureboat,	10,	{},									4fff
+455, 	flatbed, 	flatbed, 	car, 		FLATBED, 	FLATBED, 	truck,			worker,			5,	{},									4fff,		-,		1.2,	1.2,	-
+456, 	yankee, 	yankee, 	car, 		YANKEE, 	YANKEE, 	null,			worker,			10,	{},									0,			-,		0.84,	0.84,	-
+457,	caddy, 		caddy, 		car, 		GOLFCART, 	CADDY, 		null,			richfamily,		1,	{},									30123345,	-,		0.5,	0.5,	-
+458, 	solair, 	solair, 	car, 		SOLAIR, 	SOLAIR, 	null,			normal,			10,	{},									0,			-,		0.72,	0.72,	WHEEL:GENERIC
+459,	topfun,		topfun,		car,		TOPFUN,		TOPFUN,		van,			ignore,			1,	{},									0,			-,		0.7,	0.7,	-
+460, 	skimmer,	skimmer, 	plane,		SEAPLANE,	SKIMMER,	null,			ignore,			5,	{},									0
+461,	pcj600,		pcj600,		bike,		BIKE,		PCJ600,		bikes,			motorbike,		10,	{},									0,			16.0,	0.67,	0.67,	-
+462,	faggio,		faggio,		bike,		MOPED,		FAGGIO,		bikev,			moped,			10,	{},									0,			16.0,	0.464,	0.464,	-
+463,	freeway,	freeway,	bike,		FREEWAY,	FREEWAY,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+464, 	rcbaron, 	rcbaron, 	plane, 		RCBARON, 	RCBARON, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+465, 	rcraider, 	rcraider, 	heli, 		RCRAIDER, 	RCRAIDE, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+466, 	glendale, 	glendale, 	car, 		GLENDALE, 	GLENDAL, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+467, 	oceanic, 	oceanic, 	car, 		OCEANIC, 	OCEANIC, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+468,	sanchez,	sanchez,	bike,		DIRTBIKE,	SANCHEZ,	biked,			motorbike,		5,	{},									0,			23.0,	0.68,	0.62,	-
+469, 	sparrow,	sparrow, 	heli, 		SPARROW, 	SPARROW,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+470,	patriot, 	patriot, 	car, 		PATRIOT, 	PATRIOT, 	null,			ignore,			2,	{LAW_ENFORCEMENT},					0,			-,		0.894,	0.894,	-
+471,	quad,		quad,		quad, 		QUADBIKE, 	QUAD,	 	quad,		 	normal,			4,	{},									0,			-,		0.6,	0.6,	-
+472, 	coastg, 	coastg, 	boat,		COASTGRD,	COASTG, 	null,			ignore,			5,	{},									3012
+473, 	dinghy, 	dinghy, 	boat,		DINGHY,		DINGHY, 	null,			workerboat,		7,	{},									0
+474, 	hermes, 	hermes, 	car, 		HERMES, 	HERMES, 	null,			richfamily,		4,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+475, 	sabre, 		sabre, 		car, 		SABRE,	 	SABRE, 		null,			normal,			10,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+476, 	rustler, 	rustler, 	plane, 		RUSTLER, 	RUSTLER,	rustler,		ignore,			10,	{},									0,			-,		0.6,	0.3,	-
+477, 	zr350, 		zr350, 		car, 		ZR350,		ZR350, 		null,			richfamily,		10,	{},									0,			-,		0.76,	0.76,	WHEEL:GENERIC
+478, 	walton, 	walton, 	car, 		WALTON, 	WALTON, 	null,			worker,			6,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+479, 	regina, 	regina, 	car, 		REGINA, 	REGINA, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+480,	comet,		comet,		car, 		COMET,	 	COMET, 		null,			executive,		5,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+481,	bmx,		bmx,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+482, 	burrito, 	burrito, 	car, 		BURRITO,	BURRITO, 	van,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+483, 	camper, 	camper, 	car, 		CAMPER, 	CAMPER, 	van,			normal,			4,	{},									0,			-,		0.66,	0.66,	-
+484, 	marquis, 	marquis, 	boat,		MARQUIS,	MARQUIS, 	null,			workerboat,		10,	{},									0
+485, 	baggage,	baggage,	car, 		BAGGAGE,	BAGGAGE, 	null,			normal,			4,	{},									0,			-,		0.6,	0.6,	-
+486, 	dozer, 		dozer, 		car, 		DOZER, 		DOZER, 		dozer,			ignore,			4,	{},									0,			-,		1.5,	1.5,	-
+487, 	maverick,	maverick, 	heli, 		MAVERICK,	MAVERIC,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+488, 	vcnmav,		vcnmav, 	heli, 		COASTMAV, 	SANMAV,		null,			ignore,			6,	{},									0,			-,		0.7,	0.7,	-
+489,	rancher, 	rancher, 	car,		RANCHER, 	RANCHER, 	null,			normal,			10,	{},									0,			-,		0.9,	0.9,	WHEEL:GENERIC
+490,	fbiranch, 	fbiranch, 	car, 		FBIRANCH, 	FBIRANC, 	null,			ignore,			3,	{LAW_ENFORCEMENT},					0,			-,		0.92,	0.92,	-
+491, 	virgo, 		virgo, 		car, 		VIRGO,	 	VIRGO, 		null,			normal,			10,	{},									0,			-,		0.65,	0.65,	WHEEL:GENERIC
+492, 	greenwoo, 	greenwoo, 	car, 		GREENWOO, 	GREENWO, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+493, 	jetmax, 	jetmax, 	boat,		CUPBOAT,	JETMAX, 	null,			ignore,			8,	{}, 								0
+494,	hotring, 	hotring, 	car, 		HOTRING, 	HOTRING, 	null,			ignore,			1,	{},									0,			-,		0.82,	0.82,	-
+495,	sandking, 	sandking, 	car, 		SANDKING, 	SANDKIN, 	null,			ignore,			4,	{},									0,			-,		0.972,	0.972,	-
+496,	blistac, 	blistac, 	car, 		BLISTAC, 	BLISTAC, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+497, 	polmav,		polmav, 	heli, 		POLMAV, 	POLMAV,		null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+498, 	boxville, 	boxville, 	car, 		BOXVILLE,	BOXVILL, 	van,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+499, 	benson, 	benson, 	car, 		BENSON,		BENSON, 	null,			worker,			10,	{},									0,			-,		0.8,	0.8,	-
+500,	mesa, 		mesa, 		car, 		MESA,	 	MESAA, 		null,			normal,			8,	{},									0,			-,		0.8,	0.8,	WHEEL:GENERIC
+501, 	rcgoblin, 	rcgoblin, 	heli, 		RCGOBLIN, 	RCGOBLI, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+502,	hotrina, 	hotrina, 	car, 		HOTRING, 	HOTRINA, 	null,			ignore,			1,	{},									4fff,		-,		0.82,	0.82,	-
+503,	hotrinb, 	hotrinb, 	car, 		HOTRING, 	HOTRINB, 	null,			ignore,			1,	{},									4fff,		-,		0.82,	0.82,	-
+504, 	bloodra, 	bloodra, 	car, 		BLOODRA, 	BLOODRA, 	BF_injection,	ignore,			1,	{},									4fff,		-,		0.7,	0.7,	-
+505,	rnchlure, 	rnchlure, 	car,		RANCHER, 	RANCHER, 	null,			normal,			10,	{},									0,			-,		0.9,	0.9,	-
+506, 	supergt, 	supergt, 	car, 		SUPERGT, 	SUPERGT, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+507, 	elegant, 	elegant, 	car, 		ELEGANT, 	ELEGANT, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+508, 	journey, 	journey, 	car, 		JOURNEY,	JOURNEY, 	null,			worker,			4,	{},									0,			-,		0.8,	0.8,	-
+509,	bike,		bike,		bmx, 		CHOPPERB, 	BIKE, 		choppa,			bicycle,		7,	{},									0,			23.0,	0.526,	0.612,	-
+510,	mtbike,		mtbike,		bmx, 		MTB,	 	MTBIKE, 	mtb,			bicycle,		7,	{},									0,			23.0,	0.68,	0.68,	-
+511, 	beagle, 	beagle, 	plane, 		BEAGLE, 	BEAGLE,		van,			ignore,			10,	{},									0,			-,		0.52,	0.52,	-
+512, 	cropdust, 	cropdust, 	plane, 		CROPDUST, 	CROPDST,	rustler,		ignore,			6,	{},									0,			-,		0.7,	0.3,	-
+513, 	stunt, 		stunt, 		plane, 		STUNT,	 	STUNT,		rustler,		ignore,			6,	{},									0,			-,		0.48,	0.48,	-
+514, 	petro, 		petro, 		car, 		PETROL, 	PETROL, 	truck,			worker,			5,	{},									0,			-,		1.106,	1.106,	-
+515, 	rdtrain, 	rdtrain, 	car, 		RDTRAIN, 	RDTRAIN, 	truck,			worker,			5,	{},									0,			-,		1.18,	1.18,	-
+516, 	nebula, 	nebula, 	car, 		NEBULA, 	NEBULA, 	null,			poorfamily,		10,	{},									0,			-,		0.75,	0.75,	WHEEL:GENERIC
+517, 	majestic, 	majestic, 	car, 		MAJESTIC, 	MAJESTC, 	null,			poorfamily,		10,	{},									0,			-,		0.75,	0.75,	WHEEL:GENERIC
+518, 	buccanee, 	buccanee, 	car, 		BUCCANEE, 	BUCCANE, 	null,			normal,			10,	{},									0,			-,		0.66,	0.66,	WHEEL:GENERIC
+519, 	shamal, 	shamal, 	plane, 		SHAMAL, 	SHAMAL,		shamal,			ignore,			5,	{},									0,			-,		0.62,	0.62,	-
+520, 	hydra, 		hydra, 		plane, 		HYDRA,	 	HYDRA,		rustler,		ignore,			4,	{},									0,			-,		0.7,	0.3,	-
+521,	fcr900,		fcr900,		bike,		FCR900,		FCR900,		bikes,			motorbike,		6,	{},									3f341210,	16.0,	0.68,	0.68,	-
+522,	nrg500,		nrg500,		bike,		NRG500,		NRG500,		bikes,			motorbike,		10,	{},									1f341210,	16.0,	0.68,	0.68,	-
+523,	copbike,	copbike,	bike,		HPV1000,	HPV1000,	bikes,			ignore,			10,	{LAW_ENFORCEMENT},					0,			16.0,	0.68,	0.68,	-
+524, 	cement,		cement,	 	car, 		CEMENT,		CEMENT,		null,			worker,			4,	{},									0,			-,		1.12,	1,		-
+525, 	towtruck,	towtruck,	car, 		TOWTRUCK,	TOWTRUK, 	van,			worker,			5,	{},									0,			-,		0.92,	0.92,	-
+526, 	fortune, 	fortune, 	car, 		FORTUNE, 	FORTUNE, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+527, 	cadrona, 	cadrona, 	car, 		CADRONA, 	CADRONA, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+528, 	fbitruck, 	fbitruck, 	car, 		FBITRUCK, 	FBITRUK, 	van,			big,			4,	{LAW_ENFORCEMENT},					0,			-,		0.85,	0.85,	-
+529, 	willard, 	willard, 	car, 		WILLARD, 	WILLARD, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+530, 	forklift,	forklift,	car, 		FORKLIFT,	FORKLFT, 	null,			worker,			1,	{},									0,			-,		0.45,	0.45,	-
+531, 	tractor,	tractor,	car, 		TRACTOR,	TRACTOR, 	null,			normal,			5,	{},									0,			-,		0.68,	1.3,	-
+532, 	combine,	combine,	car, 		COMBINE, 	COMBINE,	truck,			ignore,			5,	{},									0,			-,		0.588,	1,		-
+533,	feltzer,	feltzer,	car, 		FELTZER, 	FELTZER, 	null,			executive,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+534, 	remingtn, 	remingtn, 	car, 		REMINGTN, 	REMING, 	null,			executive,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:LOWRIDER
+535, 	slamvan, 	slamvan, 	car, 		SLAMVAN, 	SLAMVAN, 	null,			richfamily,		5,	{},									1f10,		-,		0.74,	0.74,	WHEEL:LOWRIDER
+536, 	blade, 		blade, 		car, 		BLADE,	 	BLADE, 		null,			executive,		7,	{},									0,			-,		0.7,	0.7,	WHEEL:LOWRIDER
+537, 	freight,	freight,	train, 		FREIGHT,	FREIGHT,	truck,			ignore,			10,	{},									0,			-,		1.06,	1.06,	-
+538, 	streak,		streak,	 	train, 		STREAK, 	STREAK,		truck,			ignore,			10,	{},									0,			-,		1.06,	1.06,	-
+539, 	vortex, 	vortex, 	plane, 		VORTEX,		VORTEX, 	vortex,			ignore,			4,	{},									0,			-,		0.7,	0.7,	-
+540, 	vincent, 	vincent, 	car, 		VINCENT, 	VINCENT, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+541, 	bullet,		bullet,		car, 		BULLET,		BULLET, 	null,			executive,		4,	{},									0,			-,		0.7,	0.75,	WHEEL:GENERIC
+542, 	clover, 	clover, 	car, 		CLOVER,	 	CLOVER, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+543,	sadler,		sadler,		car, 		SADLER,	 	SADLER, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+544, 	firela, 	firela, 	car, 		FIRETRUK, 	FIRELA, 	truck,			ignore,			10,	{},									0,			-,		1.0,	1.0,	-
+545, 	hustler, 	hustler, 	car, 		HUSTLER, 	HUSTLER, 	null,			normal,			4,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+546, 	intruder, 	intruder, 	car, 		INTRUDER, 	INTRUDR, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+547, 	primo, 		primo, 		car, 		PRIMO,	 	PRIMO, 		null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+548, 	cargobob, 	cargobob, 	heli, 		CARGOBOB, 	CARGOBB, 	null,			ignore,			5,	{},									0,			-,		0.74,	0.74,	-
+549,	tampa,		tampa,		car,		TAMPA,		TAMPA,		null,			poorfamily,		10,	{},									0,			-,		0.684,	0.684,	WHEEL:GENERIC
+550, 	sunrise, 	sunrise, 	car, 		SUNRISE, 	SUNRISE, 	null,			normal,			10,	{},									0,			-,		0.76,	0.76,	WHEEL:GENERIC
+551, 	merit, 		merit, 		car, 		MERIT,	 	MERIT, 		null,			richfamily,		10,	{},									0,			-,		0.75,	0.75,	WHEEL:GENERIC
+552, 	utility,	utility,	car, 		UTILITY, 	UTILITY, 	van,			worker,			5,	{},									0,			-,		0.84,	0.84,	-
+553, 	nevada, 	nevada, 	plane, 		NEVADA, 	NEVADA,		nevada,			ignore,			4,	{},									0,			-,		0.85,	0.4,	-
+554,	yosemite, 	yosemite, 	car, 		YOSEMITE,	YOSEMIT, 	null,			normal,			10,	{},									0,			-,		0.84,	0.84,	-
+555,	windsor,	windsor,	car, 		WINDSOR, 	WINDSOR, 	null,			executive,		4,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+556,	monstera, 	monstera, 	mtruck,		MTRUCK_A, 	MONSTA, 	truck,			ignore,			1,	{},									0,			-,		1.5,	1.5,	-
+557,	monsterb, 	monsterb, 	mtruck,		MTRUCK_B, 	MONSTB, 	truck,			ignore,			1,	{},									0,			-,		1.5,	1.5,	-
+558,	uranus,		uranus,		car, 		URANUS, 	URANUS, 	null,			richfamily,		7,	{},									0,			-,		0.7,	0.7,	WHEEL:STREET_RACER
+559,	jester,		jester,		car, 		JESTER, 	JESTER, 	null,			richfamily,		7,	{},									0,			-,		0.7,	0.7,	WHEEL:STREET_RACER
+560,	sultan,		sultan,		car, 		SULTAN, 	SULTAN, 	null,			richfamily,		7,	{},									0,			-,		0.7,	0.7,	WHEEL:STREET_RACER
+561,	stratum,	stratum,	car, 		STRATUM, 	STRATUM, 	null,			richfamily,		7,	{},									0,			-,		0.7,	0.7,	WHEEL:STREET_RACER
+562,	elegy,		elegy,		car, 		ELEGY,	 	ELEGY, 		null,			richfamily,		7,	{},									0,			-,		0.68,	0.68,	WHEEL:STREET_RACER
+563, 	raindanc, 	raindanc, 	heli, 		RAINDANC, 	RAINDNC, 	null,			ignore,			7,	{},									0,			-,		0.64,	0.64,	-
+564, 	rctiger, 	rctiger, 	car, 		RCTIGER, 	RCTIGER, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+565,	flash,		flash,		car, 		FLASH,	 	FLASH, 		null,			richfamily,		7,	{},									0,			-,		0.64,	0.64,	WHEEL:STREET_RACER
+566,	tahoma,		tahoma,		car, 		TAHOMA, 	TAHOMA, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+567, 	savanna, 	savanna, 	car, 		SAVANNA, 	SAVANNA, 	null,			poorfamily,		7,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:LOWRIDER
+568, 	bandito, 	bandito, 	car, 		BANDITO, 	BANDITO,	null,			ignore,			4,	{},									0,			-,		0.55,	0.7,	-
+569, 	freiflat,	freiflat,	train, 		FREIFLAT,	FRFLAT,		null,			ignore,			10,	{},									0,			-,		1.06,	1.06,	-
+570, 	streakc,	streakc,	train, 		CSTREAK,	STREAKC,	coach,			ignore,			10,	{},									0,			-,		1.06,	1.06,	-
+571, 	kart, 		kart, 		car, 		KART, 		KART,		KART,			ignore,			4,	{},									0,			-,		0.26,	0.26,	-
+572,	mower, 		mower, 		car, 		MOWER,	 	MOWER,		null,			ignore,			4,	{},									0,			-,		0.48,	0.56,	-
+573,	duneride, 	duneride, 	mtruck,		DUNE,	 	DUNE, 		truck,			ignore,			4,	{},									0,			-,		1.14,	1.14,	-
+574,	sweeper, 	sweeper, 	car, 		SWEEPER, 	SWEEPER,	null,			worker,			4,	{},									0,			-,		0.5,	0.5,	-
+575, 	broadway, 	broadway, 	car, 		BROADWAY, 	BROADWY, 	null,			poorfamily,		7,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:LOWRIDER
+576, 	tornado, 	tornado, 	car, 		TORNADO, 	TORNADO, 	null,			poorfamily,		7,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:LOWRIDER
+577, 	at400, 		at400, 		plane, 		AT400,	 	AT400,		coach,			ignore,			10,	{},									0,			-,		1.12,	1.12,	-
+578, 	dft30,		dft30,		car, 		DFT30,	 	DFT30, 		truck,			worker,			10,	{},									4fff,		-,		1,		1,		-
+579,	huntley, 	huntley, 	car,		HUNTLEY, 	HUNTLEY, 	null,			richfamily,		6,	{DELETE_MODEL_AFTER_GENERATION},	0,			-,		0.90,	0.90,	WHEEL:GENERIC
+580, 	stafford, 	stafford, 	car, 		STAFFORD, 	STAFFRD, 	null,			normal,			4,	{},									0,			-,		0.78,	0.78,	WHEEL:GENERIC
+581,	bf400,		bf400,		bike,		BF400,		BF400,		bikes,			motorbike,		10,	{},									3f341210,	16.0,	0.68,	0.68,	-
+582,	newsvan,	newsvan,	car,		NEWSVAN,	NEWSVAN,	van,			normal,			4,	{},									0,			-,		0.77,	0.77,	-
+583,	tug, 		tug, 		car, 		TUG, 		TUG,		null,			normal,			4,	{},									0,			-,		0.66,	0.75,	-
+584, 	petrotr, 	petrotr, 	trailer,	PETROTR, 	PETROTR, 	null,			ignore,			6,	{},									0,			-,		1.12,	1.12,	-
+585,	emperor		emperor, 	car, 		EMPEROR, 	EMPEROR, 	null,			normal,			10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+586,	wayfarer	wayfarer,	bike,		WAYFARER,	WAYFARE,	wayfarer,		motorbike,		6,	{},									0,			23.0,	0.654,	0.654,	-
+587, 	euros,		euros,		car, 		EUROS,	 	EUROS, 		null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+588, 	hotdog, 	hotdog, 	car, 		HOTDOG,		HOTDOG, 	van,			worker,			4,	{},									0,			-,		0.86,	0.86,	-
+589,	club, 		club, 		car, 		CLUB,	 	CLUB, 		null,			normal,			8,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+590, 	freibox,	freibox,	train, 		FREIFLAT,	FRBOX,		null,			ignore,			10,	{},									0,			-,		1.06,	1.06,	-
+591, 	artict3, 	artict3, 	trailer,	ARTICT3, 	ARTICT3, 	null,			ignore,			6,	{},									0,			-,		1.1,	1.1,	-
+592, 	androm, 	androm, 	plane, 		ANDROM, 	ANDROM,		null,			ignore,			4,	{},									0,			-,		0.95,	0.95,	-
+593,	dodo		dodo, 		plane, 		DODO,	 	DODO,		van,			ignore,			10,	{},									0,			-,		0.56,	0.56,	-
+594, 	rccam, 		rccam, 		car, 		RCCAM,	 	RCCAM, 		null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+595, 	launch, 	launch, 	boat,		LAUNCH,		LAUNCH, 	null,			leisureboat,	10,	{},							 		0
+
+596, 	copcarla, 	copcarla, 	car, 		POLICE_LA, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+597, 	copcarsf, 	copcarsf, 	car, 		POLICE_SF, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+598, 	copcarvg,	copcarvg,	car, 		POLICE_VG, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+599, 	copcarru,	copcarru,	car, 		POLRANGER, 	RANGER,		null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.95,	0.95,	-
+
+600,	picador,	picador,	car, 		PICADOR, 	PICADOR, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+601, 	swatvan, 	swatvan, 	car, 		SWATVAN, 	SWATVAN, 	van,			big,			4,	{},									0,			-,		1.366,	1.366,	-
+602,	alpha,		alpha,		car, 		ALPHA,		ALPHA, 		null,			executive,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+603, 	phoenix, 	phoenix, 	car, 		PHOENIX, 	PHOENIX, 	null,			normal,			7,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+604, 	glenshit, 	glenshit, 	car, 		GLENDALE, 	GLENSHI, 	null,			normal,			5,	{},									0,			-,		0.7,	0.7,	-
+605,	sadlshit,	sadlshit,	car, 		SADLER,	 	SADLSHI, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+606, 	bagboxa, 	bagboxa, 	trailer,	BAGBOXA, 	BAGBOXA, 	null,			ignore,			4,	{},									0,			-,		0.6,	0.6,	-
+607, 	bagboxb, 	bagboxb, 	trailer,	BAGBOXB, 	BAGBOXB, 	null,			ignore,			4,	{},									0,			-,		0.6,	0.6,	-
+608, 	tugstair, 	tugstair, 	trailer,	STAIRS, 	TUGSTAI, 	null,			ignore,			4,	{},									0,			-,		0.6,	0.6,	-
+609, 	boxburg, 	boxburg, 	car, 		BOXBURG,	BOXBURG, 	van,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+610, 	farmtr1, 	farmtr1, 	trailer,	FARM_TR1, 	FARMTR1, 	null,			ignore,			4,	{},									0,			-,		0.32,	0.32,	-
+611, 	utiltr1, 	utiltr1, 	trailer,	UTIL_TR1, 	UTILTR1, 	null,			ignore,			4,	{},									0,			-,		0.68,	0.68,	-
+
+########## LCS #############
+6765, 	LCSmafiab, 	LCSmafiab, 	car, 		LCSmafiab, 	SENTINL, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6766, 	LCSbus, 		LCSbus,	 	car, 		BUS, 		BUS, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+6767,	LCSlandstal, 	LCSlandstal, 	car, 		LANDSTAL, 	LANDSTK, 	null,			normal,			10,	{},									0,			-,		0.768,	0.768,	WHEEL:GENERIC
+6768, 	LCSinfernus, 	LCSinfernus, 	car, 		INFERNUS, 	INFERNU, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6769, 	LCSdeimos, 	LCSdeimos, 	car, 		DEIMOS_SP, 	DEIMOS_SP, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6770, 	LCSghost, 	LCSghost, 	car, 		V8GHOST, 	V8GHOST, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6771, 	lc_bobcat, 	lc_bobcat, 	car, 		BOBCAT, 	BOBCAT, 	null,			worker,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6772, 	LCSbus2, 		LCSbus2,	 	car, 		COACH, 		COACH, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+6773, 	LCSborgnine, 		LCSborgnine, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+6774, 	LCSrumpo, 		LCSrumpo, 		car, 		RUMPO, 		RUMPO, 		van,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	-
+6775, 	LCSkuruma, 	LCSkuruma, 	car, 		KURUMA, 	KURUMA, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6776, 	LCSesperant, 	LCSesperant, 	car, 		ESPERANT, 	ESPERAN, 	null,			normal,			10,	{},									0,			-,		0.64,	0.64,	WHEEL:GENERIC
+6777, 	LCSperen,		LCSperen, 		car, 		PEREN, 		PEREN,	 	null,			poorfamily,		10,	{},									0,			-,		0.66,	0.66,	WHEEL:GENERIC
+6778, 	LCSmanana, 	LCSmanana, 	car, 		MANANA, 	MANANA, 	null,			poorfamily,		10,	{},									0,			-,		0.62,	0.62,	WHEEL:GENERIC
+6779, 	LCSbfinject, 	LCSbfinject, 	car, 		BFINJECT, 	BFINJC,	 	BF_injection,	executive,		6,	{},									0,			-,		0.84,	0.92,	-
+6780, 	LCSmrwhoop, 	LCSmrwhoop, 	car, 		MRWHOOP, 	WHOOPEE, 	null,			worker,			4,	{DELETE_MODEL_AFTER_GENERATION},	0,			-,		0.7,	0.7,	-
+6781, 	LCSmrwongs, 	LCSmrwongs, 	car, 		MR_WONGS,		MR_WONGS, 	null,			worker,			10,	{},									0,			-,		0.8,	0.8,	-
+6782, 	LCSidaho, 		LCSidaho, 		car, 		IDAHO,	 	IDAHO, 		null,			normal,			10,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+6783, 	LCShotrod, 	LCShotrod, 	car, 		Thunder-Road, 	HOTROD,	null,			ignore,			4,	{},									0,			-,		0.55,	0.7,	-
+6784, 	LCSforelli_car, 	LCSforelli_car, 	car, 		Forelli_Excess, 	Forelli, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6785, 	LCSenforcer, 	LCSenforcer, 	car, 		ENFORCER, 	ENFORCR, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+6786, 	LCStrash,		LCStrash,	 	car, 		TRASH, 		TRASHM,		null,			worker,			5,	{},									0,			-,		1.06,	1.06,	-
+6787, 	LCSbarracks, 	LCSbarracks, 	car, 		BARRACKS, 	BARRCKS, 	truck,			ignore,			4,	{LAW_ENFORCEMENT},					1f10,		-,		1.2,	1.2,	-
+6788, 	LCSflatbed, 	LCSflatbed, 	car, 		FLATBED, 	FLATBED, 	truck,			worker,			5,	{},									4fff,		-,		1.2,	1.2,	-
+6789, 	LCSambulan, 	LCSambulan, 	car, 		AMBULAN, 	AMBULAN, 	van,			ignore,			10,	{AMBULANCE},						0,			-,		0.864,	0.864,	-
+6790, 	LCSbanshee, 	LCSbanshee, 	car, 		BANSHEE,	BANSHEE, 	null,	executive, 	5, 	0,	0,		-1, 0.7, 0.7,		0
+6791, 	LCSdiablos, 	LCSdiablos, 	car, 		DIABLOS,	DIABLOS, 	null,	executive, 	5, 	0,	0,		-1, 0.7, 0.7,		0
+6792, 	LCScopcarlc, 	LCScopcarlc, 	car, 		POLICE_LC, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+6793, 	LCStaxi, 		LCStaxi, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+6794, 	LCSstallion, 	LCSstallion, 	car, 		STALLION, 	STALION, 	null,			poorfamily,		10,	{},									3210,		-,		0.7,	0.7,	WHEEL:GENERIC
+6795,	LCSpatriot, 	LCSpatriot, 	car, 		PATRIOT, 	PATRIOT, 	null,			ignore,			2,	{LAW_ENFORCEMENT},					0,			-,		0.894,	0.894,	-
+6796, 	LCSfbicar, 	LCSfbicar, 	car, 		FBICAR, 	FBICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+6797, 	LCSpanlant, 	LCSpanlant, 	car, 		PANLANTIC,	PANLAN, 	van,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+6798, 	LCSsecurica, 	LCSsecurica, 	car, 		SECURICA, 	SECURI, 	van,			big,			4,	{},									3f10,		-,		0.914,	0.914,	-
+6799, 	LCScabbie, 	LCScabbie, 	car, 		CABBIE, 	CABBIE, 	null,			taxi,			6,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+6800, 	lc_moonbeam, 	lc_moonbeam, 	car, 		MOONBEAM, 	MOONBM, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6801, 	lc_phobos, 	lc_phobos, 	car, 		PHOBOS, 	PHOBOS, 	null,			executive,		4,	{},									0,			-,		0.7,	0.75,	WHEEL:GENERIC
+6802, 	lcs_hellenbach, 		lcs_hellenbach, 		car, 		Hellenbach,	 	HELLEN, 		null,			normal,			10,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+6803, 	lcs_pony,		lcs_pony,		car, 		PONY, 		PONY, 		van,			worker,			10,	{},									0,			-,		0.72,	0.72,	-
+6804, 	lc_cheetah, 	lc_cheetah, 	car, 		CHEETAH, 	CHEETAH, 	null,			executive,		5,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+6805, 	lcs_rcbandit, 	lcs_rcbandit, 	car, 		RCBANDIT, 	RCBANDT, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+6806, 	lcs_firetruk, 	lcs_firetruk, 	car, 		FIRETRUK, 	FIRETRK, 	truck,			ignore,			10,	{FIRE_ENGINE},						0,			-,		1.0,	1.0,	-
+#6807,	lcs_angel,	lcs_angel,	bike,		ANGEL,	ANGEL,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+6808,	lcs_pcj600,		lcs_pcj600,		bike,		BIKE,		PCJ600,		bikes,			motorbike,		10,	{},									0,			16.0,	0.67,	0.67,	-
+6809, 	LCSmafia, 	LCSmafia, 	car, 		LCSmafiab, 	SENTINL, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6811, 	lc_polmav,		lc_polmav, 	heli, 		POLMAV, 	POLMAV,		null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+6812, 	lc_rhino, 		lc_rhino, 		car, 		RHINO, 		RHINO, 		tank,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		1.3,	1.3,	-
+6813,	lcs_freeway,	lcs_freeway,	bike,		FREEWAY,	FREEWAY,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+6814, 	LCSbickle, 	LCSbickle, 	car, 		Taxi, 	Taxi,	null,			ignore,			4,	{},									0,			-,		0.55,	0.7,	-
+6815, 	LCStoyz, 		LCStoyz, 		car, 		TOYZ, 		TOYZ, 		van,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	-
+#6816,	LCSavenger,	LCSavenger,	bike,		Avenger,	Avenger,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+6817, 	LCSmule, 		LCSmule, 		car, 		MULE, 		MULE, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+6818, 	LCStriadvan, 	LCStriadvan, 	car, 		TRIAD_VAN,		TRIAD_VAN, 	null,			worker,			10,	{},									0,			-,		0.8,	0.8,	-
+6819, 	LCSballot,		LCSballot,		car, 		BALLOT_VAN, 		BALLOT_VAN, 		van,			worker,			10,	{},									0,			-,		0.72,	0.72,	-
+6820, 	LCSyardie, 	LCSyardie, 	car, 		YARDIE, 	YARDIE, 	null,			poorfamily,		10,	{},									3210,		-,		0.7,	0.7,	WHEEL:GENERIC
+6821, 	LCShearse,		LCShearse, 	car, 		HEARSE,		HEARSE,	 	null,			normal,			4,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+6822, 	LCSpredator, 	LCSpredator, 	boat,		PREDATOR,	PREDATR, 	null,			ignore,			10,	{},									0
+######################################### CC VEHICLES ###############################################################################
+6823, 	CC_ambulan, 	CC_ambulan, 	car, 		AMBULAN, 	AMBULAN, 	van,			ignore,			10,	{AMBULANCE},						0,			-,		0.864,	0.864,	-
+6824, 	cc_annihilator,		cc_annihilator, 	heli, 		CC_ANNIHILATOR, 	ANNIHILATOR,		rustler,		ignore,			10,	{},									0,			-,		0.64,	0.4,	-
+6825, 	cc_barracks, 	cc_barracks, 	car, 		BARRACKS, 	BARRCKS, 	truck,			ignore,			4,	{LAW_ENFORCEMENT},					1f10,		-,		1.2,	1.2,	-
+6826,	cc_blistag, 	cc_blistag, 	car, 		BLISTAC, 	BLISTAC, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6827,	cc_bolter, 	cc_bolter, 	car,		BOLTER, 	BOLTER, 	null,			normal,			10,	{},									0,			-,		0.9,	0.9,	WHEEL:GENERIC
+6828, 	cc_boxville, 	cc_boxville, 	car, 		BOXVILLE,	BOXVILL, 	van,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+6829, 	cc_buffalo, 	cc_buffalo, 	car, 		BUFFALO, 	BUFFALO, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6830, 	cc_bus, 		cc_bus,	 	car, 		BUS, 		BUS, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+6832, 	cc_ccnmav,		cc_ccnmav, 	heli, 		COASTMAV, 	SANMAV,		null,			ignore,			6,	{},									0,			-,		0.7,	0.7,	-
+6833, 	cc_ccpdvan, 	cc_ccpdvan, 	car, 		CCPDVAN, 	CCPDVAN, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+6834, 	cc_clover, 	cc_clover, 	car, 		CLOVER,	 	CLOVER, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+6835,	cc_copbike,	cc_copbike,	bike,		HPV1000,	HPV1000,	bikes,			ignore,			10,	{LAW_ENFORCEMENT},					0,			16.0,	0.68,	0.68,	-
+6836, 	cc_copcarcc, 	cc_copcarcc, 	car, 		POLICE_LA, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+6837, 	cc_dinterc, 	cc_dinterc, 	car, 		DINTER,	 	DINTER, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+6838,	cc_emperor		cc_emperor, 	car, 		EMPEROR, 	EMPEROR, 	null,			normal,			10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+6839, 	cc_enforcer, 	cc_enforcer, 	car, 		ENFORCER, 	ENFORCR, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+6840,	cc_fbicar, 	cc_fbicar, 	car, 		FBIRANCH, 	FBIRANC, 	null,			ignore,			3,	{LAW_ENFORCEMENT},					0,			-,		0.92,	0.92,	-
+6841, 	cc_hauler,		cc_hauler,		car, 		HAULER,	 	HAULER, 		truck,			worker,			10,	{},									4fff,		-,		1,		1,		-
+6842,	cc_landstal, 	cc_landstal, 	car, 		LANDSTAL, 	LANDSTK, 	null,			normal,			10,	{},									0,			-,		0.768,	0.768,	WHEEL:GENERIC
+6843, 	cc_mthreesome, 	cc_mthreesome, 	car, 		THREESOME,	 	THREESOME, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+6844,	cc_patriot, 	cc_patriot, 	car, 		PATRIOT, 	PATRIOT, 	null,			ignore,			2,	{LAW_ENFORCEMENT},					0,			-,		0.894,	0.894,	-
+6845, 	cc_polarm,		cc_polarm, 	heli, 		POLMAV, 	POLMAV,		null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+6846, 	cc_premier, 	cc_premier, 	car, 		PREMIER, 	PREMIER,	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6847, 	cc_prisonbus, 		cc_prisonbus,	 	car, 		BUS, 		BUS, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+6848, 	cc_python, 	cc_python, 	car, 		PYTHON, 	PYTHON, 	null,			executive,		5,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+6849, 	cc_reagan, 	cc_reagan, 	car, 		REAGAN,	 	REAGAN, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+6850, 	cc_rhino, 		cc_rhino, 		car, 		RHINO, 		RHINO, 		tank,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		1.3,	1.3,	-
+6851, 	cc_rumpo, 		cc_rumpo, 		car, 		RUMPO, 		RUMPO, 		van,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	-
+6852, 	cc_savanna, 	cc_savanna, 	car, 		SAVANNA, 	SAVANNA, 	null,			poorfamily,		7,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:LOWRIDER
+6853, 	cc_securica, 	cc_securica, 	car, 		SECURICA, 	SECURI, 	van,			big,			4,	{},									3f10,		-,		0.914,	0.914,	-
+6854, 	cc_speedo, 		cc_speedo, 		car, 		SPEEDO, 		RUMPOSPEEDO 		van,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	-
+6855,	cc_tampa,		cc_tampa,		car,		TAMPA,		TAMPA,		null,			poorfamily,		10,	{},									0,			-,		0.684,	0.684,	WHEEL:GENERIC
+6856, 	cc_threesome, 	cc_threesome, 	car, 		THREESOME,	 	THREESOME, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+#6857, 	cc_trainf,		cc_trainf,	 	train, 		STREAK, 	STREAK,		truck,			ignore,			10,	{},									0,			-,		1.06,	1.06,	-
+6857, 	cc_trash,		cc_trash,	 	car, 		TRASH, 		TRASHM,		null,			worker,			5,	{},									0,			-,		1.06,	1.06,	-
+6858, 	cc_tuff, 		cc_tuff, 		car, 		TUFF, 		TUFF, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+6859, 	cc_vanderlind,		cc_vanderlind, 		car, 		VANDERLIND, 		VANDERLIND,	 	null,			poorfamily,		10,	{},									0,			-,		0.66,	0.66,	WHEEL:GENERIC
+6860, 	cc_voodoo, 	cc_voodoo, 	car, 		VOODOO, 	VOODOO, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6861, 	cc_whistle, 	cc_whistle, 	car, 		BUFFALO, 	BUFFALO, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+6862, 	cc_yankee, 	cc_yankee, 	car, 		YANKEE, 	YANKEE, 	null,			worker,			10,	{},									0,			-,		0.84,	0.84,	-
+9194, 	cc_tailgater, 	cc_tailgater, 	car, 		TAILGATER, 	TAILGATER, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+######################################### CM VEHICLES ###############################################################################
+9195, 	cm_admiral, 	cm_admiral, 	car, 		ADMIRAL, 	ADMIRAL, 	null,			richfamily,		10,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+9196, 	cm_ambulan, 	cm_ambulan, 	car, 		AMBULAN, 	AMBULAN, 	van,			ignore,			10,	{AMBULANCE},						0,			-,		0.864,	0.864,	-
+9197, 	cm_armymav,		cm_armymav, 	heli, 		HUNTER, 	HUNTER,		rustler,		ignore,			10,	{},									0,			-,		0.64,	0.4,	-
+9198, 	cm_bhburrito, 	cm_bhburrito, 	car, 		BURRITO,	BURRITO, 	van,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+9199,	cm_blista, 	cm_blista, 	car, 		BLISTAC, 	BLISTAC, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+9200,	cm_bloodh, 	cm_bloodh, 	car, 		PATRIOT, 	PATRIOT, 	null,			ignore,			2,	{LAW_ENFORCEMENT},					0,			-,		0.894,	0.894,	-
+9201, 	cm_burrito, 	cm_burrito, 	car, 		BURRITO,	BURRITO, 	van,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+9202, 	cm_cabbie, 	cabbie, 	car, 		CABBIE, 	CABBIE, 	null,			taxi,			6,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+9203, 	cm_cmnmav,		cm_cmnmav, 	heli, 		COASTMAV, 	SANMAV,		null,			ignore,			6,	{},									0,			-,		0.7,	0.7,	-
+9204, 	cm_copcarcm, 	cm_copcarcm, 	car, 		POLICE_LA, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+9268, 	cm_enforcer, 	cm_enforcer, 	car, 		ENFORCER, 	ENFORCR, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+9479, 	cm_fbicar, 	cm_fbicar, 	car, 		FBICAR, 	FBICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+9480, 	cm_firetruk, 	cm_firetruk, 	car, 		FIRETRUK, 	FIRETRK, 	truck,			ignore,			10,	{FIRE_ENGINE},						0,			-,		1.0,	1.0,	-
+10314, 	cm_greenwoo, 	cm_greenwoo, 	car, 		GREENWOO, 	GREENWO, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+10745, 	cm_kuruma, 	cm_kuruma, 	car, 		KURUMA, 	KURUMA, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+10746, 	cm_militia_enf, 	cm_militia_enf, 	car, 		ENFORCER, 	ENFORCR, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+10747,	cm_mule, 		cm_mule, 		car, 		MULE, 		MULE, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+10748,	cm_mule2, 		cm_mule2, 		car, 		MULE, 		MULE, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+10749,	cm_polmav,		cm_polmav, 	heli, 		POLMAV, 	POLMAV,		null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11418,	cm_predator, 	cm_predator, 	boat,		PREDATOR,	PREDATR, 	null,			ignore,			10,	{},									0
+11419, 	cm_reefer, 	cm_reefer, 	boat,		REEFER,		REEFER, 	null,			workerboat,		10,	{},									3f01
+11682, 	cm_rhino, 		cm_rhino, 		car, 		RHINO, 		RHINO, 		tank,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		1.3,	1.3,	-
+11683, 	cm_stanier, 	cm_stanier, 	car, 		STANIER, 	STANIER, 	null,			normal,			7,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11684, 	cm_stinger, 	cm_stinger, 	car, 		STINGER, 	STINGER, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11685, 	cm_taxi, 		cm_taxi, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+11686, 	cm_trash,		cm_trash,	 	car, 		TRASH, 		TRASHM,		null,			worker,			5,	{},									0,			-,		1.06,	1.06,	-
+11687, 	cm_voodoo, 	cm_voodoo, 	car, 		VOODOO, 	VOODOO, 	null,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+######################################### BW VEHICLES ###############################################################################
+11688, 	bw_airmax, 	bw_airmax, 	car, 		AIRMAX, 	AIRMAX, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11689, 	bw_ambulan, 	bw_ambulan, 	car, 		AMBULAN, 	AMBULAN, 	van,			ignore,			10,	{AMBULANCE},						0,			-,		0.864,	0.864,	-
+11690,	bw_aquabike,		bw_aquabike,		bmx, 		CHOPPERB, 	BIKE, 		choppa,			bicycle,		7,	{},									0,			23.0,	0.526,	0.612,	-
+11691,	bw_bike,		bw_bike,		BMX, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11692,	bw_bmx,		bw_bmx,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11693,	bw_bmxc,		bw_bmxc,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11694,	bw_bmxr,		bw_bmxr,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11695,	bw_bmxs,		bw_bmxs,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11696, 	bw_boxville, 	bw_boxville, 	car, 		BOXVILLE,	BOXVILL, 	van,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+11697, 	bw_bwnmav,	bw_bwnmav, 	heli, 		MAVERICK,	MAVERIC,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11698, 	bw_cabbie, 	bw_cabbie, 	car, 		CABBIE, 	CABBIE, 	null,			taxi,			6,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+11699,	bw_copbike,	bw_copbike,	bike,		HPV1000,	HPV1000,	bikes,			ignore,			10,	{LAW_ENFORCEMENT},					0,			16.0,	0.68,	0.68,	-
+11700, 	bw_copcarbw, 	bw_copcarbw, 	car, 		POLICE_LA, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+11701,	bw_custombike,		bw_custombike,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11702, 	bw_delegate, 	bw_delegate, 	car, 		DELEGATE, 	DELEGATE, 	null,			normal,			10,	{},									0,			-,		0.66,	0.66,	WHEEL:GENERIC
+11703, 	bw_domestic, 	bw_domestic, 	car, 		DOMESTIC,	 	DOMESTIC, 	null,			normal,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+11704,	bw_faggio,		bw_faggio,		bike,		MOPED,		FAGGIO,		bikev,			moped,			10,	{},									0,			16.0,	0.464,	0.464,	-
+11705, 	bw_firetruk, 	bw_firetruk, 	car, 		FIRETRUK, 	FIRETRK, 	truck,			ignore,			10,	{FIRE_ENGINE},						0,			-,		1.0,	1.0,	-
+11706, 	bw_kart, 		bw_kart, 		car, 		KART, 		KART,		KART,			ignore,			4,	{},									0,			-,		0.26,	0.26,	-
+11707,	bw_mower, 		bw_mower, 		car, 		PODADORA,	 	PODADORA,		null,			ignore,			4,	{},									0,			-,		0.48,	0.56,	-
+11708,	bw_mtbike,		bw_mtbike,		bmx, 		MTB,	 	MTBIKE, 	mtb,			bicycle,		7,	{},									0,			23.0,	0.68,	0.68,	-
+11709,	bw_oladbike,		bw_oladbike,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11710,	bw_racer,		bw_racer,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+#11711, 	bw_reagan, 	bw_reagan, 	car, 		REAGAN,	 	REAGAN, 	null,			poorfamily,		10,	{},									0,			-,		0.74,	0.74,	WHEEL:GENERIC
+#11712, 	bw_regina, 	bw_regina, 	car, 		REGINA, 	REGINA, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11711,	bw_retro,		bw_retro,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11712, 	bw_stallion, 	bw_stallion, 	car, 		STALLION, 	STALION, 	null,			poorfamily,		10,	{},									3210,		-,		0.7,	0.7,	WHEEL:GENERIC
+11713, 	bw_stanier, 	bw_stanier, 	car, 		STANIER, 	STANIER, 	null,			normal,			7,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11714, 	bw_stepfather, 	bw_stepfather, 	car, 		SENTINEL, 	SENTINL, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11715, 	bw_taxi, 		bw_taxi, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+11716,	bw_vaquero, 	bw_vaquero, 	car,		RANCHER, 	RANCHER, 	null,			normal,			10,	{},									0,			-,		0.9,	0.9,	WHEEL:GENERIC
+11717, 	bw_yankeea, 	bw_yankeea, 	car, 		BENSON,		BENSON, 	null,			worker,			10,	{},									0,			-,		0.8,	0.8,	-
+11718, 	bw_yankeeb,		bw_yankeeb,		car, 		BDT49,	 	BDT49, 		truck,			worker,			10,	{},									4fff,		-,		1,		1,		-
+11719, 	bw_bus, 		bw_bus,	 	car, 		BUS, 		BUS, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+11720, 	bw_dozer, 		bw_dozer, 		car, 		DOZER, 		DOZER, 		dozer,			ignore,			4,	{},									0,			-,		1.5,	1.5,	-
+11721, 	bw_forklift,	bw_forklift,	car, 		FORKLIFT,	FORKLFT, 	null,			worker,			1,	{},									0,			-,		0.45,	0.45,	-
+######################################### CUSTOM VEHICLES ###############################################################################
+11722, 	ss_doce, 		ss_doce, 		car, 		R12,	 	R12, 		null,			normal,			10,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+######################################### VC VEHICLES ###############################################################################
+11723, 	vc_aamb,		vc_aamb, 	heli, 		AAMB, 	AAMB,		null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11724, 	vc_admiral, 	vc_admiral, 	car, 		ADMIRAL, 	ADMIRAL, 	null,			richfamily,		10,	{},									0,			-,		0.68,	0.68,	WHEEL:GENERIC
+11725, 	vc_ambulan, 	vc_ambulan, 	car, 		AMBULAN, 	AMBULAN, 	van,			ignore,			10,	{AMBULANCE},						0,			-,		0.864,	0.864,	-
+#11726,	vc_angel,	vc_angel,	bike,		ANGEL,	ANGEL,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+11727, 	vc_armadillo,	vc_armadillo, 	heli, 		ARMADILLO,	ARMADILLO,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11728, 	vc_at400_1, 		vc_at400_1, 		plane, 		AT400,	 	AT400,		coach,			ignore,			10,	{},									0,			-,		1.12,	1.12,	-
+11729, 	vc_at400_2, 		vc_at400_2, 		plane, 		AT400,	 	AT400,		coach,			ignore,			10,	{},									0,			-,		1.12,	1.12,	-
+11730, 	vc_at400_3, 		vc_at400_3, 		plane, 		AT400,	 	AT400,		coach,			ignore,			10,	{},									0,			-,		1.12,	1.12,	-
+11731, 	vc_at400_4, 		vc_at400_4, 		plane, 		AT400,	 	AT400,		coach,			ignore,			10,	{},									0,			-,		1.12,	1.12,	-
+#11732,	vc_atv600,		vc_atv600,		ATV600, 		ATV600, 	QUAD,	 	quad,		 	normal,			4,	{},									0,			-,		0.6,	0.6,	-
+11733, 	vc_baggage,	vc_baggage,	car, 		BAGGAGE,	BAGGAGE, 	null,			normal,			4,	{},									0,			-,		0.6,	0.6,	-
+11734, 	vc_banshee, 	vc_banshee, 	car, 		BANSHEE,	BANSHEE, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11735, 	vc_barracks, 	vc_barracks, 	car, 		BARRACKS, 	BARRCKS, 	truck,			ignore,			4,	{LAW_ENFORCEMENT},					1f10,		-,		1.2,	1.2,	-
+11736, 	vc_benson, 	vc_benson, 	car, 		BENSON,		BENSON, 	null,			worker,			10,	{},									0,			-,		0.8,	0.8,	-
+11737, 	vc_bfinject, 	vc_bfinject, 	car, 		BFINJECT, 	BFINJC,	 	BF_injection,	executive,		6,	{},									0,			-,		0.84,	0.92,	-
+#11738, 	vc_biplane, 	vc_biplane, 	BIPLANE, 		BIPLANE, 	RUSTLER,	rustler,		ignore,			10,	{},									0,			-,		0.6,	0.3,	-
+#11739, 	vc_bovver, 	vc_bovver, 	boat,		BOVER,		BOVER, 	null,			workerboat,		7,	{},									0
+11740, 	vc_bus, 		vc_bus,	 	car, 		BUS, 		BUS, 		bus,			normal,			5,	{},									0,			-,		1.0,	1.0,	-	
+11741, 	vc_cabbie, 	vc_cabbie, 	car, 		CABBIE, 	CABBIE, 	null,			taxi,			6,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+11742, 	vc_cartcrus, 	vc_cartcrus, 	car, 		CARTCRUS, 	CARTCRUS, 	null,			worker,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11743, 	vc_cholo, 		vc_cholo, 		car, 		SABRE,	 	SABRE, 		null,			normal,			10,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+11744, 	vc_coastg, 	vc_coastg, 	boat,		COASTGRD,	COASTG, 	null,			ignore,			5,	{},									3012
+11745, 	vc_copcarvc, 	vc_copcarvc, 	car, 		POLICE_LA, 	POLICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+11746,	vc_copwinter,	vc_copwinter,	bike,		HPV1000,	HPV1000,	bikes,			ignore,			10,	{LAW_ENFORCEMENT},					0,			16.0,	0.68,	0.68,	-
+11747, 	vc_countach, 	vc_countach, 	car, 		INFERNUS, 	INFERNU, 	null,			executive,		5,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11748, 	vc_cubanh, 	vc_cubanh, 	car, 		HERMES, 	HERMES, 	null,			richfamily,		4,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11749, 	vc_dinghy, 	vc_dinghy, 	boat,		DINGHY,		DINGHY, 	null,			workerboat,		7,	{},									0
+11750, 	vc_enforcer, 	vc_enforcer, 	car, 		ENFORCER, 	ENFORCR, 	van,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.936,	0.936,	-
+11751, 	vc_fbicar, 	vc_fbicar, 	car, 		FBICAR, 	FBICAR,	null,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		0.7,	0.7,	-
+11752,	vc_fbiranch, 	vc_fbiranch, 	car, 		FBIRANCH, 	FBIRANC, 	null,			ignore,			3,	{LAW_ENFORCEMENT},					0,			-,		0.92,	0.92,	-
+11753, 	vc_firetruk, 	vc_firetruk, 	car, 		FIRETRUK, 	FIRETRK, 	truck,			ignore,			10,	{FIRE_ENGINE},						0,			-,		1.0,	1.0,	-
+11754, 	vc_flatbed, 	vc_flatbed, 	car, 		FLATBED, 	FLATBED, 	truck,			worker,			5,	{},									4fff,		-,		1.2,	1.2,	-
+11755, 	vc_gangbur, 	vc_gangbur, 	car, 		GANGBUR,	GANGBUR, 	van,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+11756,	vc_gangran, 	vc_gangran, 	car,		GANGRAN, 	GANGRAN, 	null,			normal,			10,	{},									0,			-,		0.9,	0.9,	WHEEL:GENERIC
+11757, 	vc_domestobot, 	vc_domestobot, 	car, 		DOMESTOBOT, 	DOMESTOBOT, 	null,			ignore,			1,	{},									0,			-,		0.25,	0.25,	-
+11758, 	vc_jetmax, 	vc_jetmax, 	boat,		CUPBOAT,	JETMAX, 	null,			ignore,			8,	{}, 								0
+11759, 	vc_kaufman, 		vc_kaufman, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+11760, 	vc_litwil,	vc_litwil, 	heli, 		LITWIL, 	LITWIL,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11761, 	vc_lovefist,	vc_lovefist, 	car, 		LOVEFIST, 	LOVEFIST, 	null,			executive,		5,	{},									0,			-,		0.75,	0.75,	WHEEL:GENERIC
+11762, 	vc_marquis, 	vc_marquis, 	boat,		MARQUIS,	MARQUIS, 	null,			workerboat,		10,	{},									0
+11763,	vc_mesa, 		vc_mesa, 		car, 		MESA,	 	MESAA, 		null,			normal,			8,	{},									0,			-,		0.8,	0.8,	WHEEL:GENERIC
+11764, 	vc_cubanhermes, 	vc_cubanhermes, 	car, 		HERMES, 	HERMES, 	null,			richfamily,		4,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11765,	vc_moped50,		vc_moped50,		bike,		MOPED,		MOPED,		bikev,			moped,			10,	{},									0,			16.0,	0.464,	0.464,	-
+11766, 	vc_mrwhoop, 	vc_mrwhoop, 	car, 		MRWHOOP, 	WHOOPEE, 	null,			worker,			4,	{DELETE_MODEL_AFTER_GENERATION},	0,			-,		0.7,	0.7,	-
+11767, 	vc_mule, 		vc_mule, 		car, 		MULE, 		MULE, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+11768, 	vc_mule2, 		vc_mule2, 		car, 		MULE, 		MULE, 		null,			worker,			10,	{},									0,			-,		0.76,	0.76,	-
+11769, 	vc_oceanic, 	vc_oceanic, 	car, 		OCEANIC, 	OCEANIC, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11770, 	vc_packer, 	vc_packer, 	car, 		PACKER, 	PACKER, 	truck,			worker,			5,	{},									0,			-,		1.082,	1.082,	-
+11771,	vc_patriot, 	vc_patriot, 	car, 		PATRIOT, 	PATRIOT, 	null,			ignore,			2,	{LAW_ENFORCEMENT},					0,			-,		0.894,	0.894,	-
+11772,	vc_pizzaboy,	vc_pizzaboy,	bike,		MOPED,		PIZZABO,	bikev,			normal,			4,	{DELETE_MODEL_AFTER_GENERATION},	0,			16.0,	0.464,	0.464,	-
+11773, 	vc_polaris, 	vc_polaris, 	car, 		POLARIS, 	POLARIS,	null,			ignore,			4,	{},									0,			-,		0.55,	0.7,	-
+11774, 	vc_polmav,		vc_polmav, 	heli, 		POLMAV, 	POLMAV,		null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11775, 	vc_predator, 	vc_predator, 	boat,		PREDATOR,	PREDATR, 	null,			ignore,			10,	{},									0
+11776, 	vc_rio, 	vc_rio, 	boat,		TROPIC,		TROPIC, 	null,			leisureboat,	10,	{},									4fff
+11777, 	vc_rumpo, 		vc_rumpo, 		car, 		RUMPO, 		RUMPO, 		van,			poorfamily,		10,	{},									0,			-,		0.7,	0.7,	-
+11778, 	vc_sabretur, 		vc_sabretur, 		car, 		SABRET,	 	SABRET, 		null,			normal,			10,	{},									2ff0,		-,		0.7,	0.7,	WHEEL:GENERIC
+11779,	vc_sandking, 	vc_sandking, 	car,		SANDKING, 	SANDKING, 	null,			normal,			10,	{},									0,			-,		0.9,	0.9,	WHEEL:GENERIC
+#11780, 	vc_scarab, 		vc_scarab, 		car, 		SCARAB, 		SCARAB, 		tank,			ignore,			10,	{LAW_ENFORCEMENT},					0,			-,		1.3,	1.3,	-
+11781, 	vc_seaspar,	vc_seaspar, 	heli, 		SEASPAR, 	SEASPAR,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11782, 	vc_securica, 	vc_securica, 	car, 		SECURICA, 	SECURI, 	van,			big,			4,	{},									3f10,		-,		0.914,	0.914,	-
+11783, 	vc_sentxs, 	vc_sentxs, 	car, 		SENTINEL, 	SENTINL, 	null,			richfamily,		10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11784, 	vc_shamal, 	vc_shamal, 	plane, 		SHAMAL, 	SHAMAL,		shamal,			ignore,			5,	{},									0,			-,		0.62,	0.62,	-
+11785, 	vc_skimmer,	vc_skimmer, 	plane,		SEAPLANE,	SKIMMER,	null,			ignore,			5,	{},									0
+11786,	vc_spand,	vc_spand,	car,	SPAND,	SPAND,	null,	ignore,	10,	7,	0,	255,	0.760000
+11787, 	vc_sparrow,	vc_sparrow, 	heli, 		SPARROW, 	SPARROW,	null,			ignore,			10,	{},									0,			-,		0.7,	0.7,	-
+11788, 	vc_speeder, 	vc_speeder, 	boat,		SPEEDER,	SPEEDER, 	null,			leisureboat,	10,	{}, 								4fff
+11789,	vc_delorean, 	vc_delorean, 	car, 		BLISTAC, 	DELOREAN, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11790, 	vc_stanier, 	vc_stanier, 	car, 		STANIER, 	STANIER, 	null,			normal,			7,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11791, 	vc_stinger, 	vc_stinger, 	car, 		STINGER, 	STINGER, 	null,			normal,			10,	{},									0,			-,		0.7,	0.7,	WHEEL:GENERIC
+11792, 	vc_stretch,	vc_stretch, 	car, 		STRETCH, 	STRETCH, 	null,			executive,		5,	{},									0,			-,		0.75,	0.75,	WHEEL:GENERIC
+11793, 	vc_taxi, 		vc_taxi, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+11794,	vc_topfun,		vc_topfun,		car,		TOPFUN,		TOPFUN,		van,			ignore,			1,	{},									0,			-,		0.7,	0.7,	-
+11795, 	vc_trash,		vc_trash,	 	car, 		TRASH, 		TRASHM,		null,			worker,			5,	{},									0,			-,		1.06,	1.06,	-
+11796, 	vc_tropic, 	vc_tropic, 	boat,		TROPIC,		TROPIC, 	null,			leisureboat,	10,	{},									4fff
+11797, 	vc_vcnmav,		vc_vcnmav, 	heli, 		COASTMAV, 	SANMAV,		null,			ignore,			6,	{},									0,			-,		0.7,	0.7,	-
+11798, 	vc_vcnvan, 	vc_vcnvan, 	car, 		BURRITO,	VCNVAN, 	van,			normal,			10,	{},									0,			-,		0.7,	0.7,	-
+11799, 	vc_stallion, 	vc_stallion, 	car, 		STALLION, 	STALION, 	null,			poorfamily,		10,	{},									3210,		-,		0.7,	0.7,	WHEEL:GENERIC
+11800, 	vc_squalo, 	vc_squalo, 	boat,		SQUALO,		SQUALO, 	null,			ignore,			10,	{}, 								0
+11801,	vc_streetfi,	vc_streetfi,	bike,		FCR900,	STREETF,	bikes,	motorbike,		10,	0,	3f341210,		16, 0.65, 0.65,		-1
+11802,	vc_wintergreen,	vc_wintergreen,	bike,		HPV1000,	HPV1000,	bikes,			ignore,			10,	{LAW_ENFORCEMENT},					0,			16.0,	0.68,	0.68,	-
+11803, 	vc_zebra, 		vc_zebra, 		car, 		TAXI, 		TAXI, 		null,			taxi,			10,	{TAXI},								1f10,		-,		0.7,	0.7,	WHEEL:GENERIC
+#11804,	vc_angel,	vc_angel,	bike,		ANGEL,	ANGEL,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+11805,	vcs_bmxboy,		vcs_bmxboy,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11806,	vcs_bmxgirl,		vcs_bmxgirl,		bmx, 		BMX,	 	BMX, 		bmx,			bicycle,		5,	{},									0,			23.0,	0.54,	0.54,	-
+11807, 	vcs_forklift,	vcs_forklift,	car, 		FORKLIFT,	FORKLFT, 	null,			worker,			1,	{},									0,			-,		0.45,	0.45,	-
+11808,	vcs_freeway,	vcs_freeway,	bike,		FREEWAY,	FREEWAY,	bikeh,			motorbike,		10,	{},									0,			23.0,	0.654,	0.654,	-
+11809,	vcs_quad,		vcs_quad,		quad, 		QUADBIKE, 	QUAD,	 	quad,		 	normal,			4,	{},									0,			-,		0.6,	0.6,	-
+11810, 	vcs_speeder, 	vcs_speeder, 	boat,		SPEEDER,	SPEEDER, 	null,			leisureboat,	10,	{}, 								4fff
+11811, 	vcs_yola, 	vcs_yola, 	boat,		SPEEDER,	YOLA, 	null,			leisureboat,	10,	{}, 								4fff
+######################################### RC VEHICLES ###############################################################################
+11812,	rc_copbike,	rc_copbike,	bike,		HPV1000,	HPV1000,	bikes,			ignore,			10,	{LAW_ENFORCEMENT},					0,			16.0,	0.68,	0.68,	-
+
+
+end
+
+

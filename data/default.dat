@@ -1,0 +1,163 @@
+###################################################################################################
+########################################## CORE IMAGES ############################################
+###################################################################################################
+
+IMG CUSTOM\CUSTOM_MODS.IMG
+
+
+###################################################################################################
+######################################### CORE ITEM DEFINITIONS ###################################
+###################################################################################################
+
+IDE CUSTOM\CUSTOM_MODS.IDE
+IDE DATA\DEFAULT.IDE
+IDE DATA\WEAPONS.IDE
+IDE DATA\VEHICLES.IDE
+IDE DATA\PEDS.IDE
+
+
+####################################################################################################
+####################################### OBJECT ITEM DEFINITION #####################################
+####################################################################################################
+IDE DATA\MAPS\generic\vegepart.IDE
+IDE DATA\MAPS\generic\barriers.IDE
+IDE DATA\MAPS\generic\dynamic.IDE
+IDE DATA\MAPS\generic\dynamic2.IDE
+IDE DATA\MAPS\generic\multiobj.IDE
+IDE DATA\MAPS\generic\procobj.IDE
+IDE DATA\MAPS\LA\LAn.IDE
+IDE DATA\MAPS\LA\LAn2.IDE
+IDE DATA\MAPS\LA\LAs.IDE
+IDE DATA\MAPS\LA\LAs2.IDE
+IDE DATA\MAPS\LA\LAe.IDE
+IDE DATA\MAPS\LA\LAe2.IDE
+IDE DATA\MAPS\LA\LAw2.IDE
+IDE DATA\MAPS\LA\LAw.IDE
+IDE DATA\MAPS\LA\LAwn.IDE
+IDE DATA\MAPS\LA\LAhills.IDE
+IDE DATA\MAPS\LA\LAxref.IDE
+IDE DATA\MAPS\SF\SFn.IDE
+IDE DATA\MAPS\SF\SFs.IDE
+IDE DATA\MAPS\SF\SFse.IDE
+IDE DATA\MAPS\SF\SFe.IDE
+IDE DATA\MAPS\SF\SFw.IDE
+IDE DATA\MAPS\SF\SFxref.IDE
+IDE DATA\MAPS\vegas\vegasN.IDE
+IDE DATA\MAPS\vegas\vegasS.IDE
+IDE DATA\MAPS\vegas\vegasE.IDE
+IDE DATA\MAPS\vegas\vegasW.IDE
+IDE DATA\MAPS\vegas\vegaxref.IDE
+IDE DATA\MAPS\country\countryN.IDE
+IDE DATA\MAPS\country\countN2.IDE
+IDE DATA\MAPS\country\countryS.IDE
+IDE DATA\MAPS\country\countryE.IDE
+IDE DATA\MAPS\country\countryW.IDE
+IDE DATA\MAPS\country\counxref.IDE
+IDE DATA\MAPS\interior\int_LA.IDE
+IDE DATA\MAPS\interior\int_SF.IDE
+IDE DATA\MAPS\interior\int_veg.IDE
+IDE DATA\MAPS\interior\int_cont.IDE
+IDE DATA\MAPS\leveldes\levelmap.IDE
+IDE DATA\MAPS\leveldes\levelxre.IDE
+IDE DATA\MAPS\interior\gen_int1.IDE
+IDE DATA\MAPS\interior\gen_int2.IDE
+IDE DATA\MAPS\interior\gen_intb.IDE
+IDE DATA\MAPS\interior\gen_int3.IDE
+IDE DATA\MAPS\interior\gen_int4.IDE
+IDE DATA\MAPS\interior\gen_int5.IDE
+IDE DATA\MAPS\interior\savehous.IDE
+IDE DATA\MAPS\interior\stadint.IDE
+IDE DATA\MAPS\leveldes\seabed.IDE
+
+
+
+##################################### VICE CITY ##################################################
+
+IDE S&S\CDIMAGES\VICE\airport.IDE
+IDE S&S\CDIMAGES\VICE\airportN.IDE
+IDE S&S\CDIMAGES\VICE\bank.IDE
+IDE S&S\CDIMAGES\VICE\bridge.IDE
+IDE S&S\CDIMAGES\VICE\cisland.IDE
+IDE S&S\CDIMAGES\VICE\club.IDE
+IDE S&S\CDIMAGES\VICE\concerth.IDE
+IDE S&S\CDIMAGES\VICE\docks.IDE
+IDE S&S\CDIMAGES\VICE\downtown.IDE
+IDE S&S\CDIMAGES\VICE\downtows.IDE
+IDE S&S\CDIMAGES\VICE\golf.IDE
+IDE S&S\CDIMAGES\VICE\haiti.IDE
+IDE S&S\CDIMAGES\VICE\haitin.IDE
+IDE S&S\CDIMAGES\VICE\hotel.IDE
+IDE S&S\CDIMAGES\VICE\islandsf.IDE
+IDE S&S\CDIMAGES\VICE\lawyers.IDE
+IDE S&S\CDIMAGES\VICE\littleha.IDE
+IDE S&S\CDIMAGES\VICE\mall.IDE
+IDE S&S\CDIMAGES\VICE\mansion.IDE
+IDE S&S\CDIMAGES\VICE\nbeach.IDE
+IDE S&S\CDIMAGES\VICE\nbeachbt.IDE
+IDE S&S\CDIMAGES\VICE\nbeachw.IDE
+IDE S&S\CDIMAGES\VICE\oceandn.IDE
+IDE S&S\CDIMAGES\VICE\oceandrv.IDE
+IDE S&S\CDIMAGES\VICE\stadint.IDE
+IDE S&S\CDIMAGES\VICE\starisl.IDE
+IDE S&S\CDIMAGES\VICE\stripclb.IDE
+IDE S&S\CDIMAGES\VICE\washintn.IDE
+IDE S&S\CDIMAGES\VICE\washints.IDE
+IDE S&S\CDIMAGES\VICE\VC_generic.IDE
+IDE S&S\CDIMAGES\VICE\VC_SEABED.IDE
+IDE S&S\CDIMAGES\VICE\GAME_VCS.IDE
+#IDE S&S\CDIMAGES\VICE\neons.IDE
+
+####################################### Stars&Stripes ###########################################
+
+IDE S&S\CDIMAGES\ROBADA\GAME_ROB.IDE
+IDE S&S\CDIMAGES\ROBADA\GAME_ASH.IDE
+IDE S&S\CDIMAGES\ANDREAS\GAME_GRAP.IDE
+IDE S&S\CDIMAGES\CHEYENE\GAME_CY.IDE
+IDE S&S\CDIMAGES\ROSE\GAME_RC.IDE
+#IDE S&S\CDIMAGES\WINDY\GAME_WB.IDE
+IDE S&S\CDIMAGES\UPSTATE\GAME_UPS.IDE
+IDE S&S\CDIMAGES\PERRA\GAME_PERRA.IDE
+IDE S&S\CDIMAGES\CORDILLERA\GAME_CO.IDE
+
+
+
+
+
+
+#################################### interiors ##################################################
+
+IDE DATA\MAPS\interior\props.IDE
+IDE DATA\MAPS\interior\props2.IDE
+IDE DATA\MAPS\interior\propext.IDE
+
+#################################### vehicle upgrade models #####################################
+
+IDE DATA\MAPS\veh_mods\veh_mods.IDE
+
+
+
+
+
+
+
+#weapons
+#IDE S&S\DATA\Weapons.ide
+# txd parents
+
+IDE DATA\TXDCUT.IDE
+
+#
+# Standard objects
+#
+# texture dictionaries
+#TEXDICTION MODELS\GENERIC\WHEELS.TXD
+#TEXDICTION MODELS\GENERIC.TXD
+
+# model data
+#MODELFILE MODELS\GENERIC\AIR_VLO.DFF
+#MODELFILE MODELS\GENERIC\WHEELS.DFF
+#
+
+#collision data
+#COLFILE 0 MODELS\COLL\VEHICLES.COL
+COLFILE 0 MODELS\COLL\WEAPONS.COL

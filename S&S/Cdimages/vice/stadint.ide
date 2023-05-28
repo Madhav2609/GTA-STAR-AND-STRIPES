@@ -1,0 +1,78 @@
+objs
+27099, vc_kickstart, vc_kickstart, 299, 33
+27100, kickobs1, vc_kickstart, 299, 33
+27101, plank1, vc_kickstart, 299, 33
+27102, kickdrums2, vc_kickstart, 299, 33
+27103, kickdrums1, vc_kickstart, 299, 33
+27104, kickramp1, vc_kickstart, 299, 33
+27105, kickbannerside4, vc_kickstart, 299, 33
+27106, dirtdetail2, vc_kickstart, 299, 37
+27107, kickhay2, vc_kickstart, 299, 33
+27108, kickhay1, vc_kickstart, 299, 33
+27109, kickdrums05, vc_kickstart, 299, 33
+27110, kickdrums07, vc_kickstart, 299, 33
+27111, kickdrums16, vc_kickstart, 299, 33
+27112, kickhay3, vc_kickstart, 299, 33
+27113, kickbannerstart01, vc_kickstart, 299, 33
+27114, kickfence, vc_kickstart, 299, 33
+27115, kicktyres, vc_kickstart, 299, 33
+27116, kicktyres2, vc_kickstart, 299, 33
+27117, kickdetail2, vc_kickstart, 299, 33
+27118, kickdetail, vc_kickstart, 299, 33
+27119, runup, vc_kickstart, 299, 37
+27120, kicktyres03, vc_kickstart, 299, 33
+27121, kickcar3, vc_kickstart, 299, 33
+27122, vc_stand, vc_destructo, 299, 37
+27123, stuntman2, vc_stunt, 299, 37
+27124, destruct2, vc_destructo, 299, 33
+27125, standblack01, vc_standext, 299, 33
+27126, destruct03, vc_destructo, 299, 33
+27127, stand01, vc_destructo, 299, 33
+27128, kickbus03, vc_kickstart, 299, 33
+27129, vc_standblack02, vc_standext, 299, 33
+27130, kickramp02, vc_kickstart, 299, 33
+27131, vc_kickbus04, vc_kickstart, 299, 33
+27132, kickbus05, vc_kickstart, 299, 33
+27133, plankk2, vc_kickstart, 299, 33
+27134, kickobs02, vc_kickstart, 299, 33
+27135, runup01, vc_kickstart, 299, 37
+27136, kickcar06, vc_kickstart, 299, 33
+27137, kickcar17, vc_kickstart, 299, 33
+27138, kickcar23, vc_kickstart, 299, 33
+27139, kickcar36, vc_kickstart, 299, 33
+27140, looplop2, vc_kickstart, 299, 33
+27141, vc_loopbig, vc_kickstart, 299, 33
+27142, carsontrack, vc_kickstart, 299, 33
+27143, vc_kickramp03, vc_kickstart, 299, 33
+27144, fireyfire01, vc_kickstart, 299, 33
+27145, thebowl01, vc_stunt, 299, 37
+27146, thebowl03, vc_stunt, 299, 37
+27147, thebowl04, vc_stunt, 299, 37
+27148, thebowl05, vc_stunt, 299, 37
+27149, thebowl06, vc_stunt, 299, 37
+27150, thebowl07, vc_stunt, 299, 37
+27151, thebowl08, vc_stunt, 299, 37
+27152, thebowl09, vc_stunt, 299, 37
+27153, thebolla1, vc_stunt, 299, 37
+27154, thebolla2, vc_stunt, 299, 37
+27155, vc_thebowl10, vc_stunt, 299, 33
+27156, vc_thebowl11, vc_stunt, 299, 33
+27157, vc_stand02, vc_stunt, 299, 37
+27158, vc_thebowl12, vc_stunt, 299, 33
+27159, vc_thebowl13, vc_stunt, 299, 37
+27160, vc_thebowl14, vc_stunt, 299, 33
+27161, vc_thebowl15, vc_stunt, 299, 33
+27162, vc_thebowl16, vc_stunt, 299, 33
+27163, standblack03, vc_stunt, 299, 37
+27164, vc_thebowl17, vc_stunt, 299, 33
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

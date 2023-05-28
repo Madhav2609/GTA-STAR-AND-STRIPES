@@ -1,0 +1,67 @@
+# Author: B1ack & Wh1te
+# ID					Texture					InInt	Type			GXT		Number
+NONE																			# 0
+WHITE																			# 1
+CENTRE,					radar_centre,			True,	-						# 2
+ARROW,					arrow,					True,	-,				LG_01	# 3
+NORTH					radar_north,			True,	-						# 4
+AIR_YARD,				radar_airYard,			False,	Location,		LG_02	# 5
+AMMUGUN,				radar_ammugun,			False,	Location,		LG_03	# 6
+BARBERS,				radar_barbers,			False,	Location,		LG_04	# 7
+BIG_SMOKE,				radar_BIGSMOKE,			False,	Contact,		LG_05	# 8
+BOAT_YARD,				radar_boatyard,			False,	Location,		LG_06	# 9
+BURGER_SHOT,			radar_burgerShot,		False,	Location,		LG_07	# 10
+BULLDOZER,				radar_bulldozer,		False,	Location,		LG_66	# 11
+CATALINA_PINK,			radar_CATALINAPINK,		False,	Contact,		LG_09	# 12
+CESAR_VIALPANDO,		radar_CESARVIAPANDO,	False,	Contact,		LG_10	# 13
+CHICKEN,				radar_chicken,			False,	Location,		LG_11	# 14
+CJ,						radar_CJ,				False,	Contact,		LG_12	# 15
+CRASH_1,				radar_CRASH1,			False,	Contact,		LG_13	# 16
+DINER,					radar_diner,			False,	Location,		LG_67	# 17
+EMMET_GUN,				radar_emmetGun,			False,	Contact,		LG_15	# 18
+ENEMY_ATTACK,			radar_enemyAttack,		False,	Other,			LG_16	# 19
+FIRE,					radar_fire,				False,	Other,			LG_17	# 20
+GIRLFRIEND,				radar_girlfriend,		False,	Contact,		LG_18	# 21
+HOSPITAL,				radar_hostpitaL,		False,	Location,		LG_19	# 22
+LOCO_SYNDICATE,			radar_LocoSyndicate,	False,	Contact,		LG_20	# 23
+MADDOG,					radar_MADDOG,			False,	Contact,		LG_21	# 24
+MAFIA_CASINO,			radar_mafiaCasino,		True,	Contact,		LG_22	# 25
+MCSTRAP,				radar_MCSTRAP,			False,	Contact,		LG_23	# 26
+MOD_GARAGE,				radar_modGarage,		False,	Location,		LG_24	# 27
+OGLOC,					radar_OGLOC,			False,	Contact,		LG_25	# 28
+PIZZA,					radar_pizza,			False,	Location,		LG_26	# 29
+POLICE,					radar_police,			False,	Location,		LG_27	# 30
+PROPERTY_G,				radar_propertyG,		False,	Other,			LG_28	# 31
+PROPERTY_R,				radar_propertyR,		False,	Other,			LG_29	# 32
+RACE,					radar_race,				False,	Location,		LG_30	# 33
+RYDER,					radar_RYDER,			False,	Contact,		LG_31	# 34
+SAVE_GAME,				radar_saveGame,			False,	Location,		LG_32	# 35
+SCHOOL,					radar_school,			True,	Location,		LG_33	# 36
+QMARK,					radar_qmark,			False,	Contact,		LG_63	# 37
+SWEET,					radar_SWEET,			False,	Contact,		LG_35	# 38
+TATTO,					radar_tattoo,			False,	Location,		LG_36	# 39
+THE_TRUTH,				radar_THETRUTH,			False,	Contact,		LG_37	# 40
+WAYPOINT,				radar_waypoint,			True,	Other,			LG_64	# 41
+TORENO_RANCH,			radar_TorenoRanch,		False,	Contact,		LG_39	# 42
+TRIADS,					radar_triads,			False,	Contact,		LG_40	# 43
+TRIADS_CASINO,			radar_triadsCasino,		True,	Contact,		LG_41	# 44
+TSHIRT,					radar_tshirt,			False,	Location,		LG_42	# 45
+WOOZIE,					radar_WOOZIE,			False,	Contact,		LG_43	# 46
+ZERO,					radar_ZERO,				False,	Contact,		LG_44	# 47
+DATE_DISCO,				radar_dateDisco,		False,	Location,		LG_45	# 48
+DATE_DRINK,				radar_dateDrink,		False,	Location,		LG_46	# 49
+DATE_FOOD,				radar_dateFood,			False,	Location,		LG_47	# 50
+TRUCK,					radar_truck,			False,	Location,		LG_48	# 51
+CASH,					radar_cash,				True,	Location,		LG_51	# 52
+FLAG,					radar_flag,				False,	Location,		LG_52	# 53
+GYM,					radar_gym,				False,	Location,		LG_53	# 54
+IMPOUND,				radar_impound,			False,	Location,		LG_57	# 55
+LIGHT,					radar_light				False,	Other					# 56
+RUNWAY,					radar_runway,			False,	Other,			LG_65	# 57
+GANG_B,					radar_gangB,			False,	Contact,		LG_58	# 58
+GANG_P,					radar_gangP,			False,	Contact,		LG_59	# 59
+GANG_Y,					radar_gangY,			False,	Contact,		LG_60	# 60
+GANG_N,					radar_gangN,			False,	Contact,		LG_61	# 61
+GANG_G,					radar_gangG,			False,	Contact,		LG_62	# 62
+SPRAY,					radar_spray,			False,	Location,		LG_34	# 63
+TORENO,					radar_TORENO,			False,	Contact,		LG_38	# 64

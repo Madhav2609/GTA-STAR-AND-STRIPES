@@ -1,0 +1,56 @@
+objs
+24529, clubceilingdome, mainclub2, 100, 0
+24530, cl_main_room, hi_cutmaincl, 100, 0
+24531, cl_recessedlights1, mainclub2, 100, 4
+24532, cl_curtains, hi_cutmaincl, 100, 4
+24533, cl_stage, hi_cutmaincl, 100, 0
+24534, cl_recessed_flr, mainclub2, 100, 4
+24535, cl_spots, mainclub2, 100, 0
+24536, cl_tbl_chait_tmp, mainclub2, 100, 0
+24537, cl_railing, mainclub2, 100, 0
+24538, cl_stage_roof, hi_cutmaincl, 100, 0
+24539, cl_mainwalls, hi_cutclwaltst, 100, 0
+24540, club_exterior01, cl_ext1, 150, 128
+24541, club_exterior02, cl_ext2, 100, 128
+24542, club_exterior03, cl_ext2, 100, 132
+24543, club_exterior04, cl_ext2, 100, 132
+24544, club_exterior05, cl_ext2, 100, 132
+24545, club_exterior06, cl_ext2, 100, 128
+24546, club_exterior07, cl_ext3, 100, 128
+24547, club_exterior08, cl_vegbits, 100, 132
+24548, club_exterior09, cl_vegbits, 100, 132
+24549, club_exterior10, cl_ext2, 100, 128
+24550, club_exterior11, cl_vegbits, 100, 132
+24551, club_exterior12, cl_vegbits, 100, 132
+24552, cb_clubstairs, hi_cutclubbar, 100, 0
+24553, cl_bckrm_tablewee, hi_cutcluboffice, 100, 0
+24554, cl_bckrm_couchs, hi_cutcluboffice, 100, 0
+24555, clubbackroom, hi_cutcluboffice, 100, 0
+24556, cl_of_opac, hi_cutclof_opa, 100, 4
+24557, cl_coolers, hi_cutclubbar, 100, 4
+24558, cl_bar_temp1, hi_cutclubbar, 100, 0
+24559, cl_ofs_props, hi_cuttblprop, 20, 4
+24560, cl_yachtmdl, cl_yacht, 20, 0
+24561, cl_lightsuprts, mainclub2, 100, 4
+24562, cl_light_st, hi_cutmaincl, 100, 0
+24563, cl_main_roomb, hi_cutmaincl, 100, 0
+24564, cl_mainwallsb, hi_cutclwaltst, 100, 0
+24565, cl_railingb, mainclub2, 100, 0
+24566, cl_tbl_chait_tmpb, mainclub2, 100, 0
+24567, cl_main_room12, hi_cutmaincl, 100, 0
+24568, cl_main_roomb2, hi_cutmaincl, 100, 0
+24569, cl_dancefloor, hi_cutmaincl, 100, 0
+24570, cl_tablesetlrg, hi_cuttblprop, 20, 4
+24571, cl_tblesetsml, hi_cuttblprop, 20, 4
+24572, cl_bckrm_tble, hi_cutcluboffice, 100, 0
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

@@ -1,0 +1,671 @@
+# Created by B1ack_Wh1te
+
+UNARMED:
+	swingHit: {
+		sfx: 88
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 59
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+BRASSKNUCKLE:
+	swingHit: {
+		sfx: 88
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 45
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: 1.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: 1.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+GOLFCLUB:
+	swingHit: {
+		sfx: 48
+		volume: 0.0
+		speed: 1.0
+	}
+	objectHit: {
+		sfx: 49
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+NIGHTSTICK:
+	swingHit: {
+		sfx: 87
+		volume: 0.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 36
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+KNIFE:
+	swingHit: {
+		sfx: 89
+		volume: 0.0
+		speed: 1.0
+	}
+	objectHit: {
+		sfx: 58
+		frequency: 0.03
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: 82
+		volume: -10.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: 82
+		volume: -10.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 82
+		volume: -9.0
+		speed: 1.0
+	}
+	stealthHit: {
+		# sfx2 located in GENRL->bank_33
+		sfx: [82, 48]
+		volume: [-6.0, 0.0]
+		speed: [0.0, 0.0]
+	}
+	useObjectHitSfxOnPed: False
+END
+
+BASEBALLBAT:
+	swingHit: {
+		sfx: 87
+		volume: 0.0
+		speed: 0.67
+	}
+	objectHit: {
+		sfx: 35
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -10.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -10.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+SHOVEL:
+	swingHit: {
+		sfx: 87
+		volume: 0.0
+		speed: 0.67
+	}
+	objectHit: {
+		sfx: 76
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+POOLCUE:
+	swingHit: {
+		sfx: 87
+		volume: 0.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 68
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+KATANA:
+	swingHit: {
+		sfx: 89
+		volume: -3.0
+		speed: 1.0
+	}
+	objectHit: {
+		sfx: 57
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: 82
+		volume: -10.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: 82
+		volume: -10.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 82
+		volume: -9.0
+		speed: 1.0
+	}
+	useObjectHitSfxOnPed: False
+END
+
+DILDO1:
+	swingHit: {
+		sfx: 87
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 51
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+DILDO2:
+	swingHit: {
+		sfx: 87
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 51
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+VIBE1:
+	swingHit: {
+		sfx: 87
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 51
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+VIBE2:
+	swingHit: {
+		sfx: 87
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 51
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+CANE:
+	swingHit: {
+		sfx: 48
+		volume: 0.0
+		speed: 1.0
+	}
+	objectHit: {
+		sfx: 47
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+PARACHUTE:
+	swingHit: {
+		sfx: 88
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 59
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+FLOWERS:
+	swingHit: {
+		sfx: 88
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 55
+		frequency: 0.07
+		speed: 1.0
+	}
+END
+
+CHAINSAW:
+	# GENRL->Bank_30
+	swingHit: {
+		sfx: 1
+		speed: 1.0
+	}
+	# GENRL->Bank_30
+	waiting: {
+		sfx: 2
+		volume: -3.0
+		speed: 1.0
+	}
+	# GENRL->Bank_21
+	hit: {
+		sfx: [8 - 10]
+		volume: -3.0
+		speed: 1.0
+	}
+END
+
+GRENADE:
+	# GENRL->Bank_46
+	sfx: [4, 4, 3, 2, 2]
+	volume: 0.0
+	speed: [1.12, 1.0, 0.88]
+END
+
+MOLOTOV : GRENADE
+	volume: -36.0
+	# GENRL->bank_33
+	impact: {
+		sfx: 12
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+ROCKET : GRENADE
+	# GENRL->Bank_132
+	inFlight: {
+		sfx: 27
+		speed: [1.08, 1.0, 0.92]
+		volume: 0.0
+	}
+END
+
+ROCKET_HS : ROCKET
+END
+
+FREEFALL_BOMB : GRENADE
+END
+
+SATCHEL_CHARGE : GRENADE
+END
+
+PISTOL:
+	sfx: [53, 54, 7, 8, 9]
+	volume: 0.0
+	speed: [1.4142, 1.0]
+	reload: {
+		sfx: [56, 67]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+PISTOL_SILENCED:
+	sfx: [77, 78, 25, 25]
+	volume: -7.0
+	speed: [1.0, 1.0]
+	reload: {
+		sfx: [67, 56]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+DESERT_EAGLE : PISTOL
+	speed[1]: 0.94387
+	reload::sfx: [56, 52]
+END
+
+SHOTGUN:
+	sfx: [74, 75, 22, 23, 24]
+	volume: 0.0
+	speed: [1.0, 1.0]
+	reload: {
+		sfx: [72, 73]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+SAWNOFF : SHOTGUN
+	speed: [0.7937, 0.93]
+	reload::sfx: [70, 71]
+END
+
+SPAS12 : SHOTGUN
+END
+
+MICRO_UZI:
+	sfx: [30, 31, 1, 2, 3]
+	volume: 0.0
+	speed: [1.0, 1.0]
+	reload: {
+		sfx: [85, 86]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+MP5:
+	sfx: [30, 31, 18, 19, 3]
+	volume: 0.0
+	speed: [1.0, 1.0]
+	reload: {
+		sfx: [85, 86]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+AK47:
+	sfx: [34, 54, 4, 5, 6]
+	volume: 0.0
+	speed: [1.0, 1.0]
+	reload: {
+		sfx: [32, 33]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+M4 : AK47
+END
+
+TEC9 : MICRO_UZI
+	speed[1]: 1.26
+END
+
+COUNTRYRIFLE:
+	sfx: [53, 54, 27, 28, 24]
+	volume: 0.0
+	speed: [0.89, 1.0]
+	reload: {
+		sfx: [-, 32]
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+SNIPERRIFLE : COUNTRYRIFLE
+	speed[1]: 1.0
+	reload: {
+		sfx: [56, 33]
+		volume: 0.0
+	}
+END
+
+RLAUNCHER:
+	sfx: 69
+	volume: -8.0
+	speed: [1.08, 1.0, 0.92]
+END
+
+RLAUNCHER_HS : RLAUNCHER
+END
+
+DETONATOR:
+	sfx: 50
+	volume: -14.0
+	speed: [1.0, 1.0]
+END
+
+MINIGUN:
+	sfx: [16, 17, 12, 13, 14]
+	volume: 0.0
+	speed: [1.0, 1.0]
+	waiting: {
+		sfx: 15
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+# SFX 2 located in GENRL->Bank_132
+FTHROWER:
+	sfx: [84, 27]
+	volume: -14.0
+	speed: 1.0
+END
+
+SPRAYCAN:
+	sfx: 29
+	volume: -20.0
+	speed: 1.0
+	reload: {
+		sfx: [55, 55]
+		volume: 12.5
+		speed: 1.0
+	}
+END
+
+EXTINGUISHER:
+	sfx: 10
+	volume: -20.0
+	speed: 0.7937
+END
+
+CAMERA:
+	sfx: 46
+	volume: -14.0
+END
+
+NIGHTVISION:
+	sfx: 65
+END
+
+INFRARED : NIGHTVISION
+END
+
+########################
+ ###	#	#	#	###
+ #### NEW WEAPONS #####
+ ###	#	#	#	###
+########################
+

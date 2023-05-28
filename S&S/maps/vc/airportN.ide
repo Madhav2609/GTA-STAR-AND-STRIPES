@@ -1,0 +1,110 @@
+objs
+24188, ap_terminalb1, airporterminal, 290, 0
+24189, ap_termbbase1, ap_build1, 299, 0
+24190, ap_carbush2_01, vcgeneric, 299, 4
+24191, ap_carparkterm1, apcarparkN, 299, 0
+24192, ap_smallradar1_02, nairport, 299, 4
+24193, mc_shed1, mcompounda1, 299, 0
+24194, mc_tower_01, mcompounda1, 90, 0
+24195, mc_hangar1, mcompounda1, 100, 0
+24196, mc_largebuild, mcompounda1, 299, 0
+24197, mc_wall, mcompounda1, 299, 0
+24198, mc_fence1, mcompounda1, 299, 4
+24199, mc_fence3, mcompounda1, 299, 4
+24200, mc_fence2, mcompounda1, 299, 4
+24201, mc_fencshad, mcompounda1, 299, 4
+24202, ap_smallhangars1_02, nairport, 290, 4
+24203, mc_shed04, mcompounda1, 299, 0
+24204, mc_assaultcourse1, mcompounda1, 299, 0
+24205, mc_assaultcourse2, mcompounda1, 299, 0
+24206, mc_dirtjump1, mcompounda1, 299, 0
+24207, ap_rland10, apgroundN, 299, 0
+24208, ap_rlandnew9, ap_francisland, 299, 0
+24209, mc_ground3, ap_francisland, 299, 0
+24210, mc_ground1, ap_francisland, 299, 0
+24211, mc_ground5, ap_francisland, 299, 0
+24212, ap_roadsect4, aproadsN, 299, 0
+24213, ap_roadsect3, aproadsN, 299, 0
+24214, ap_roadsect5, aproadsN, 299, 0
+24215, mc_ground4, ap_francisland, 299, 0
+24216, ap_wallfence4, aproadsN, 299, 4
+24217, ap_wallfence3, aproadsN, 299, 4
+24218, mc_crashbar1, aproadsN, 299, 0
+24219, mc_crashbar2, aproadsN, 299, 0
+24220, ap_wallfence5, aproadsN, 299, 4
+24221, mc_treesfw1_01, vcgeneric, 299, 4
+24222, mc_tower_02, mcompounda1, 90, 0
+24223, mc_tower_03, mcompounda1, 90, 0
+24224, mc_camotent1_01, militcompound3, 150, 0
+24225, mc_flags1, militcompound3, 150, 0
+24226, mc_flags2, militcompound3, 150, 0
+24227, mc_kerb_01, apbitsN, 175, 0
+24228, mc_wall2, mcompounda1, 175, 0
+24229, mc_wall3, mcompounda1, 175, 0
+24230, mc_overlights1, aproadsN, 299, 0
+24231, mc_overlights2, aproadsN, 299, 0
+24232, mc_kerb_02, apbitsN, 175, 0
+24233, mc_hangarint1, mcompounda1, 95, 37
+24234, mc_camotent1_04, militcompound3, 150, 0
+24235, mc_camotent1_05, militcompound3, 150, 0
+24236, ap_hangar1_03, nairport, 190, 4
+24237, ap_smallhangars1_03, nairport, 290, 4
+24238, ap_billboards2, ap_billboard, 150, 0
+24239, ap_billboards1, ap_billboard, 150, 0
+24240, ap_billboards3, ap_billboard, 150, 0
+24241, ap_billboards4, ap_billboard, 150, 0
+24242, ap_billboards5, ap_billboard, 150, 0
+24243, ap_barriergate3, apchecpointN, 150, 4
+24244, lodcarparkterm1, LODairpN, 1700, 0
+24245, lodsmallhangars1_02, LODairpN, 700, 0
+24246, lodtower_01, LODairpN, 1000, 0
+24247, lodrland10, LODairpN, 1700, 0
+24248, lodrlandnew9, LODairpN, 1700, 0
+24249, lodground4, LODairpN, 1700, 0
+24250, lodground2, LODairpN, 1700, 0
+24251, lodground1, LODairpN, 1700, 0
+24252, lodground3, LODairpN, 1700, 0
+24253, lodground5, LODairpN, 1700, 0
+24254, lodroadsect4, LODairpN, 1500, 0
+24255, lodroadsect5, LODairpN, 1500, 0
+24256, lodroadsect3, LODairpN, 1500, 0
+24257, lodtower_02, LODairpN, 1000, 0
+24258, lodtower_03, LODairpN, 1000, 0
+24259, lodsmallhangars1_03, LODairpN, 700, 0
+24260, lodsmallradar1_02, LODairpN, 700, 0
+24261, lodlargebuild, LODairpN, 1000, 0
+24262, ap_stairsout1, nairport, 175, 4
+24263, ap_stairsout02, nairport, 175, 4
+24264, ap_stairsout03, nairport, 175, 4
+24265, lodhangar1, LODairpN, 700, 0
+24266, lodbillboards1, LODairpN, 700, 0
+24267, mc_ground2, ap_francisland, 299, 0
+24268, lodterminalb1, LODairpN, 1500, 0
+24269, lodwall3, LODairpN, 700, 0
+24270, lodwall2, LODairpN, 700, 0
+24271, lodbillboards5, LODairpN, 700, 0
+24272, lodbillboards4, LODairpN, 700, 0
+24273, lodbillboards3, LODairpN, 700, 0
+24274, lodbillboards2, LODairpN, 700, 0
+24275, mc_treesfw2_01, vcgeneric, 299, 4
+24276, mc_treesfw3_01, vcgeneric, 299, 4
+24277, mc_barrackshad, mcompounda1, 200, 4
+24278, ap_roadsect3b, aproadsN, 299, 0
+24279, ap_3dbillb, airsignn, 299, 0
+24280, mb_ammobox1, mcompounda1, 299, 0
+24281, mb_ammobox2, mcompounda1, 299, 0
+24282, mb_ammobox3, mcompounda1, 299, 0
+24283, ap_stepsn1_01, airstuff2, 200, 0
+24284, ap_stepsn1_02, airstuff2, 200, 0
+24285, lodwall, LODairpN, 700, 0
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

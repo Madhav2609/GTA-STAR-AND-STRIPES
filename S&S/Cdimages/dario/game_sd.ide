@@ -1,0 +1,45 @@
+objs
+30000, stcdirttr002, dario, 299, 0
+30001, stceastbuild, dario, 299, 0
+30002, stcdirttr, dario, 299, 0
+30003, stccliffs, dario, 299, 0
+30004, stcroad, dario, 299, 0
+30005, stcpier, dario, 299, 0
+30006, stcbeach, dario, 299, 0
+30007, stcroadhill, dario, 299, 0
+30008, stcdirttr001, dario, 299, 0
+30009, stcgrass00, dario, 299, 0
+30010, stcdirttr003, dario, 299, 0
+30011, stcgrass001, dario, 299, 0
+30012, stcgrass002, dario, 299, 0
+30013, stcrockygrass, dario, 299, 0
+30014, stcmansions, dario, 299, 0
+30015, stcwestbuild, dario, 299, 0
+30016, stclighthaus, dario, 299, 0
+
+47000, pendelton02, county_e, 299, 0
+47001, pendelton01, county_e, 299, 0
+47002, lse_grass, county_e, 299, 0
+47003, lse_grass02, county_e, 299, 0
+47004, pendeltongrass001, county_e, 299, 0
+47005, pendeltondirt, county_e, 299, 0
+47006, pendeltonconc, county_e, 299, 0
+47007, pendelton03, county_e, 299, 0
+47008, ls3_grass01, county_e, 299, 0
+47009, pendeltonbridge, county_e, 299, 0
+47010, pendeltonbridge01, county_e, 299, 0
+47011, lse_grafiti, lsegraf, 299, 0
+47012, lse_grafiti01, lsegraf, 299, 0
+
+
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

@@ -1,0 +1,61 @@
+objs
+24286, bank_table1, vc_hi_cutbnkcoch, 80, 33
+24287, bank_palms02, vegetation, 80, 37
+24288, bank_table4, vc_hi_cutbnkcoch, 80, 37
+24289, chairthings, vc_hi_cutbnkcoch, 80, 33
+24290, bank_vault, hi_cutbnkvault, 80, 33
+24291, bank_palms09, vegetation, 80, 37
+24292, bank_other_strctr, hi_cutbnkmainnw, 80, 33
+24293, bank_table05, vc_hi_cutbnkcoch, 80, 37
+24294, kb_couch09, vc_hi_cutbnkcoch, 80, 37
+24295, bankstructure4, hi_cutbnkmain3, 80, 33
+24296, bank_palms21, vegetation, 80, 37
+24297, bank_palms23, vegetation, 80, 37
+24298, bankrecept, hi_cutbnkrecpt, 80, 33
+24299, bnk_main_rework, hi_cutbnkmainnw, 80, 33
+24300, bnk_mainnewref, hi_cutbnkmainnw, 80, 33
+24301, bankrecept01, hi_cutbnkrecpt, 80, 33
+24302, bank_table10, vc_hi_cutbnkcoch, 80, 37
+24303, bank_palms28, vegetation, 80, 37
+24304, kb_couch15, vc_hi_cutbnkcoch, 80, 37
+24305, bnk_man_ofc, hi_cutmngof, 80, 33
+24306, bank_palms32, vegetation, 80, 37
+24307, bnk_maindr1, hi_cutbnkrecpt, 80, 33
+24308, bnk_lft_door2, hi_cutbnkrecpt, 80, 33
+24309, bnk_lft_door1, hi_cutbnkrecpt, 80, 33
+24310, bnk_maindr2, hi_cutbnkrecpt, 80, 33
+24311, chairthings2, vc_hi_cutbnkcoch, 80, 37
+24312, bank_officedesks1, vc_hi_cutbnkcoch, 80, 33
+24313, elevator, hi_cutbnkrecpt, 80, 33
+24314, bnk_main_rooflights, hi_cutbnk_alp, 100, 37
+24315, bnk_lightsmain, hi_cutbnk_alp, 100, 37
+24316, bnk_recp_lites, hi_cutbnk_alp, 100, 37
+24317, man_monitors02, vc_hi_cutbnkcoch, 80, 37
+24318, bnk_scrty_tbl, vc_hi_cutbnkcoch, 80, 37
+24319, bnk_mngr_rf_lights, hi_cutbnk_alp, 100, 37
+24320, bnk_main_glass, hi_cutbnk_alp, 100, 37
+24321, bnk_mngr_chr, hi_cutbnkchr, 10, 33
+24322, bnk_man_ofc01, hi_cutmngof, 80, 33
+24323, bank_palms33, vegetation, 80, 37
+24324, bnk_grill01, hi_cutbnkmainnw, 80, 33
+24325, bnk_valt_door, hi_cutbnkvault, 80, 33
+24326, bnk_ext_int, bank_ext_int, 80, 0
+24327, bank_props2, bnk_propy, 100, 33
+24328, rocketed_win1, hi_cutpropy, 100, 37
+24329, unrocketed_win1, hi_cutpropy, 100, 37
+24330, bnk_shado_2, hi_cutpropy, 30, 37
+24331, bnk_dsk_acses, hi_cutpropy, 30, 37
+24332, plnt_ref_bnk01, vegetation, 80, 33
+24333, plnt_ref_bnk02, vegetation, 80, 33
+24334, bnk_dsk_acsesno2, hi_cutpropy, 30, 37
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

@@ -1,0 +1,29 @@
+objs
+#M4(silencer unused FOR NOW)
+19920, m4silenced, weaptext, 299, 0
+19921, m4laser, weaptext, 299, 0
+19922, m4scope, weaptext, 299, 0
+19923, m4p1, weaptext, 299, 0
+19924, m4p2, weaptext, 299, 0
+19925, m4p3, weaptext, 299, 0
+#Colt 45
+19926, 45laser, weaptext, 299, 0
+19927, 45scope, weaptext, 299, 0
+19928, 45p1, weaptext, 299, 0
+19929, 45p2, weaptext, 299, 0
+19930, 45p3, weaptext, 299, 0
+#Shotgun
+19931, SGlaser, weaptext, 299, 0
+19932, SGscope, weaptext, 299, 0
+19933, SGp1, weaptext, 299, 0
+19934, SGp2, weaptext, 299, 0
+19935, SGp3, weaptext, 299, 0
+#MP5
+19936, MPlaser, weaptext, 299, 0
+19937, MPscope, weaptext, 299, 0
+19938, MPp1, weaptext, 299, 0
+19939, MPp2, weaptext, 299, 0
+19940, MPp3, weaptext, 299, 0
+end
+
+

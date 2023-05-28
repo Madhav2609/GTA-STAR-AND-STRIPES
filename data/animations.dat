@@ -1,0 +1,2315 @@
+default, ped, 191
+	Walk_civi,	0, 354
+	run_civi,	1, 354
+	sprint_panic,	2, 354
+	idle_stance,	3, 2
+	roadcross,	4, 28
+	walk_start,	5, 64
+	run_stop,	6, 68
+	run_stopR,	7, 68
+	idle_hbhb,	8, 18
+	idle_hbhb,	9, 18
+	idle_tired,	10, 22
+	idle_armed,	11, 18
+	idle_chat,	12, 18
+	idle_taxi,	13, 24
+	Swim_Tread,	14, 6
+	KO_shot_front,	15, 2128
+	KO_shot_front,	16, 2128
+	KO_shot_front,	17, 2128
+	KO_shot_front,	18, 2128
+	KO_shot_face,	19, 80
+	KO_shot_stom,	20, 80
+	gas_cwr,	21, 86
+	KD_left,	22, 16
+	KD_right,	23, 16
+	KO_skid_front,	24, 16
+	KO_spin_R,	25, 16
+	KO_skid_back,	26, 2064
+	KO_spin_L,	27, 16
+	SHOT_partial,	28, 1048
+	SHOT_leftP,	29, 1048
+	Shot_partial_B,	30, 1048
+	SHOT_rightP,	31, 1048
+	HIT_front,	32, 88
+	HIT_L,	33, 24
+	HIT_back,	34, 88
+	HIT_R,	35, 24
+	FLOOR_hit,	36, 20
+	HIT_walk,	37, 88
+	HIT_wall,	38, 88
+	FLOOR_hit_f,	39, 2068
+	HIT_behind,	40, 24
+	FightSH_FWD,	41, 370
+	FightSH_Left,	42, 498
+	FightSH_BWD,	43, 370
+	FightSH_Right,	44, 498
+	FightShF,	45, 88
+	FightShB,	46, 88
+	FIGHT2IDLE,	47, 88
+	bomber,	48, 24
+	Gun_stand,	49, 2
+	GunMove_FWD,	50, 354
+	GunMove_L,	51, 482
+	GunMove_BWD,	52, 354
+	GunMove_R,	53, 482
+	Gun_2_Idle,	54, 92
+	WEAPON_crouch,	55, 6
+	GunCrouchFwd,	56, 342
+	Crouch_Roll_L,	57, 216
+	GunCrouchBwd,	58, 342
+	Crouch_Roll_R,	59, 216
+	CAR_sit,	60, 4
+	CAR_Lsit,	61, 4
+	CAR_sit_weak,	64, 4
+	CAR_sit_pro,	65, 4
+	CAR_sitp,	62, 4
+	CAR_sitpLO,	63, 4
+	DRIVE_L,	66, 4116
+	Drive_R,	67, 4116
+	Drive_LO_l,	68, 4116
+	Drive_LO_R,	69, 4116
+	Drive_L_weak,	70, 4116
+	Drive_R_weak,	71, 4116
+	Drive_L_pro,	72, 4116
+	Drive_R_pro,	73, 4116
+	Driveby_L,	74, 4116
+	Driveby_R,	75, 4116
+	DrivebyL_L,	76, 4116
+	DrivebyL_R,	77, 4116
+	CAR_LB,	78, 4116
+	CAR_LB_weak,	79, 4116
+	CAR_LB_pro,	80, 4116
+	DRIVE_BOAT,	81, 4100
+	DRIVE_BOAT_L,	82, 4116
+	DRIVE_BOAT_R,	83, 4116
+	DRIVE_BOAT_back,	84, 4116
+	Drive_L_slow,	85, 4116
+	Drive_R_slow,	86, 4116
+	Drive_L_weak_slow,	87, 4116
+	Drive_R_weak_slow,	88, 4116
+	Drive_L_pro_slow,	89, 4116
+	Drive_R_pro_slow,	90, 4116
+	Drive_truck,	91, 4
+	Drive_truck_L,	92, 4116
+	Drive_truck_R,	93, 4116
+	Drive_truck_back,	94, 4116
+	Kart_drive,	95, 4
+	Kart_L,	96, 4116
+	Kart_R,	97, 4116
+	Kart_LB,	98, 4116
+	BIKE_pickupR,	99, 24
+	BIKE_pickupL,	100, 24
+	BIKE_pullupR,	101, 24
+	BIKE_pullupL,	102, 24
+	BIKE_elbowL,	103, 24
+	BIKE_elbowR,	104, 24
+	BIKE_fall_off,	105, 84
+	BIKE_fallR,	106, 84
+	car_hookertalk,	107, 18
+	CAR_crawloutRHS,	108, 24
+	CAR_crawloutRHS,	109, 24
+	CAR_rollout_LHS,	110, 2260
+	CAR_rollout_RHS,	111, 2260
+	Getup,	112, 88
+	Getup,	113, 88
+	Getup,	114, 88
+	Getup_front,	115, 2136
+	JUMP_launch,	116, 88
+	JUMP_launch_R,	117, 88
+	JUMP_glide,	118, 20
+	JUMP_land,	119, 88
+	FALL_fall,	120, 22
+	FALL_glide,	121, 20
+	FALL_land,	122, 88
+	FALL_collapse,	123, 88
+	FALL_back,	124, 20
+	FALL_front,	125, 2068
+	EV_step,	126, 88
+	EV_dive,	127, 2128
+	CLIMB_jump,	128, 20
+	CLIMB_idle,	129, 22
+	CLIMB_Pull,	130, 20
+	CLIMB_Stand,	131, 20
+	CLIMB_Stand_finish,	132, 28
+	CLIMB_jump_B,	133, 20
+	CLIMB_jump2fall,	134, 28
+	XPRESSscratch,	135, 536
+	TURN_180,	136, 24
+	Turn_L,	137, 6
+	Turn_R,	138, 6
+	ARRESTgun,	139, 84
+	DROWN,	140, 16
+	DUCK_cower,	141, 20
+	handsup,	142, 80
+	handsCOWER,	143, 88
+	FUCKU,	144, 1052
+	PHONE_in,	145, 24
+	PHONE_out,	146, 1048
+	PHONE_talk,	147, 1046
+	SEAT_down,	148, 28
+	SEAT_up,	149, 28
+	SEAT_idle,	150, 30
+	ATM,	151, 28
+	abseil,	152, 20
+	walk_doorpartial,	153, 28
+	facsurp,	154, 33814
+	facsurpm,	155, 33814
+	facurios,	156, 33814
+	facanger,	157, 33814
+	facanger,	158, 33814
+	facanger,	159, 33814
+	factalk,	160, 33814
+	facgum,	161, 33814
+	Tap_hand,	162, 4116
+	tap_handP,	163, 4116
+	Shove_Partial,	164, 28
+	flee_lkaround_01,	165, 28
+	endchat_01,	166, 28
+	endchat_02,	167, 28
+	endchat_03,	168, 28
+	Smoke_in_car,	169, 1052
+	pass_Smoke_in_car,	170, 1052
+	dam_arml_frmbk,	171, 24
+	dam_arml_frmft,	172, 24
+	dam_arml_frmlt,	173, 24
+	dam_armr_frmbk,	174, 24
+	dam_armr_frmft,	175, 24
+	dam_armr_frmrt,	176, 24
+	dam_legl_frmbk,	177, 24
+	dam_legl_frmft,	178, 24
+	dam_legl_frmlt,	179, 24
+	dam_legr_frmbk,	180, 24
+	dam_legr_frmft,	181, 24
+	dam_legr_frmrt,	182, 24
+	dam_stomach_frmbk,	183, 24
+	dam_stomach_frmft,	184, 24
+	dam_stomach_frmlt,	185, 24
+	dam_stomach_frmrt,	186, 24
+	CAR_Dead_LHS,	187, 20
+	CAR_Dead_RHS,	188, 20
+	Car_tune_radio,	189, 28
+	gang_gunstand,	190, 6
+end
+
+door, ped, 2, -1
+	DOOR_LHinge_O,	192, 8
+	DOOR_RHinge_O,	193, 8
+end
+
+bikes, bikes, 12
+	BIKEs_Ride,	194, 4
+	BIKEs_Still,	195, 4116
+	BIKEs_Left,	196, 4112
+	BIKEs_Right,	197, 4112
+	BIKEs_Back,	198, 4112
+	BIKEs_Fwd,	199, 4112
+	BIKEs_pushes,	200, 4118
+	BIKEs_hit,	201, 24
+	BIKEs_drivebyLHS,	202, 4116
+	BIKEs_drivebyRHS,	203, 4116
+	BIKEs_drivebyFT,	204, 4116
+	BIKEs_passenger,	205, 4
+end
+
+bikev, bikev, 12
+	BIKEv_Ride,	194, 4
+	BIKEv_Still,	195, 4116
+	BIKEv_Left,	196, 4112
+	BIKEv_Right,	197, 4112
+	BIKEv_Back,	198, 4112
+	BIKEv_Fwd,	199, 4112
+	BIKEv_pushes,	200, 4118
+	BIKEv_hit,	201, 24
+	BIKEv_drivebyLHS,	202, 4116
+	BIKEv_drivebyRHS,	203, 4116
+	BIKEv_drivebyFT,	204, 4116
+	BIKEv_passenger,	205, 4
+end
+
+bikeh, bikeh, 12
+	BIKEh_Ride,	194, 4
+	BIKEh_Still,	195, 4116
+	BIKEh_Left,	196, 4112
+	BIKEh_Right,	197, 4112
+	BIKEh_Back,	198, 4112
+	BIKEh_Fwd,	199, 4112
+	BIKEh_pushes,	200, 4118
+	BIKEh_hit,	201, 24
+	BIKEh_drivebyLHS,	202, 4116
+	BIKEh_drivebyRHS,	203, 4116
+	BIKEh_drivebyFT,	204, 4116
+	BIKEh_passenger,	205, 4
+end
+
+biked, biked, 12
+	BIKEd_Ride,	194, 4
+	BIKEd_Still,	195, 4116
+	BIKEd_Left,	196, 4112
+	BIKEd_Right,	197, 4112
+	BIKEd_Back,	198, 4112
+	BIKEd_Fwd,	199, 4112
+	BIKEd_pushes,	200, 4118
+	BIKEd_hit,	201, 24
+	BIKEd_drivebyLHS,	202, 4116
+	BIKEd_drivebyRHS,	203, 4116
+	BIKEd_drivebyFT,	204, 4116
+	BIKEd_passenger,	205, 4
+end
+
+wayfarer, wayfarer, 12
+	WF_Ride,	194, 4
+	WF_Still,	195, 4116
+	WF_Left,	196, 4112
+	WF_Right,	197, 4112
+	WF_Back,	198, 4112
+	WF_Fwd,	199, 4112
+	WF_pushes,	200, 4118
+	WF_hit,	201, 24
+	WF_drivebyLHS,	202, 4116
+	WF_drivebyRHS,	203, 4116
+	WF_drivebyFT,	204, 4116
+	WF_passenger,	205, 4
+end
+
+bmx, bmx, 15
+	BMX_Ride,	194, 4
+	BMX_still,	195, 4116
+	BMX_Left,	196, 4112
+	BMX_Right,	197, 4112
+	BMX_back,	198, 4112
+	BMX_fwd,	199, 4112
+	BMX_pushes,	200, 4118
+	BMX_still,	201, 24
+	BMX_driveby_LHS,	202, 4116
+	BMX_driveby_RHS,	203, 4116
+	BMX_drivebyFT,	204, 4116
+	BMX_Ride,	205, 4
+	BMX_bunnyhop,	206, 4120
+	BMX_pedal,	207, 4146
+	BMX_sprint,	208, 4146
+end
+
+mtb, mtb, 15
+	MTB_Ride,	194, 4
+	MTB_still,	195, 4116
+	MTB_Left,	196, 4112
+	MTB_Right,	197, 4112
+	MTB_back,	198, 4112
+	MTB_fwd,	199, 4112
+	MTB_pushes,	200, 4118
+	MTB_still,	201, 24
+	MTB_driveby_LHS,	202, 4116
+	MTB_driveby_RHS,	203, 4116
+	MTB_drivebyFT,	204, 4116
+	MTB_Ride,	205, 4
+	MTB_bunnyhop,	206, 4120
+	MTB_pedal,	207, 4146
+	MTB_sprint,	208, 4146
+end
+
+choppa, choppa, 15
+	CHOPPA_Ride,	194, 4
+	CHOPPA_still,	195, 4116
+	CHOPPA_Left,	196, 4112
+	CHOPPA_Right,	197, 4112
+	CHOPPA_back,	198, 4112
+	CHOPPA_fwd,	199, 4112
+	CHOPPA_pushes,	200, 4118
+	CHOPPA_still,	201, 24
+	CHOPPA_driveby_LHS,	202, 4116
+	CHOPPA_driveby_RHS,	203, 4116
+	CHOPPA_drivebyFT,	204, 4116
+	CHOPPA_Ride,	205, 4
+	CHOPPA_bunnyhop,	206, 4120
+	CHOPPA_pedal,	207, 4146
+	CHOPPA_sprint,	208, 4146
+end
+
+quad, quad, 12
+	QUAD_ride,	194, 4
+	QUAD_ride,	195, 4116
+	QUAD_Left,	196, 4112
+	QUAD_Right,	197, 4112
+	QUAD_back,	198, 4112
+	QUAD_FWD,	199, 4112
+	QUAD_reverse,	200, 4116
+	QUAD_ride,	201, 24
+	QUAD_driveby_LHS,	202, 4116
+	QUAD_driveby_RHS,	203, 4116
+	QUAD_driveby_FT,	204, 4116
+	QUAD_passenger,	205, 4
+end
+
+python, python, 4
+	python_fire,	224, 1052
+	python_crouchfire,	225, 28
+	python_reload,	226, 1052
+	python_crouchreload,	227, 28
+end
+
+pythonbad, python, 4
+	python_fire_poor,	224, 92
+	python_crouchfire,	225, 28
+	python_reload,	226, 1052
+	python_crouchreload,	227, 28
+end
+
+colt45, colt45, 4
+	colt45_fire,	224, 1052
+	colt45_crouchfire,	225, 28
+	colt45_reload,	226, 1052
+	colt45_crouchreload,	227, 28
+end
+
+colt_cop, colt45, 4
+	colt45_fire_2hands,	224, 1052
+	colt45_crouchfire,	225, 28
+	colt45_reload,	226, 1052
+	colt45_crouchreload,	227, 28
+end
+
+colt45pro, colt45, 4
+	colt45_fire,	224, 1052
+	2guns_crouchfire,	225, 28
+	colt45_reload,	226, 1052
+	colt45_crouchreload,	227, 28
+end
+
+sawnoff, colt45, 4
+	colt45_fire,	224, 1052
+	colt45_crouchfire,	225, 28
+	sawnoff_reload,	226, 1052
+	colt45_crouchreload,	227, 28
+end
+
+sawnoffpro, colt45, 4
+	colt45_fire,	224, 1052
+	2guns_crouchfire,	225, 28
+	sawnoff_reload,	226, 1052
+	colt45_crouchreload,	227, 28
+end
+
+silenced, silenced, 4
+	Silence_fire,	224, 1052
+	SilenceCrouchFire,	225, 28
+	Silence_reload,	226, 1052
+	CrouchReload,	227, 28
+end
+
+shotgun, shotgun, 2
+	shotgun_fire,	224, 1052
+	shotgun_crouchfire,	225, 28
+end
+
+shotgunbad, shotgun, 2
+	shotgun_fire_poor,	224, 92
+	shotgun_crouchfire,	225, 28
+end
+
+buddy, buddy, 4
+	buddy_fire,	224, 1052
+	buddy_crouchfire,	225, 28
+	buddy_reload,	226, 1052
+	buddy_crouchreload,	227, 28
+end
+
+buddybad, buddy, 4
+	buddy_fire_poor,	224, 92
+	buddy_crouchfire,	225, 28
+	buddy_reload,	226, 1052
+	buddy_crouchreload,	227, 28
+end
+
+uzi, uzi, 4
+	UZI_fire,	224, 1052
+	UZI_crouchfire,	225, 28
+	UZI_reload,	226, 1052
+	UZI_crouchreload,	227, 28
+end
+
+uzibad, uzi, 4
+	UZI_fire_poor,	224, 28
+	UZI_crouchfire,	225, 28
+	UZI_reload,	226, 1052
+	UZI_crouchreload,	227, 28
+end
+
+rifle, rifle, 4
+	RIFLE_fire,	224, 1052
+	RIFLE_crouchfire,	225, 28
+	RIFLE_load,	226, 1052
+	RIFLE_crouchload,	227, 28
+end
+
+riflebad, rifle, 4
+	RIFLE_fire_poor,	224, 28
+	RIFLE_crouchfire,	225, 28
+	RIFLE_load,	226, 1052
+	RIFLE_crouchload,	227, 28
+end
+
+sniper, rifle, 4
+	RIFLE_fire,	224, 1052
+	RIFLE_crouchfire,	225, 28
+	RIFLE_load,	226, 1052
+	RIFLE_crouchload,	227, 28
+end
+
+grenade, grenade, 3
+	WEAPON_start_throw,	228, 28
+	WEAPON_throwu,	229, 28
+	WEAPON_throw,	230, 28
+end
+
+flame, flame, 1
+	FLAME_fire,	224, 1052
+end
+
+rocket, rocket, 1
+	RocketFire,	224, 1052
+end
+
+spraycan, spraycan, 4
+	spraycan_fire,			224, 1052
+	spraycan_crouchfire,	225, 28
+	spraycan_reload,		226, 1052
+	spraycan_crouchreload,	227, 28
+end
+
+goggles, goggles, 1
+	goggles_put_on,	224, 1052
+end
+
+melee_1, ped, 10
+	FightA_1,	214, 88
+	FightA_2,	215, 88
+	FightA_3,	216, 88
+	FightA_G,	217, 24
+	FightA_M,	218, 1048
+	HitA_1,	219, 88
+	HitA_2,	220, 88
+	HitA_3,	221, 88
+	FightA_Block,	222, 1052
+	FIGHTIDLE,	223, 66
+end
+
+melee_2, fight_b, 10
+	FightB_1,	214, 88
+	FightB_2,	215, 88
+	FightB_3,	216, 88
+	FightB_G,	217, 24
+	FightB_M,	218, 1048
+	HitB_1,	219, 88
+	HitB_2,	220, 88
+	HitB_3,	221, 88
+	FightB_Block,	222, 1052
+	FightB_Idle,	223, 66
+end
+
+melee_3, fight_c, 10
+	FightC_1,	214, 88
+	FightC_2,	215, 88
+	FightC_3,	216, 88
+	FightC_G,	217, 24
+	FightC_M,	218, 88
+	HitC_1,	219, 88
+	HitC_2,	220, 88
+	HitC_3,	221, 88
+	FightC_Block,	222, 1052
+	FightC_Idle,	223, 66
+end
+
+melee_4, fight_d, 10
+	FightD_1,	214, 88
+	FightD_2,	215, 88
+	FightD_3,	216, 88
+	FightD_G,	217, 24
+	FightD_M,	218, 1048
+	HitD_1,	219, 88
+	HitD_2,	220, 88
+	HitD_3,	221, 88
+	FightD_Block,	222, 1052
+	FightD_Idle,	223, 66
+end
+
+bbbat_1, baseball, 10
+	Bat_1,	214, 88
+	Bat_2,	215, 88
+	Bat_3,	216, 88
+	Bat_4,	217, 24
+	BAT_PART,	218, 1048
+	Bat_Hit_1,	219, 88
+	Bat_Hit_2,	220, 88
+	Bat_Hit_3,	221, 88
+	Bat_Block,	222, 1052
+	Bat_Idle,	223, 66
+end
+
+gclub_1, baseball, 10
+	Bat_1,	214, 88
+	Bat_2,	215, 88
+	Bat_3,	216, 88
+	Bat_4,	217, 24
+	BAT_PART,	218, 1048
+	Bat_Hit_1,	219, 88
+	Bat_Hit_2,	220, 88
+	Bat_Hit_3,	221, 88
+	Bat_Block,	222, 1052
+	Bat_Idle,	223, 66
+end
+
+knife_1, knife, 10
+	knife_1,	214, 88
+	knife_2,	215, 88
+	knife_3,	216, 88
+	knife_G,	217, 24
+	knife_part,	218, 1048
+	knife_hit_1,	219, 88
+	knife_hit_2,	220, 88
+	knife_hit_3,	221, 88
+	knife_block,	222, 1052
+	WEAPON_knifeidle,	223, 66
+end
+
+sword_1, sword, 10
+	sword_1,	214, 88
+	sword_2,	215, 88
+	sword_3,	216, 88
+	sword_4,	217, 24
+	sword_part,	218, 1048
+	sword_Hit_1,	219, 88
+	sword_Hit_2,	220, 88
+	sword_Hit_3,	221, 88
+	sword_block,	222, 1052
+	sword_idle,	223, 66
+end
+
+dildo_1, dildo, 10
+	Dildo_1,	214, 88
+	Dildo_2,	215, 88
+	Dildo_3,	216, 88
+	Dildo_G,	217, 24
+	Dildo_1,	218, 1048
+	Dildo_Hit_1,	219, 88
+	Dildo_Hit_2,	220, 88
+	Dildo_Hit_3,	221, 88
+	Dildo_block,	222, 1052
+	Dildo_idle,	223, 66
+end
+
+flowers_1, flowers, 8
+	Flower_attack,	214, 88
+	Flower_attack,	215, 88
+	Flower_attack,	216, 88
+	Flower_attack,	217, 24
+	Flower_attack,	218, 1048
+	Flower_hit,	219, 88
+	Flower_hit,	220, 88
+	Flower_hit,	221, 88
+end
+
+csaw_1, chainsaw, 10
+	CSaw_1,	214, 88
+	CSaw_2,	215, 88
+	CSaw_3,	216, 88
+	CSaw_G,	217, 24
+	CSaw_Part,	218, 1048
+	CSaw_Hit_1,	219, 88
+	CSaw_Hit_2,	220, 88
+	CSaw_Hit_3,	221, 88
+	CSaw_Part,	222, 1052
+	Idle_CSaw,	223, 66
+end
+
+kick_std, fight_e, 7
+	FIGHTkick,	214, 88
+	FIGHTkick_B,	215, 88
+	FIGHTkick,	216, 88
+	FIGHTkick,	217, 24
+	FIGHTkick,	218, 1048
+	HIT_FightKick,	219, 88
+	Hit_FightKick_B,	220, 88
+end
+
+pistlwhp, ped, 7
+	GUN_BUTT,	214, 88
+	GUN_BUTT_crouch,	215, 88
+	GUN_BUTT,	216, 88
+	GUN_BUTT,	217, 24
+	GUN_BUTT,	218, 1048
+	HIT_GUN_BUTT,	219, 88
+	HIT_GUN_BUTT,	220, 88
+end
+
+medic, medic, 1
+	CPR,	260, 24
+end
+
+beach, beach, 5
+	ParkSit_M_Loop,	239, 18
+	Lay_Bac_Loop,	240, 18
+	ParkSit_W_Loop,	241, 18
+	bather,	242, 18
+	SitnWait_loop_W,	243, 18
+end
+
+sunbathe, sunbathe, 16
+	ParkSit_M_in,	244, 208
+	Lay_Bac_in,	245, 208
+	ParkSit_W_in,	246, 208
+	batherdown,	247, 208
+	SitnWait_in_W,	248, 208
+	ParkSit_M_out,	249, 208
+	Lay_Bac_out,	250, 208
+	ParkSit_W_out,	251, 208
+	batherup,	252, 208
+	SitnWait_out_W,	253, 208
+	ParkSit_M_IdleA,	254, 16
+	ParkSit_M_IdleB,	255, 16
+	ParkSit_M_IdleC,	256, 16
+	ParkSit_W_IdleA,	257, 16
+	ParkSit_W_IdleB,	258, 16
+	ParkSit_W_IdleC,	259, 16
+end
+
+playidles, playidles, 4
+	stretch,	261, 28
+	time,	262, 28
+	shldr,	263, 28
+	strleg,	264, 28
+end
+
+riot, riot, 7
+	riot_angry,	265, 26
+	riot_angry_b,	266, 26
+	riot_chant,	267, 26
+	riot_punches,	268, 26
+	riot_shout,	269, 26
+	riot_challenge,	270, 24
+	riot_fuku,	271, 24
+end
+
+strip, strip, 7
+	strip_A,	272, 26
+	strip_B,	273, 26
+	strip_C,	274, 26
+	strip_D,	275, 26
+	strip_E,	276, 24
+	strip_F,	277, 26
+	strip_G,	278, 24
+end
+
+gangs, gangs, 29
+	prtial_gngtlkA,	279, 1052
+	prtial_gngtlkB,	280, 1052
+	prtial_gngtlkC,	281, 1052
+	prtial_gngtlkD,	282, 1052
+	prtial_gngtlkE,	283, 1052
+	prtial_gngtlkF,	284, 1052
+	prtial_gngtlkG,	285, 1052
+	prtial_gngtlkH,	286, 1052
+	dealer_deal,	287, 28
+	drugs_buy,	288, 28
+	hndshkaa,	289, 28
+	Hndshkba,	290, 28
+	Hndshkca,	291, 28
+	Hndshkcb,	292, 28
+	Hndshkda,	293, 28
+	Hndshkea,	294, 28
+	Hndshkfa,	295, 28
+	shake_cara,	296, 28
+	shake_carSH,	297, 28
+	shake_carK,	298, 28
+	drnkbr_prtl,	299, 1052
+	smkcig_prtl,	300, 1052
+	drnkbr_prtl_f,	301, 1052
+	smkcig_prtl_f,	302, 1052
+	leanIN,	303, 28
+	leanIDLE,	304, 30
+	leanOUT,	305, 28
+	Invite_yes,	306, 28
+	Invite_no,	307, 28
+end
+
+attractors, attractors, 3
+	Stepsit_in,	308, 28
+	Stepsit_out,	309, 28
+	Stepsit_loop,	310, 30
+end
+
+player, ped, 6
+	walk_player,	0, 354
+	run_player,	1, 354
+	SPRINT_civi,	2, 354
+	IDLE_STANCE,	3, 2
+	roadcross,	4, 28
+	walk_start,	5, 64
+end
+
+fat, fat, 6
+	fatwalk,	0, 354
+	fatrun,	1, 354
+	fatsprint,	2, 354
+	fatidle,	3, 2
+	fatidle,	4, 28
+	fatwalkstart,	5, 64
+end
+
+muscular, muscular, 6
+	musclewalk,	0, 354
+	musclerun,	1, 354
+	musclesprint,	2, 354
+	muscleidle,	3, 2
+	muscleidle,	4, 28
+	musclewalkstart,	5, 64
+end
+
+playerrocket, ped, 6
+	walk_rocket,	0, 354
+	run_rocket,	1, 354
+	run_rocket,	2, 354
+	idle_rocket,	3, 2
+	roadcross,	4, 28
+	walk_start_rocket,	5, 64
+end
+
+playerrocketf, fat, 6
+	fatwalk_rocket,	0, 354
+	fatrun_rocket,	1, 354
+	fatrun_rocket,	2, 354
+	fatidle_rocket,	3, 2
+	fatidle_rocket,	4, 28
+	fatwalkst_rocket,	5, 64
+end
+
+playerrocketm, muscular, 6
+	musclewalk_rocket,	0, 354
+	mscle_rckt_run,	1, 354
+	mscle_rckt_run,	2, 354
+	muscleidle_rocket,	3, 2
+	muscleidle_rocket,	4, 28
+	mscle_rckt_walkst,	5, 64
+end
+
+player2armed, ped, 6
+	walk_armed,	0, 354
+	run_armed,	1, 354
+	run_armed,	2, 354
+	idle_armed,	3, 2
+	roadcross,	4, 28
+	walk_start_armed,	5, 64
+end
+
+player2armedf, fat, 6
+	fatwalk_armed,	0, 354
+	fatrun_armed,	1, 354
+	fatrun_armed,	2, 354
+	fatidle_armed,	3, 2
+	fatidle_armed,	4, 28
+	fatwalkst_armed,	5, 64
+end
+
+player2armedm, muscular, 6
+	musclewalk_armed,	0, 354
+	musclerun_armed,	1, 354
+	musclerun_armed,	2, 354
+	muscleidle_armed,	3, 2
+	muscleidle_armed,	4, 28
+	msclewalkst_armed,	5, 64
+end
+
+playerBBBat, ped, 6
+	walk_player,	0, 354
+	run_player,	1, 354
+	run_player,	2, 354
+	IDLE_STANCE,	3, 2
+	roadcross,	4, 28
+	walk_start,	5, 64
+end
+
+playerBBBatf, fat, 6
+	fatwalk,	0, 354
+	fatrun,	1, 354
+	fatrun,	2, 354
+	fatidle,	3, 2
+	fatidle,	4, 28
+	fatwalkstart,	5, 64
+end
+
+playerBBBatm, muscular, 6
+	musclewalk,	0, 354
+	musclerun,	1, 354
+	musclerun,	2, 354
+	muscleidle,	3, 2
+	muscleidle,	4, 28
+	musclewalkstart,	5, 64
+end
+
+playercsaw, ped, 6
+	walk_csaw,	0, 354
+	run_csaw,	1, 354
+	run_csaw,	2, 354
+	IDLE_csaw,	3, 2
+	roadcross,	4, 28
+	walk_start_csaw,	5, 64
+end
+
+playercsawf, fat, 6
+	fatwalk_csaw,	0, 354
+	fatrun_csaw,	1, 354
+	fatrun_csaw,	2, 354
+	fatidle_csaw,	3, 2
+	fatidle_csaw,	4, 28
+	fatwalkstart_csaw,	5, 64
+end
+
+playercsawm, muscular, 6
+	musclewalk_csaw,	0, 354
+	mscle_run_csaw,	1, 354
+	mscle_run_csaw,	2, 354
+	muscleidle_csaw,	3, 2
+	muscleidle_csaw,	4, 28
+	msclewalkst_csaw,	5, 64
+end
+
+playersneak, ped, 6
+	player_sneak,	0, 354
+	run_player,	1, 354
+	SPRINT_civi,	2, 354
+	IDLE_STANCE,	3, 2
+	roadcross,	4, 28
+	player_sneak_walkstart,	5, 64
+end
+
+playerjetpack, ped, 6
+	walk_player,	0, 354
+	run_player,	1, 354
+	SPRINT_civi,	2, 354
+	Jetpack_Idle,	3, 2
+	roadcross,	4, 28
+	walk_start,	5, 64
+end
+
+swim, swim, 6
+	Swim_Breast,	311, 118
+	SWIM_crawl,	312, 118
+	Swim_Dive_Under,	313, 88
+	Swim_Under,	314, 84
+	Swim_Glide,	315, 22
+	Swim_jumpout,	316, 28
+end
+
+drivebys, drivebys, 8
+	Gang_DrivebyLHS,	231, 28
+	Gang_DrivebyTop_LHS,	232, 28
+	Gang_DrivebyLHS_Fwd,	233, 28
+	Gang_DrivebyLHS_Bwd,	234, 28
+	Gang_DrivebyRHS,	235, 28
+	Gang_DrivebyTop_RHS,	236, 28
+	Gang_DrivebyRHS_Fwd,	237, 28
+	Gang_DrivebyRHS_Bwd,	238, 28
+end
+
+bike_dbz, bike_dbz, 4
+	Pass_Driveby_LHS,	231, 28
+	Pass_Driveby_RHS,	232, 28
+	Pass_Driveby_FWD,	233, 28
+	Pass_Driveby_BWD,	234, 28
+end
+
+cop_dbz, cop_dvbyz, 4
+	COP_Dvby_L,	231, 28
+	COP_Dvby_R,	232, 28
+	COP_Dvby_FT,	233, 28
+	COP_Dvby_B,	234, 28
+end
+
+quad_dbz, quad_dbz, 4
+	Pass_Driveby_LHS,	231, 28
+	Pass_Driveby_RHS,	232, 28
+	Pass_Driveby_FWD,	233, 28
+	Pass_Driveby_BWD,	234, 28
+end
+
+fat_tired, fat, 1
+	idle_tired,	10, 22
+end
+
+handsignal, ghands, 5
+	gsign1,	320, 24
+	gsign2,	321, 24
+	gsign3,	322, 24
+	gsign4,	323, 24
+	gsign5,	324, 24
+end
+
+handsignalL, ghands, 5
+	gsign1LH,	320, 24
+	gsign2LH,	321, 24
+	gsign3LH,	322, 24
+	gsign4LH,	323, 24
+	gsign5LH,	324, 24
+end
+
+lhand, ghands, 5
+	lhgsign1,	320, 0
+	lhgsign2,	321, 0
+	lhgsign3,	322, 0
+	lhgsign4,	323, 0
+	lhgsign5,	324, 0
+end
+
+rhand, ghands, 5
+	rhgsign1,	320, 0
+	rhgsign2,	321, 0
+	rhgsign3,	322, 0
+	rhgsign4,	323, 0
+	rhgsign5,	324, 0
+end
+
+carry, carry, 3
+	liftup,	317, 28
+	crry_prtial,	318, 1044
+	putdwn,	319, 28
+end
+
+carry05, carry, 3
+	liftup05,	317, 28
+	crry_prtial,	318, 1044
+	putdwn05,	319, 28
+end
+
+carry105, carry, 3
+	liftup105,	317, 28
+	crry_prtial,	318, 1044
+	putdwn105,	319, 28
+end
+
+int_house, int_house, 10
+	BED_In_L,	337, 28
+	BED_Loop_L,	338, 30
+	BED_Out_L,	339, 28
+	BED_In_R,	340, 28
+	BED_Loop_R,	341, 30
+	BED_Out_R,	342, 28
+	LOU_In,	343, 28
+	LOU_Out,	344, 28
+	LOU_Loop,	345, 30
+	wash_up,	346, 30
+end
+
+int_office, int_office, 9
+	OFF_Sit_In,	328, 28
+	OFF_Sit_2Idle_180,	329, 28
+	OFF_Sit_Idle_Loop,	330, 30
+	OFF_Sit_Type_Loop,	331, 30
+	OFF_Sit_Bored_Loop,	332, 30
+	OFF_Sit_Crash,	333, 28
+	OFF_Sit_Drink,	334, 28
+	OFF_Sit_Read,	335, 28
+	OFF_Sit_Watch,	336, 28
+end
+
+int_shop, int_shop, 3
+	shop_shelf,	325, 28
+	shop_pay,	326, 28
+	shop_cashier,	327, 28
+end
+
+stealth_kn, knife, 4
+	KILL_Partial,	347, 1044
+	KILL_Knife_Player,	348, 24
+	KILL_Knife_Ped_Damage,	349, 24
+	KILL_Knife_Ped_Die,	350, 84
+end
+
+stdcaramims, ped, 40
+	CAR_align_LHS,	351, 24
+	CAR_align_RHS,	352, 24
+	CAR_alignHI_LHS,	353, 24
+	CAR_alignHI_RHS,	354, 24
+	CAR_open_LHS,	355, 24
+	CAR_open_RHS,	356, 24
+	CAR_open_LHS,	357, 24
+	CAR_open_RHS,	358, 24
+	CAR_getin_LHS,	359, 24
+	CAR_getin_RHS,	360, 24
+	CAR_getin_LHS,	361, 24
+	CAR_getin_RHS,	362, 24
+	-,	363, 24
+	CAR_pullout_LHS,	364, 24
+	CAR_pullout_RHS,	365, 24
+	-,	366, 24
+	CAR_closedoor_LHS,	367, 24
+	CAR_closedoor_RHS,	368, 24
+	CAR_closedoor_LHS,	369, 24
+	CAR_closedoor_RHS,	370, 24
+	CAR_shuffle_RHS,	371, 24
+	CAR_shuffle_RHS,	372, 24
+	CAR_getout_LHS,	373, 24
+	CAR_getout_RHS,	374, 24
+	CAR_getout_LHS,	375, 24
+	CAR_getout_RHS,	376, 24
+	-,	377, 24
+	CAR_jackedLHS,	378, 20
+	CAR_jackedRHS,	379, 20
+	CAR_close_LHS,	380, 24
+	CAR_close_RHS,	381, 24
+	CAR_close_LHS,	382, 24
+	CAR_close_RHS,	383, 24
+	CAR_rollout_LHS,	384, 2260
+	CAR_rollout_RHS,	385, 2260
+	CAR_rolldoor,	386, 24
+	CAR_fallout_LHS,	387, 20
+	CAR_fallout_RHS,	388, 20
+	CAR_doorlocked_LHS,	389, 24
+	CAR_doorlocked_RHS,	390, 24
+end
+
+lowcaramims, ped, 40
+	CAR_align_LHS,	351, 24
+	CAR_align_RHS,	352, 24
+	CAR_alignHI_LHS,	353, 24
+	CAR_alignHI_RHS,	354, 24
+	CAR_open_LHS,	355, 24
+	CAR_open_RHS,	356, 24
+	CAR_open_LHS,	357, 24
+	CAR_open_RHS,	358, 24
+	CAR_getinL_LHS,	359, 24
+	CAR_getinL_RHS,	360, 24
+	CAR_getinL_LHS,	361, 24
+	CAR_getinL_RHS,	362, 24
+	-,	363, 24
+	CAR_pulloutL_LHS,	364, 24
+	CAR_pulloutL_RHS,	365, 24
+	-,	366, 24
+	CAR_closedoorL_LHS,	367, 24
+	CAR_closedoorL_RHS,	368, 24
+	CAR_closedoorL_LHS,	369, 24
+	CAR_closedoorL_RHS,	370, 24
+	CAR_Lshuffle_RHS,	371, 24
+	CAR_Lshuffle_RHS,	372, 24
+	CAR_getoutL_LHS,	373, 24
+	CAR_getoutL_RHS,	374, 24
+	CAR_getoutL_LHS,	375, 24
+	CAR_getoutL_RHS,	376, 24
+	-,	377, 24
+	CAR_LjackedLHS,	378, 20
+	CAR_LjackedRHS,	379, 20
+	CAR_close_LHS,	380, 24
+	CAR_close_RHS,	381, 24
+	CAR_close_LHS,	382, 24
+	CAR_close_RHS,	383, 24
+	CAR_rollout_LHS,	384, 2260
+	CAR_rollout_RHS,	385, 2260
+	CAR_rolldoorLO,	386, 24
+	CAR_fallout_LHS,	387, 20
+	CAR_fallout_RHS,	388, 20
+	CAR_doorlocked_LHS,	389, 24
+	CAR_doorlocked_RHS,	390, 24
+end
+
+trkcaranims, truck, 40
+	TRUCK_ALIGN_LHS,	351, 24
+	TRUCK_ALIGN_RHS,	352, 24
+	TRUCK_ALIGN_LHS,	353, 24
+	TRUCK_ALIGN_LHS,	354, 24
+	TRUCK_open_LHS,	355, 24
+	TRUCK_open_RHS,	356, 24
+	TRUCK_open_LHS,	357, 24
+	TRUCK_open_RHS,	358, 24
+	TRUCK_getin_LHS,	359, 24
+	TRUCK_getin_RHS,	360, 24
+	TRUCK_getin_LHS,	361, 24
+	TRUCK_getin_RHS,	362, 24
+	-,	363, 24
+	TRUCK_pullout_LHS,	364, 24
+	TRUCK_pullout_RHS,	365, 24
+	-,	366, 24
+	TRUCK_closedoor_LHS,	367, 24
+	TRUCK_closedoor_RHS,	368, 24
+	TRUCK_closedoor_LHS,	369, 24
+	TRUCK_closedoor_RHS,	370, 24
+	TRUCK_Shuffle,	371, 24
+	TRUCK_Shuffle,	372, 24
+	TRUCK_getout_LHS,	373, 24
+	TRUCK_getout_RHS,	374, 24
+	TRUCK_getout_LHS,	375, 24
+	TRUCK_getout_RHS,	376, 24
+	-,	377, 24
+	TRUCK_jackedLHS,	378, 20
+	TRUCK_jackedRHS,	379, 20
+	TRUCK_close_LHS,	380, 24
+	TRUCK_close_RHS,	381, 24
+	TRUCK_close_LHS,	382, 24
+	TRUCK_close_RHS,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+stdbikeanims, ped, 40
+	BIKE_pickupR,	351, 24
+	BIKE_pickupL,	352, 24
+	BIKE_pullupR,	353, 24
+	BIKE_pullupL,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	-,	359, 24
+	-,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	BIKE_elbowL,	364, 24
+	BIKE_elbowR,	365, 24
+	BIKE_elbowL,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	-,	373, 24
+	-,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2264
+	-,	385, 2264
+	-,	386, 24
+	BIKE_fall_off,	387, 20
+	BIKE_fall_off,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+sportbikeanims, bikes, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	BIKEs_jumponR,	359, 24
+	BIKEs_jumponL,	360, 24
+	BIKEs_jumponR,	361, 24
+	BIKEs_jumponL,	362, 24
+	BIKEs_kick,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	BIKEs_getoffRHS,	373, 24
+	BIKEs_getoffLHS,	374, 24
+	BIKEs_getoffRHS,	375, 24
+	BIKEs_getoffLHS,	376, 24
+	BIKEs_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	BIKEs_getoffBACK,	384, 2264
+	BIKEs_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+vespabikeanims, bikev, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	BIKEv_jumponR,	359, 24
+	BIKEv_jumponL,	360, 24
+	BIKEv_jumponR,	361, 24
+	BIKEv_jumponL,	362, 24
+	BIKEv_kick,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	BIKEv_getoffRHS,	373, 24
+	BIKEv_getoffLHS,	374, 24
+	BIKEv_getoffRHS,	375, 24
+	BIKEv_getoffLHS,	376, 24
+	BIKEv_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	BIKEv_getoffBACK,	384, 2264
+	BIKEv_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+harleybikeanims, bikeh, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	Bikeh_jumponL,	359, 24
+	Bikeh_jumponR,	360, 24
+	Bikeh_jumponL,	361, 24
+	Bikeh_jumponR,	362, 24
+	Bikeh_kick,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	Bikeh_getoffRHS,	373, 24
+	Bikeh_getoffLHS,	374, 24
+	Bikeh_getoffRHS,	375, 24
+	Bikeh_getoffLHS,	376, 24
+	Bikeh_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	Bikeh_getoffBACK,	384, 2264
+	Bikeh_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+dirtbikeanims, biked, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	Biked_jumponR,	359, 24
+	Biked_jumponL,	360, 24
+	Biked_jumponR,	361, 24
+	Biked_jumponL,	362, 24
+	Biked_kick,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	Biked_getoffRHS,	373, 24
+	Biked_getoffLHS,	374, 24
+	Biked_getoffRHS,	375, 24
+	Biked_getoffLHS,	376, 24
+	Biked_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	Biked_getoffBACK,	384, 2264
+	Biked_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+wayfbikeanims, wayfarer, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	wf_jumponL,	359, 24
+	wf_jumponR,	360, 24
+	wf_jumponL,	361, 24
+	wf_jumponR,	362, 24
+	wf_kick,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	wf_getoffLHS,	373, 24
+	wf_getoffRHS,	374, 24
+	wf_getoffLHS,	375, 24
+	wf_getoffRHS,	376, 24
+	wf_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	wf_getoffBACK,	384, 2264
+	wf_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+bmxbikeanims, bmx, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	bmx_jumponL,	359, 24
+	bmx_jumponR,	360, 24
+	bmx_jumponL,	361, 24
+	bmx_jumponR,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	bmx_getoffLHS,	373, 24
+	bmx_getoffRHS,	374, 24
+	bmx_getoffLHS,	375, 24
+	bmx_getoffRHS,	376, 24
+	bmx_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	bmx_getoffBACK,	384, 2264
+	bmx_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+mtbbikeanims, mtb, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	mtb_jumponL,	359, 24
+	mtb_jumponR,	360, 24
+	mtb_jumponL,	361, 24
+	mtb_jumponR,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	mtb_getoffLHS,	373, 24
+	mtb_getoffRHS,	374, 24
+	mtb_getoffLHS,	375, 24
+	mtb_getoffRHS,	376, 24
+	mtb_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	mtb_getoffBACK,	384, 2264
+	mtb_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+choppabikeanims, choppa, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	choppa_jumponL,	359, 24
+	choppa_jumponR,	360, 24
+	choppa_jumponL,	361, 24
+	choppa_jumponR,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	choppa_getoffLHS,	373, 24
+	choppa_getoffRHS,	374, 24
+	choppa_getoffLHS,	375, 24
+	choppa_getoffRHS,	376, 24
+	choppa_getoffBACK,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	choppa_getoffBACK,	384, 2264
+	choppa_getoffBACK,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+quadbikeanims, quad, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	quad_geton_LHS,	359, 24
+	quad_geton_RHS,	360, 24
+	quad_geton_LHS,	361, 24
+	quad_geton_RHS,	362, 24
+	quad_kick,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	quad_getoff_LHS,	373, 24
+	quad_getoff_RHS,	374, 24
+	quad_getoff_LHS,	375, 24
+	quad_getoff_RHS,	376, 24
+	quad_getoff_B,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	quad_getoff_B,	384, 2264
+	quad_getoff_B,	385, 2264
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+vancaranims, van, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	VAN_open_back_LHS,	357, 24
+	VAN_open_back_RHS,	358, 24
+	-,	359, 24
+	-,	360, 24
+	VAN_getin_back_LHS,	361, 24
+	VAN_getin_back_RHS,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	VAN_close_back_LHS,	369, 24
+	VAN_close_back_RHS,	370, 24
+	-,	371, 24
+	-,	372, 24
+	-,	373, 24
+	-,	374, 24
+	VAN_getout_back_LHS,	375, 24
+	VAN_getout_back_RHS,	376, 24
+	-,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+rustplaneanims, rustler, 40
+	Plane_align_LHS,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	Plane_open,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	Plane_getin,	359, 24
+	-,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	Plane_close,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	Plane_getout,	373, 24
+	-,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	Plane_close,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+coachcaranims, coach, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	COACH_opnL,	355, 24
+	COACH_opnR,	356, 24
+	COACH_opnL,	357, 24
+	COACH_opnR,	358, 24
+	COACH_inL,	359, 24
+	COACH_inR,	360, 24
+	COACH_inL,	361, 24
+	COACH_inR,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	COACH_outL,	373, 24
+	COACH_outR,	374, 24
+	COACH_outL,	375, 24
+	COACH_outR,	376, 24
+	-,	377, 24
+	-,	378, 20
+	-,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+buscaranims, bus, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	BUS_open,	355, 24
+	BUS_open_RHS,	356, 24
+	BUS_open,	357, 24
+	-,	358, 24
+	BUS_getin_LHS,	359, 24
+	BUS_getin_RHS,	360, 24
+	BUS_getin_LHS,	361, 24
+	-,	362, 24
+	-,	363, 24
+	BUS_pullout_LHS,	364, 24
+	BUS_pullout_LHS,	365, 24
+	-,	366, 24
+	BUS_close,	367, 24
+	-,	368, 24
+	BUS_close,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	BUS_getout_LHS,	373, 24
+	BUS_getout_RHS,	374, 24
+	BUS_getout_LHS,	375, 24
+	-,	376, 24
+	-,	377, 24
+	BUS_jacked_LHS,	378, 20
+	BUS_jacked_LHS,	379, 20
+	BUS_close,	380, 24
+	-,	381, 24
+	BUS_close,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+dozercaranims, dozer, 40
+	DOZER_align_LHS,	351, 24
+	DOZER_align_RHS,	352, 24
+	DOZER_align_LHS,	353, 24
+	DOZER_align_LHS,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	DOZER_getin_LHS,	359, 24
+	DOZER_getin_RHS,	360, 24
+	DOZER_getin_LHS,	361, 24
+	DOZER_getin_RHS,	362, 24
+	-,	363, 24
+	DOZER_pullout_LHS,	364, 24
+	DOZER_pullout_RHS,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	DOZER_getout_LHS,	373, 24
+	DOZER_getout_RHS,	374, 24
+	DOZER_getout_LHS,	375, 24
+	DOZER_getout_RHS,	376, 24
+	-,	377, 24
+	DOZER_Jacked_LHS,	378, 20
+	DOZER_Jacked_RHS,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+kartcaranims, kart, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	KART_getin_LHS,	359, 24
+	KART_getin_RHS,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	KART_getout_LHS,	373, 24
+	KART_getout_RHS,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 20
+	-,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+convcaranims, ped, 40
+	CAR_align_LHS,	351, 24
+	CAR_align_RHS,	352, 24
+	CAR_alignHI_LHS,	353, 24
+	CAR_alignHI_RHS,	354, 24
+	CAR_open_LHS,	355, 24
+	CAR_open_RHS,	356, 24
+	CAR_open_LHS,	357, 24
+	CAR_open_RHS,	358, 24
+	CAR_jumpin_LHS,	359, 24
+	CAR_getin_RHS,	360, 24
+	CAR_jumpin_LHS,	361, 24
+	CAR_getin_RHS,	362, 24
+	-,	363, 24
+	CAR_pullout_LHS,	364, 24
+	CAR_pullout_RHS,	365, 24
+	-,	366, 24
+	CAR_closedoor_LHS,	367, 24
+	CAR_closedoor_RHS,	368, 24
+	CAR_closedoor_LHS,	369, 24
+	CAR_closedoor_RHS,	370, 24
+	CAR_shuffle_RHS,	371, 24
+	CAR_shuffle_RHS,	372, 24
+	CAR_getout_LHS,	373, 24
+	CAR_getout_RHS,	374, 24
+	CAR_getout_LHS,	375, 24
+	CAR_getout_RHS,	376, 24
+	-,	377, 24
+	CAR_jackedLHS,	378, 20
+	CAR_jackedRHS,	379, 20
+	CAR_close_LHS,	380, 24
+	CAR_close_RHS,	381, 24
+	CAR_close_LHS,	382, 24
+	CAR_close_RHS,	383, 24
+	CAR_rollout_LHS,	384, 2260
+	CAR_rollout_RHS,	385, 2260
+	CAR_rolldoor,	386, 24
+	CAR_fallout_LHS,	387, 20
+	CAR_fallout_RHS,	388, 20
+	CAR_doorlocked_LHS,	389, 24
+	CAR_doorlocked_RHS,	390, 24
+end
+
+mtrkcaranims, truck, 40
+	TRUCK_ALIGN_LHS,	351, 24
+	TRUCK_ALIGN_RHS,	352, 24
+	TRUCK_ALIGN_LHS,	353, 24
+	TRUCK_ALIGN_LHS,	354, 24
+	TRUCK_open_LHS,	355, 24
+	TRUCK_open_RHS,	356, 24
+	TRUCK_open_LHS,	357, 24
+	TRUCK_open_RHS,	358, 24
+	TRUCK_getin_LHS,	359, 24
+	TRUCK_getin_RHS,	360, 24
+	TRUCK_getin_LHS,	361, 24
+	TRUCK_getin_RHS,	362, 24
+	-,	363, 24
+	TRUCK_pullout_LHS,	364, 24
+	TRUCK_pullout_RHS,	365, 24
+	-,	366, 24
+	TRUCK_closedoor_LHS,	367, 24
+	TRUCK_closedoor_RHS,	368, 24
+	TRUCK_closedoor_LHS,	369, 24
+	TRUCK_closedoor_RHS,	370, 24
+	TRUCK_Shuffle,	371, 24
+	TRUCK_Shuffle,	372, 24
+	TRUCK_getout_LHS,	373, 24
+	TRUCK_getout_RHS,	374, 24
+	TRUCK_getout_LHS,	375, 24
+	TRUCK_getout_RHS,	376, 24
+	-,	377, 24
+	TRUCK_jackedLHS,	378, 20
+	TRUCK_jackedRHS,	379, 20
+	TRUCK_close_LHS,	380, 24
+	TRUCK_close_RHS,	381, 24
+	TRUCK_close_LHS,	382, 24
+	TRUCK_close_RHS,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+traincarranims, coach, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	COACH_opnL,	355, 24
+	COACH_opnR,	356, 24
+	COACH_opnL,	357, 24
+	COACH_opnR,	358, 24
+	COACH_inL,	359, 24
+	COACH_inR,	360, 24
+	COACH_inL,	361, 24
+	COACH_inR,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	COACH_outL,	373, 24
+	COACH_outR,	374, 24
+	COACH_outL,	375, 24
+	COACH_outR,	376, 24
+	-,	377, 24
+	-,	378, 20
+	-,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+stdtallcaramims, ped, 40
+	CAR_align_LHS,	351, 24
+	CAR_align_RHS,	352, 24
+	CAR_alignHI_LHS,	353, 24
+	CAR_alignHI_RHS,	354, 24
+	CAR_open_LHS,	355, 24
+	CAR_open_RHS,	356, 24
+	CAR_open_LHS,	357, 24
+	CAR_open_RHS,	358, 24
+	CAR_getin_LHS,	359, 24
+	CAR_getin_RHS,	360, 24
+	CAR_getin_LHS,	361, 24
+	CAR_getin_RHS,	362, 24
+	-,	363, 24
+	CAR_pullout_LHS,	364, 24
+	CAR_pullout_RHS,	365, 24
+	-,	366, 24
+	CAR_closedoor_LHS,	367, 24
+	CAR_closedoor_RHS,	368, 24
+	CAR_closedoor_LHS,	369, 24
+	CAR_closedoor_RHS,	370, 24
+	CAR_shuffle_RHS,	371, 24
+	CAR_shuffle_RHS,	372, 24
+	CAR_getout_LHS,	373, 24
+	CAR_getout_RHS,	374, 24
+	CAR_getout_LHS,	375, 24
+	CAR_getout_RHS,	376, 24
+	-,	377, 24
+	CAR_jackedLHS,	378, 20
+	CAR_jackedRHS,	379, 20
+	CAR_close_LHS,	380, 24
+	CAR_close_RHS,	381, 24
+	CAR_close_LHS,	382, 24
+	CAR_close_RHS,	383, 24
+	CAR_rollout_LHS,	384, 2260
+	CAR_rollout_RHS,	385, 2260
+	CAR_rolldoor,	386, 24
+	CAR_fallout_LHS,	387, 20
+	CAR_fallout_RHS,	388, 20
+	CAR_doorlocked_LHS,	389, 24
+	CAR_doorlocked_RHS,	390, 24
+end
+
+hovercaranims, vortex, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	CAR_jumpin_LHS,	359, 24
+	CAR_jumpin_RHS,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	vortex_getout_LHS,	373, 24
+	vortex_getout_RHS,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 20
+	-,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+tankcaranims, tank, 40
+	TANK_align_LHS,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	TANK_open_LHS,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	TANK_getin_LHS,	359, 24
+	-,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	TANK_close_LHS,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	TANK_getout_LHS,	373, 24
+	-,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 20
+	-,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	TANK_doorlocked,	389, 24
+	-,	390, 24
+end
+
+bfinjcaramims, BF_injection, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	BF_getin_LHS,	359, 24
+	BF_getin_RHS,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	BF_getout_LHS,	373, 24
+	BF_getout_RHS,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 20
+	-,	379, 20
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+learplaneanims, shamal, 40
+	SHAMAL_align,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	SHAMAL_open,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	SHAMAL_getin_LHS,	359, 24
+	-,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	SHAMAL_getout_LHS,	373, 24
+	-,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+harrplaneanims, rustler, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	Plane_open,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	Plane_getin,	359, 24
+	-,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	Plane_close,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	Plane_getout,	373, 24
+	-,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	Plane_close,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end
+
+stdcarupright, ped, 40
+	CAR_align_LHS,	351, 24
+	CAR_align_RHS,	352, 24
+	CAR_alignHI_LHS,	353, 24
+	CAR_alignHI_RHS,	354, 24
+	CAR_open_LHS,	355, 24
+	CAR_open_RHS,	356, 24
+	CAR_open_LHS,	357, 24
+	CAR_open_RHS,	358, 24
+	CAR_getin_LHS,	359, 24
+	CAR_getin_RHS,	360, 24
+	CAR_getin_LHS,	361, 24
+	CAR_getin_RHS,	362, 24
+	-,	363, 24
+	CAR_pullout_LHS,	364, 24
+	CAR_pullout_RHS,	365, 24
+	-,	366, 24
+	CAR_closedoor_LHS,	367, 24
+	CAR_closedoor_RHS,	368, 24
+	CAR_closedoor_LHS,	369, 24
+	CAR_closedoor_RHS,	370, 24
+	CAR_shuffle_RHS,	371, 24
+	CAR_shuffle_RHS,	372, 24
+	CAR_getout_LHS,	373, 24
+	CAR_getout_RHS,	374, 24
+	CAR_getout_LHS,	375, 24
+	CAR_getout_RHS,	376, 24
+	-,	377, 24
+	CAR_jackedLHS,	378, 20
+	CAR_jackedRHS,	379, 20
+	CAR_close_LHS,	380, 24
+	CAR_close_RHS,	381, 24
+	CAR_close_LHS,	382, 24
+	CAR_close_RHS,	383, 24
+	CAR_rollout_LHS,	384, 2260
+	CAR_rollout_RHS,	385, 2260
+	CAR_rolldoor,	386, 24
+	CAR_fallout_LHS,	387, 20
+	CAR_fallout_RHS,	388, 20
+	CAR_doorlocked_LHS,	389, 24
+	CAR_doorlocked_RHS,	390, 24
+end
+
+nvadaplaneanims, nevada, 40
+	-,	351, 24
+	-,	352, 24
+	-,	353, 24
+	-,	354, 24
+	-,	355, 24
+	-,	356, 24
+	-,	357, 24
+	-,	358, 24
+	NEVADA_getin,	359, 24
+	-,	360, 24
+	-,	361, 24
+	-,	362, 24
+	-,	363, 24
+	-,	364, 24
+	-,	365, 24
+	-,	366, 24
+	-,	367, 24
+	-,	368, 24
+	-,	369, 24
+	-,	370, 24
+	-,	371, 24
+	-,	372, 24
+	NEVADA_getout,	373, 24
+	-,	374, 24
+	-,	375, 24
+	-,	376, 24
+	-,	377, 24
+	-,	378, 2068
+	-,	379, 2068
+	-,	380, 24
+	-,	381, 24
+	-,	382, 24
+	-,	383, 24
+	-,	384, 2260
+	-,	385, 2260
+	-,	386, 24
+	-,	387, 20
+	-,	388, 20
+	-,	389, 24
+	-,	390, 24
+end

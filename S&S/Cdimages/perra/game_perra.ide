@@ -1,0 +1,78 @@
+# EN
+# SANTA PERRALOCA MADE BY .HAYABUSA
+# CONCEPT IDEA BY MATTINEU
+# SPECIAL THANKS TO URIEL & QVH FOR A LOT OF HELP
+# BROUGHT TO YOU BY STARS & STRIPES TEAM
+# THANKS TO YOU, CLUELESS PLAYER WHO DATAMINES OUR STUFF
+# HOW DO I TURN OFF CAPS LOCK ?
+# ------------------------------------------------
+# ES
+# SANTA PERRALOCA HECHO POR .HAYABUSA
+# IDEA DE CONCEPTO POR MATTINEU
+# AGRADECIMIENTO ESPECIAL A URIEL Y QVH POR MUCHA AYUDA
+# PRESENTADO POR EL EQUIPO STARS & STRIPES
+# GRACIAS A TI, JUGADOR DESPIERTO QUE DATAMINA NUESTRAS COSAS
+# ¿CÓMO DESACTIVO EL BLOQUEO DE MAYÚSCULAS / CAPS LOCK?
+objs
+18113, sp_haus6stair, perra, 299, 0
+18114, sp_path8, perra, 299, 0
+18115, sp_path6, perra, 299, 0
+18116, sp_path5, perra, 299, 0
+18117, sp_path4, perra, 299, 0
+18118, sp_path3, perra, 299, 0
+18119, sp_path2, perra, 299, 0
+18120, sp_path1, perra, 299, 0
+18121, sp_penthouse2yard, perra, 299, 2097156
+18122, sp_landm6, perra, 299, 0
+18123, sp_penthouse1yard, perra, 299, 2097156
+18124, sp_masniondriveway, perra, 299, 0
+18125, sp_landm5, perra, 299, 0
+18126, sp_tennis, perra, 299, 2097156
+18127, sp_curb2, perra, 299, 0
+18128, sp_haus5, perra, 299, 2097156
+18129, sp_haus4, perra, 299, 4
+18130, sp_haus1, perra, 299, 2097156
+18131, sp_jump, perra, 299, 0
+18132, sp_landm4, perra, 299, 2097156
+18133, sp_landm3, perra, 299, 0
+18134, sp_curb1, perra, 299, 0
+18135, sp_landm2, perra, 299, 0
+18136, sp_landm1, perra, 299, 0
+18137, sp_land9, perra, 299, 0
+18138, sp_land8, perra, 299, 0
+18139, sp_fountain, perra, 299, 2097156
+18140, sp_planters, perra, 299, 0
+18141, sp_rock1, perra, 299, 0
+18142, sp_land7, perra, 299, 0
+18143, sp_land6, perra, 299, 0
+#el que saque spl como propío es puto
+18144, sp_land5, perra, 299, 0
+18145, sp_land4, perra, 299, 0
+18146, sp_land3, perra, 299, 0
+18147, sp_lighthouse, perra, 299, 2097156
+18148, sp_land1, perra, 299, 0
+18149, sp_pier, perra, 299, 2097156
+18150, sp_mainroad, perra, 299, 0
+18151, sp_path7, perra, 299, 0
+18152, sp_path9, perra, 299, 0
+18153, sp_haus3, perra, 299, 2097156
+18154, sp_haus2, perra, 299, 2097156
+18155, sp_garage1, perra, 299, 0
+18156, sp_garage2, perra, 299, 0
+18157, sp_haus6, perra, 299, 2097156
+18158, sp_penthouse1, perra, 299, 2097156
+18159, sp_penthouse2, perra, 299, 2097156
+18160, sp_land2, perra, 299, 0
+18161, sp_rock2, perra, 299, 0
+18162, sp_rock3, perra, 299, 0
+18163, sp_rock4, perra, 299, 0
+18164, sp_rock5, perra, 299, 0
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

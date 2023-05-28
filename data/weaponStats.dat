@@ -1,0 +1,933 @@
+# Created by B1ack_Wh1te
+
+# ID: 0
+UNARMED : [melee]
+	fallPowerDeath: 0.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: unarmed
+	breakPedAfterHit: True
+end
+
+# ID: 1
+BRASSKNUCKLE : [melee]
+	fallPowerDeath: 0.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: unarmed
+	model: brassknuckle
+	breakPedAfterHit: True
+	pickup::color: [128, 128, 128]
+end
+
+# ID: 2
+GOLFCLUB : [melee]
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: golfclub
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 3
+NIGHTSTICK : [melee]
+	fallPowerDeath: 0.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: nitestick
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 4
+KNIFE : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: knifecur
+	fireType: MELEE
+	bloodAfterHit: 200
+	breakPedAfterHit: True
+	meleeCombo: KNIFE
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 5
+BASEBALLBAT : [melee]
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: bat
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 6
+SHOVEL : [melee]
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: shovel
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 7
+POOLCUE : [melee]
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: poolcue
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 8
+KATANA : [melee]
+	bodypartToRemove: PELVIS_1
+	fallPowerDeath: 1.5
+	headshotDeathAnim: KO_shot_face
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: katana
+	fireType: MELEE
+	bloodAfterHit: 200
+	breakPedAfterHit: True
+	meleeCombo: SWORD
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 9
+CHAINSAW : [chainsaw]
+	fallPowerDeath: 0.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: melee
+	model: chnsaw
+	fireType: MELEE
+	bloodAfterHit: 200
+	breakPedAfterHit: True
+	meleeCombo: CHAINSAW
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 10
+DILDO1 : [melee]
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: gun_dildo1
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: DILDO
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+# ID: 11
+DILDO2 : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: gun_dildo2
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: KNIFE
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+# ID: 12
+VIBE1 : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: gun_vibe1
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: DILDO
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+# ID: 13
+VIBE2 : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: gun_vibe2
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: KNIFE
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+# ID: 14
+FLOWERS : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: flowera
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: FLOWERS
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+# ID: 15
+CANE : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: gun_cane
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: SWORD
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+# ID: 16
+GRENADE : [projectile]
+	slot: thrown
+	model: grenade
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: fuse
+		elasticity: 0.5
+		timeToDestroy: 2000
+	}
+	explosive: {
+		particle: explosion_small
+		radius: 9.0
+		visibleDistance: 300.0
+		expireTime: 750
+	}
+	pickup: {
+		maxAmmo: 8
+		color: [27, 89, 130]
+	}
+end
+
+# ID: 17
+TEARGAS : [projectile]
+	slot: thrown
+	model: teargas
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: fuse
+		elasticity: 0.5
+		timeToDestroy: 2500
+		teargasTime: 17500
+		teargasRadius: 6.0
+		teargasParticle: teargasAD
+	}
+	pickup: {
+		maxAmmo: 8
+		color: [27, 89, 130]
+	}
+end
+
+# ID: 18
+MOLOTOV : [projectile]
+	slot: thrown
+	model: molotov
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: impact
+		timeToDestroy: 2000
+		minPower: 0.2
+	}
+	explosive: {
+		particle: explosion_molotov
+		radius: 6.0
+		expireTime: 750
+		breakInWater: True
+		addLight: False
+		cameraShake: 0.2
+		padShakeDuration: 0
+	}
+	fire: {
+		num: [2, 3]
+		generations: 3
+		size: 0.8
+		time: [5600, 8400]
+		entityRadius: 6.0
+		worldRadius: 0.1
+	}
+	pickup: {
+		maxAmmo: 8
+		color: [27, 89, 130]
+	}
+end
+
+# ID: 19
+ROCKET : [projectile]
+	slot: thrown
+	model: missile
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: rocket
+		timeToDestroy: 3000
+	}
+	explosive: {
+		particle: explosion_small
+		radius: 10.0
+		visibleDistance: 300.0
+		expireTime: 750
+		explodeVehicle: True
+	}
+	fire: {
+		num: [1, 3]
+		generations: 3
+		size: 0.8
+		time: [5600, 8400]
+	}
+	smoke: {
+		size: 0.5
+		color: {
+			rgb: [63, 127]
+			alpha: [20, 30]
+		}
+		lastFactor: 0.08
+		velocity: [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]
+		brightness: 1.2
+	}
+	pickup: {
+		maxAmmo: 8
+		color: [27, 89, 130]
+	}
+end
+
+# ID: 20
+ROCKET_HS : [projectile]
+	slot: thrown
+	model: missile
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: rocket_hs
+		timeToDestroy: 10000
+	}
+	explosive: {
+		particle: explosion_small
+		radius: 10.0
+		visibleDistance: 300.0
+		expireTime: 750
+		explodeVehicle: True
+	}
+	fire: {
+		num: [1, 3]
+		generations: 3
+		size: 0.8
+		time: [5600, 8400]
+	}
+	smoke: {
+		size: 0.5
+		color: {
+			rgb: [63, 127]
+			alpha: [20, 30]
+		}
+		lastFactor: 0.08
+		velocity: [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]
+		brightness: 1.2
+	}
+	pickup: {
+		maxAmmo: 4
+		color: [27, 89, 130]
+	}
+end
+
+# ID: 21
+FREEFALL_BOMB : [projectile]
+	slot: thrown
+	model: missile
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: PLANE_ROCKET
+		timeToDestroy: 2000000
+	}
+	explosive: {
+		particle: explosion_small
+		radius: 9.0
+		visibleDistance: 300.0
+		expireTime: 750
+	}
+	pickup: {
+		maxAmmo: 4
+		color: [27, 89, 130]
+	}
+end
+
+# ID: 22
+PISTOL : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: handgun
+	model: colt45
+	fireType: INSTANT_HIT
+	fireOffset: [0.25, 0.05, 0.09]
+  *	stat: 'STWE001'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 30
+		color: [149, 194, 24]
+	}
+end
+
+# ID: 23
+PISTOL_SILENCED : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: handgun
+	model: silenced
+	fireType: INSTANT_HIT
+	fireOffset: [0.40, 0.05, 0.15]
+  *	stat: 'STWE002'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 10
+		color: [149, 194, 24]
+	}
+end
+
+# ID: 24
+DESERT_EAGLE : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 1.0
+	powerVehicleMoveAfterShot: 20.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: handgun
+	model: desert_eagle
+	fireType: INSTANT_HIT
+	fireOffset: [0.41, 0.03, 0.12]
+  *	stat: 'STWE003'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 10
+		color: [149, 194, 24]
+	}
+end
+
+# ID: 25
+SHOTGUN : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	powerVehicleMoveAfterShot: 4.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: shotgun
+	model: chromegun
+	fireType: INSTANT_HIT
+	fireOffset: [0.82, -0.02, 0.23]
+  *	stat: 'STWE004'
+	shell: {
+		size: 0.45
+		multiplyOffset: 0.3
+		color: [161, 25, 25]
+	}
+	pillets: 15
+	criticalHitAtShortDistance: False
+	pickup: {
+		maxAmmo: 15
+		color: [45, 155, 90]
+	}
+end
+
+# ID: 26
+SAWNOFF : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: shotgun
+	model: sawnoff
+	fireType: INSTANT_HIT
+	fireOffset: [0.56, 0.0, 0.15]
+  *	stat: 'STWE005'
+	shell: {
+		size: 0.45
+		multiplyOffset: 0.3
+		color: [161, 25, 25]
+	}
+	pillets: 15
+	pickup: {
+		maxAmmo: 10
+		color: [45, 155, 90]
+	}
+end
+
+# ID: 27
+SPAS12 : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	powerVehicleMoveAfterShot: 4.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: shotgun
+	model: shotgspa
+	fireType: INSTANT_HIT
+	fireOffset: [0.75, -0.06, 0.22]
+  *	stat: 'STWE006'
+	shell: {
+		size: 0.45
+		multiplyOffset: 0.3
+		color: [161, 25, 25]
+	}
+	pillets: 8
+	criticalHitAtShortDistance: False
+	pickup: {
+		maxAmmo: 10
+		color: [45, 155, 90]
+	}
+end
+
+# ID: 28
+MICRO_UZI : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: smg
+	model: micro_uzi
+	fireType: INSTANT_HIT
+	fireOffset: [0.25, 0.0, 0.11]
+  *	stat: 'STWE007'
+	shell: {
+		size: 0.3
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 60
+		color: [255, 227, 79]
+	}
+end
+
+# ID: 29
+MP5 : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: smg
+	model: mp5lng
+	fireType: INSTANT_HIT
+	fireOffset: [0.51, -0.01, 0.20]
+  *	stat: 'STWE008'
+	shell: {
+		size: 0.3
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 60
+		color: [255, 227, 79]
+	}
+end
+
+# ID: 30
+AK47 : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 0.5
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: rifle
+	model: ak47
+	fireType: INSTANT_HIT
+	fireOffset: [0.78, -0.06, 0.13]
+  *	stat: 'STWE009'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 80
+		color: [254, 137, 0]
+	}
+end
+
+# ID: 31
+M4 : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 0.5
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	longDelayeAnimAfterHit: +
+	slot: rifle
+	model: m4
+	fireType: INSTANT_HIT
+	fireOffset: [0.74, -0.04, 0.13]
+  *	stat: 'STWE010'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 80
+		color: [254, 137, 0]
+	}
+end
+
+# ID: 32
+TEC9 : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: smg
+	model: tec9
+	fireType: INSTANT_HIT
+	fireOffset: [0.45, -0.05, 0.11]
+  &	stat: MICRO_UZI
+	shell: {
+		size: 0.3
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 60
+		color: [255, 227, 79]
+	}
+end
+
+# ID: 33
+COUNTRYRIFLE : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	fallPower: 5.0
+	slot: sniper
+	model: cuntgun
+	fireType: INSTANT_HIT
+	fireOffset: [0.7, -0.05, 0.2]
+	shotEffect: False
+  *	stat: 'STWE012'
+	pickup: {
+		maxAmmo: 20
+		color: [249, 131, 215]
+	}
+end
+
+# ID: 34
+SNIPERRIFLE : [sniper]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	bulletSpeed: 1.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	canBeUsedFor2Player: False
+	breakPedAfterHit: True
+	slot: sniper
+	model: sniper
+	fireType: DELAYED_HIT
+	fireOffset: [0.7, -0.05, 0.2]
+  &	stat: COUNTRYRIFLE
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 10
+		color: [249, 131, 215]
+	}
+end
+
+# ID: 35
+RLAUNCHER : [projectile_launcher]
+	canBeUsedFor2Player: False
+	slot: heavy
+	model: rocketla
+	projectile: ROCKET
+	fireType: PROJECTILE
+	fireOffset: [0.42, 0.0, 0.05]
+	pickup: {
+		maxAmmo: 4
+		color: [164, 40, 178]
+	}
+end
+
+# ID: 36
+RLAUNCHER_HS : [projectile_launcher]
+	canBeUsedFor2Player: False
+	slot: heavy
+	model: heatseek
+	projectile: [ROCKET, ROCKET_HS]
+	fireType: PROJECTILE
+	fireOffset: [0.42, 0.0, 0.05]
+	pickup: {
+		maxAmmo: 3
+		color: [164, 40, 178]
+	}
+end
+
+# ID: 37
+FTHROWER : [flame_thrower]
+	deathAnim: KO_shot_front
+	slot: heavy
+	model: flame
+	fireOffset: [0.98, 0.0, 0.40]
+	fire: {
+		size: 0.8
+		time: 20000
+		entityGenerations: 100
+		entityTime: 7000
+		entityRadius: 4.0
+		worldRadius: 0.1
+	}
+	pickup: {
+		maxAmmo: 100
+		color: [164, 40, 178]
+	}
+end
+
+# ID: 38
+MINIGUN : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	powerVehicleMoveAfterShot: 20.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	breakPedAfterHit: True
+	slot: heavy
+	model: minigun
+	fireType: INSTANT_HIT
+	fireOffset: [1.15, 0.0, 0.40]
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 500
+		color: [164, 40, 178]
+	}
+end
+
+# ID: 39
+SATCHEL_CHARGE : [projectile]
+	slot: thrown
+	model: [satchel, bomb]
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: sticky
+		powerModifer: 0.5
+		elasticity: 0.03
+		attach: [BUILDING, PED, CAR, OBJECT]
+	}
+	explosive: {
+		particle: explosion_small
+		radius: 9.0
+		visibleDistance: 300.0
+		expireTime: 750
+	}
+	pickup: {
+		maxAmmo: 5
+		color: [164, 40, 178]
+	}
+end
+
+# ID: 40
+DETONATOR : [detonator]
+	slot: detonator
+	model: bomb
+	fireType: USE
+	pickup: {
+		maxAmmo: 1
+		color: [164, 40, 178]
+	}
+end
+
+# ID: 41
+SPRAYCAN : [spraycan]
+	deathAnim: KO_shot_front
+	slot: special
+	model: spraycan
+	fireType: AREA_EFFECT
+	fireOffset: [0.20, 0.0, -0.1]
+	pickup: {
+		maxAmmo: 500
+		color: [97, 194, 247]
+	}
+end
+
+# ID: 42
+EXTINGUISHER : [extinguisher]
+	deathAnim: KO_shot_front
+	slot: special
+	model: fire_ex
+	fireType: AREA_EFFECT
+	fireOffset: [0.45, 0.10, 0.15]
+	pickup: {
+		maxAmmo: 500
+		color: [69, 69, 69]
+	}
+end
+
+# ID: 43
+CAMERA : [camera]
+	slot: special
+	model: camera
+	fireType: CAMERA
+	pickup: {
+		maxAmmo: 36
+		color: [69, 69, 69]
+	}
+end
+
+# ID: 44
+NIGHTVISION : [nightvision]
+	slot: parachute
+	model: nvgoggles
+	fireType: USE
+	pickup: {
+		color: [69, 69, 69]
+	}
+end
+
+# ID: 45
+INFRARED : [thermal_imager]
+	slot: parachute
+	model: irgoggles
+	fireType: USE
+	pickup: {
+		color: [69, 69, 69]
+	}
+end
+
+# ID: 46
+PARACHUTE : UNARMED
+	canBeUsedFor2Player: False
+	slot: parachute
+	model: gun_para
+	pickup: {
+		maxAmmo: 1
+		color: [69, 69, 69]
+	}
+end
+
+
+
+########################
+ ###	#	#	#	###
+ #### NEW WEAPONS #####
+ ###	#	#	#	###
+########################
+

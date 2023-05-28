@@ -1,0 +1,171 @@
+objs
+24375, ci_islandwest, ci_studionew1, 299, 0
+24376, ci_studiowall, ci_studionew1, 200, 0
+24377, vc_ci_astage, ci_studio2, 120, 128
+24378, ci_mansionwall1, ci_island1, 200, 128
+24379, vc_ci_watertank, vc_ci_studio5, 90, 128
+24380, ci_screening, ci_studio6, 90, 128
+24381, ci_screeningstairs, ci_studio6, 90, 128
+24382, ci_offices, ci_studio6, 90, 128
+24383, ci_gateway, ci_island1, 200, 128
+24384, ci_backdrop, ci_island1, 90, 128
+24385, ci_industrial1, ci_industrial, 199, 0
+24386, ci_screening2, ci_studio6, 90, 128
+24387, ci_kerb1, ci_studionew1, 90, 128
+24388, ci_fence2, ci_island1, 90, 128
+24389, ci_trees1, vcgeneric, 200, 132
+24390, ci_planter2, vcgeneric, 55, 132
+24391, ci_planter1, vcgeneric, 55, 132
+24392, ci_backgateopen, ci_studio4, 90, 128
+24393, ci_trees02, vcgeneric, 200, 132
+24394, ci_islandeast, ci_studionew1, 299, 0
+24395, ci_busht_02, vcgeneric, 80, 132
+24396, ci_trees03, vcgeneric, 200, 132
+24397, ci_busht_04, vcgeneric, 80, 132
+24398, ci_busht_06, vcgeneric, 80, 132
+24399, ci_islandnorth, ci_studionew1, 299, 0
+24400, ci_graf_mansion3, ci_mansion1, 45, 68
+24401, ci_graf_mansion1, ci_mansion1, 45, 68
+24402, ci_posters, ci_posters, 90, 132
+24403, ci_studwallgraf, ci_mansion1, 90, 132
+24404, ci_busht_08, vcgeneric, 150, 132
+24405, ci_graf_fountain, ci_mansion1, 35, 68
+24406, ci_boards1, ci_mansion2, 45, 128
+24407, ci_boards2, ci_mansion2, 45, 128
+24408, ci_trees04, vcgeneric, 90, 132
+24409, ci_manscourt, ci_island3, 45, 132
+24410, ci_poolhouse, ci_island3, 45, 132
+24411, ci_poolwall1, ci_island3, 45, 132
+24412, ci_poolsteps, ci_island3, 45, 132
+24413, ci_busht_11, vcgeneric, 80, 132
+24414, ci_trees05, vcgeneric, 200, 132
+24415, ci_jawsramp1, ci_studio3, 45, 128
+24416, ci_backlot3, ci_backlot, 150, 128
+24417, ci_backlot2, ci_backlot, 150, 128
+24418, ci_backlot1, ci_backlot, 150, 128
+24419, ci_backlotprops3, ci_pornset, 150, 128
+24420, ci_backlotprops2, ci_pornset, 150, 128
+24421, ci_backlotprops1, ci_pornset, 150, 128
+24422, ci_dstageext, ci_studio3, 90, 128
+24423, ci_dirtcorn3, ci_dirtcorn, 90, 132
+24424, ci_dirtcorn4, ci_dirtcorn, 90, 132
+24425, ci_dirtcorn1, ci_dirtcorn, 90, 132
+24426, ci_mans1rail, ci_mansrails, 45, 132
+
+24427, lod_islandwest, ci_LOD, 250, 0
+
+24428, lodislandeast, ci_LOD, 900, 128
+24429, lodscreening, ci_LOD, 680, 128
+24430, lodislandnorth, ci_LOD, 900, 128
+24431, lodcstage, ci_LOD, 680, 128
+24432, loddstageext, ci_LOD, 680, 128
+24433, lodstudiowall, ci_LOD, 900, 128
+24434, lodbacklot1, ci_LOD, 720, 128
+24435, lodbstage, ci_LOD, 680, 128
+24436, lodmansion1, ci_LOD, 680, 128
+24437, lodmansion3, ci_LOD, 680, 128
+24438, lodoffices, ci_LOD, 680, 128
+24439, lodscreening2, ci_LOD, 680, 128
+
+
+
+24440, ci_mans2rail1, ci_mansrails, 45, 132
+24441, ci_mansion3ballust, ci_ballust, 45, 132
+24442, lodmansion2, ci_LOD, 680, 128
+24443, ci_dirtcorn2, ci_dirtcorn, 90, 132
+24444, ci_mans1grafint, ci_mansionint1, 45, 165
+24445, ci_mans1int, ci_mansionint1, 45, 161
+24446, ci_mans1stair1, ci_mansionint1, 45, 161
+24447, ci_mans1grndfl, ci_mansionint1, 45, 161
+24448, ci_mans1istfl, ci_mansionint1, 45, 161
+24449, ci_mans1stair2, ci_mansionint1, 45, 161
+24450, ci_mans1rail1, ci_mansionint1, 45, 165
+24451, ci_mans1roof, ci_mansionint1, 45, 161
+24452, ci_officewindows, ci_studio6, 90, 132
+24453, ci_dstage, ci_studio3, 100, 0
+24454, ci_pornobed, ci_pornset, 20, 0
+24455, ci_pornocarpet, ci_pornset, 45, 0
+24456, ci_flatprop02, ci_pornset, 45, 0
+24457, ci_camera1_01, ci_filmstuff1, 45, 0
+24458, ci_dstageshad, ci_shadcay, 45, 4
+24459, ci_pornset1, ci_pornset, 45, 0
+24460, ci_flatprop01, ci_pornset, 45, 0
+24461, ci_table1_01, ci_setstuff1, 45, 0
+24462, ci_setshad1, ci_setstuff2, 100, 0
+24463, ci_notice03, ci_filmstuff1, 45, 0
+24464, ci_lights1_01, ci_setstuff1, 45, 0
+24465, ci_dstudiogantry, ci_setstuff1, 35, 4
+24466, ci_dstudlights, ci_setstuff1, 35, 4
+24467, ci_lights1_02, ci_setstuff1, 45, 0
+24468, ci_dstudganwal, ci_setstuff1, 35, 4
+24469, ci_cstage, ci_studio2, 90, 128
+24470, ci_cstageint, ci_setstuff1, 100, 0
+24471, ci_acyclorama, ci_island1, 35, 0
+24472, ci_shipset, ci_setstuff4, 70, 0
+24473, ci_alights1_01, ci_setstuff1, 45, 0
+24474, ci_astudlights, ci_setstuff1, 35, 0
+24475, ci_astudganwal, ci_setstuff1, 35, 0
+24476, ci_astagelights, ci_setstuff4, 35, 4
+24477, nt_ladder_01, ci_setstuff4, 35, 4
+24478, nt_ladder_02, ci_setstuff4, 35, 4
+24479, ci_astageint, ci_studio2, 90, 0
+24480, ci_asteps, ci_setstuff4, 35, 4
+24481, ci_astudiogantry, ci_setstuff1, 35, 4
+24482, ci_extertank, ci_island1, 90, 128
+24483, ci_bcyclorama1, ci_island1, 35, 0
+24484, ci_blights1_01, ci_setstuff1, 45, 0
+24485, ci_bstudiogantry, ci_setstuff1, 35, 4
+24486, ci_bstudlights, ci_setstuff1, 35, 4
+24487, ci_bstudganwal, ci_setstuff1, 35, 4
+24488, vc_ci_bstage, ci_studio2, 90, 128
+24489, ci_bstageint, ci_island1, 100, 0
+24490, ci_moonsurface, ci_island1, 100, 128
+24491, ci_spaceflag, ci_island1, 35, 4
+24492, ci_lander, ci_island1, 35, 0
+24493, ci_windmach, vc_ci_studio5, 90, 128
+24494, vc_ci_guardhouse1, ci_island1, 90, 132
+24495, lodextertank, ci_LOD, 900, 128
+24496, ci_fountain, ci_mansion1, 90, 128
+24497, props_group1, vc_ci_studio5, 90, 132
+24498, prop_group3, vc_ci_studio5, 90, 128
+24499, prop_group2, vc_ci_studio5, 90, 128
+24500, ci_manintstuff, ci_mansion1, 15, 132
+24501, ci_gatesopen, ci_studio4, 90, 132
+24502, ci_gatesclosed, ci_studio4, 90, 132
+24503, ci_backgateclose, ci_studio4, 90, 128
+24504, lodindustrial1, ci_LOD, 720, 128
+24505, ci_mansion1, ci_mansion1, 140, 128
+24506, ci_mansion2, ci_mansion1, 140, 128
+24507, ci_mansion3, ci_mansion1, 140, 128
+24508, ci_seajetty, ci_studio2, 90, 128
+24509, ci_jetygatesopen, ci_studio4, 90, 132
+24510, ci_jetygatesclosed, ci_studio4, 90, 132
+24511, lodci_watertank, ci_LOD, 680, 128
+24512, lodci_astage, ci_LOD, 720, 128
+24513, ci_palettes, ci_mansion1, 15, 132
+24514, ci_gobo1, ci_setstuff1, 45, 165
+24515, ci_pornsetxtra, ci_pornset, 20, 0
+24516, ci_stairsout01, ci_studionew1, 200, 4
+24517, ci_rdsigns, ci_island1, 90, 128
+24518, ci_rdsigns01, ci_island1, 75, 128
+24519, ci_tankship, vc_ci_studio5, 90, 128
+24520, ci_redhead1_01, ci_redhead, 90, 128
+24521, ci_clightdesk, ci_setstuff1, 45, 0
+24522, ci_windmach2, vc_ci_studio5, 90, 132
+24523, lodbstageint, ci_LOD, 400, 128
+24524, lodcstageint, ci_LOD, 400, 128
+24525, lodastageint, ci_LOD, 400, 128
+end
+tobj
+24526, ci_dstagelight, ci_shadnit, 45, 132, 21, 5
+24527, ci_astagelight1, ci_shadnit, 90, 132, 21, 5
+24528, ci_astagelight2, ci_shadnit, 90, 132, 21, 5
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

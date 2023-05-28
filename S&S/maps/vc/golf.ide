@@ -1,0 +1,108 @@
+objs
+25163, gf_tree1_01, gfpalms, 100, 132
+25164, gf_tree2_02, gfpalms, 100, 132
+25165, gf_smallisland1_01, golf3, 200, 0
+25166, gf_flagstees3, gfflag, 100, 2097156
+25167, gf_flagstees4, gfflag, 150, 2097156
+25168, gf_mainisl5_01, golf3, 200, 0
+25169, gf_tennisfence, gfflag, 100, 132
+25170, gf_northisland1, golf3, 200, 0
+25171, gf_northbridge1, gf_northbridge, 100, 0
+25172, gf_planters2, vcgeneric, 100, 128
+25173, gf_ivy_balcny_01, vcgeneric, 100, 128
+25174, gf_ivy_balcny_07, vcgeneric, 100, 128
+25175, gf_smallislebridge1, golf3, 100, 0
+25176, gf_flagstees2, gfflag, 100, 2097156
+25177, gf_flagstees1, gfflag, 100, 2097156
+25178, gf_drivingrange1, gfnorthisland3, 100, 128
+25179, gf_drdivide1_01, gfnorthisland3, 100, 132
+25180, gf_hedge1_01, gf_hedge1, 100, 4
+25181, gf_hedge2_01, gf_hedge1, 100, 4
+25182, gf_hedge3_01, gf_hedge1, 100, 4
+25183, gf_hedge5_01, gf_hedge1, 100, 4
+25184, gf_northisland2, golf3, 200, 0
+25185, gf_mainisland3a_01, golf3, 200, 0
+25186, gf_mainisland2a_01, golf3, 200, 0
+25187, gf_mainisland1a_01, golf3, 200, 0
+25188, gf_mainisl2b_01, golf3, 200, 0
+25189, gf_mainisland1b_01, golf3, 200, 0
+25190, gf_northisland3, golf3, 200, 0
+25191, gf_mainisland6b_01, golf3, 200, 0
+25192, gf_clubhouse1, golf_clubhouse1, 100, 128
+25193, gf_picket1_01, golf_clubhouse2, 100, 132
+25194, gf_clublight1_01, golf_clubhouse1, 100, 128
+25195, gf_stadlight1_02, golf_clubhouse2, 100, 132
+25196, gf_planters4, vcgeneric, 100, 128
+25197, lodnorthisland1, gf_LOD, 1000, 128
+25198, lodnorthisland2, gf_LOD, 1000, 128
+25199, gf_treesfw1_01, vcgeneric, 750, 132
+25200, gf_treesfw2_01, vcgeneric, 750, 132
+25201, gf_treesfw3_01, vcgeneric, 750, 132
+25202, gf_treesfw4_01, vcgeneric, 750, 132
+25203, gf_treesfw5_01, vcgeneric, 750, 132
+25204, lodsmallisland1_01, gf_LOD, 1000, 128
+25205, lodnorthisland3, gf_LOD, 1000, 128
+25206, gf_mainisland6a_01, golf3, 200, 0
+25207, lodclubhouse1, gf_LOD, 700, 128
+25208, loddrivingrange1, gf_LOD, 600, 128
+25209, lodnorthbridge1, gf_LOD, 700, 128
+25210, lodwoodbridge1, gf_LOD, 600, 128
+25211, lodsmallislebridge1, gf_LOD, 700, 128
+25212, gf_mainisl4_01, golf3, 200, 0
+25213, gf_water01, gfwater, 200, 132
+25214, gf_water02, gfwater, 200, 132
+25215, gf_water03, gfwater, 200, 132
+25216, nt_security1, golf_clubhouse1, 100, 128
+25217, gf_pedbridge3, golf_bridge, 200, 0
+25218, lodpedbridge3, gf_LOD, 700, 128
+25219, nt_roadblockgf, gf_roadblock, 145, 128
+25220, golfroad5, golf3, 200, 0
+25221, golfroad3, golf3, 200, 0
+25222, golfroad4, golf3, 200, 0
+25223, golfroad1, golf3, 200, 0
+25224, golfroad7, golf3, 200, 0
+25225, golfroad2, golf3, 200, 0
+25226, lodmainisl2b_01, gf_LOD, 1000, 128
+25227, lodmainisland3a_01, gf_LOD, 1000, 128
+25228, lodmainisland3b_01, gf_LOD, 1000, 128
+25229, lodmainisland1a_01, gf_LOD, 1000, 128
+25230, lodmainisl4_01, gf_LOD, 1000, 128
+25231, lodmainisland1b_01, gf_LOD, 1000, 128
+25232, lodmainisland6a_01, gf_LOD, 1000, 128
+25233, lodmainisland6b_01, gf_LOD, 1000, 128
+25234, lodmainisl5_01, gf_LOD, 1000, 128
+25235, lodmainisland2a_01, gf_LOD, 1000, 128
+25236, lodfroad2, gf_LOD, 1000, 128
+25237, lodfroad1, gf_LOD, 1000, 128
+25238, lodfroad4, gf_LOD, 1000, 128
+25239, lodfroad3, gf_LOD, 1000, 128
+25240, lodfroad5, gf_LOD, 1000, 128
+25241, nbt_road12_gf, vcgeneric, 164, 0
+25242, gf_rollerjump, golf_clubhouse1, 100, 128
+25243, gf_mainisland3b_01, golf3, 200, 0
+25244, gf_golfwall, gf_hedge1, 100, 4
+25245, golf_gatesclosed, gf_hedge1, 100, 4
+25246, golf_gatesopen, gf_hedge1, 100, 4
+25247, lodcland13_gf, gf_LOD, 1000, 128
+25248, lod_road12_gf, gf_LOD, 1000, 128
+25249, gf_northisland1b, golf3, 200, 0
+25250, gf_northisland1c, golf3, 200, 0
+25251, gf_mainisland1m_01, golf3, 200, 0
+25252, gf_mainisland6n_01, golf3, 200, 0
+25253, gf_woodbridge1_01, golf3, 100, 0
+25254, gf_hedge6_01, gf_hedge1, 100, 4
+25255, gf_hedge4_01, gf_hedge1, 100, 4
+25256, nbecland13_gf, gf_nbtecland, 164, 128
+25257, gf_signplane01, gf_roadblock, 100, 128
+25258, lodgolfwall, gf_LOD, 700, 128
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end

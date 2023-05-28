@@ -1,0 +1,18 @@
+objs
+27263, striplights, striplights, 200, 0
+27264, stripinter, wshstripint, 200, 0
+27265, stripinterupside, stripinter, 200, 0
+27266, stripback, stripback, 200, 0
+27267, stripinterfloor, wshstripint, 200, 4
+27268, strpbckdrclsd, stripback, 200, 0
+end
+tobj
+end
+path
+end
+2dfx
+end
+anim
+end
+txdp
+end
