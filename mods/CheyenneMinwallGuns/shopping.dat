@@ -1,0 +1,85 @@
+section prices
+	section Weapons
+		# weapontype,		nametag,				class,	ammo,	anim,	mission,	price
+		CHMIN_SABGLOCK,	"Combat Pistol",			1,	30,	1,	0,	750
+		CHMIN_HITMAN,		"Hitman Pistol",			1,	15,	1,	0,	1500
+		CHMIN_HATCHET,		"Hatchet",				1,	1,	1,	0,	350
+		CHMIN_CLUB,		"Gunstock Club",			1,	1,	1,	0,	300
+		CHMIN_ROSE,		"Rose Bouquet",			1,	1,	1,	0,	20
+
+		CHMIN_DEFSHOT,		"Defense Shotgun",			2,	16,	2,	0,	1250
+		CHMIN_STRIKER,		"Striker",				2,	20,	2,	0,	4000
+
+		CHMIN_INGRAMSL,		"Silenced Mac",			3,	60,	1,	0,	1000
+		CHMIN_WEEAK,		"Compact AK",			3,	60,	1,	0,	2000
+		CHMIN_PPSH,		"Soviet SMG",			3,	136,	1,	0,	3500
+
+		CHMIN_BULLPUP,		"Bullpup Rifle",			5,	150,	2,	0,	5000
+		CHMIN_50CAL,		"50 Cal.",				5,	500,	4,	0,	12500
+
+		CHMIN_BAR,		"Automatic Rifle",			6,	20,	2,	0,	2500
+		CHMIN_SEMISNIPER,	"Semi Auto Sniper",			6,	15,	2,	0,	6000
+
+		MINE,			"Landmine",			7,	1,	1,	0,	3000
+
+	end
+end
+
+section shops
+
+	section ammun1
+		type weapons
+
+		item MINE
+
+	end
+
+	section ammun2
+		type weapons
+
+		item MINE
+
+	end
+
+	section ammun3
+		type weapons
+
+		item MINE
+
+	end
+
+	section ammun4
+		type weapons
+
+		item CHMIN_SABGLOCK
+		item CHMIN_HITMAN
+		item CHMIN_HATCHET
+		item CHMIN_CLUB
+		item CHMIN_ROSE
+
+		item CHMIN_DEFSHOT
+		item CHMIN_STRIKER
+
+		item CHMIN_INGRAMSL
+		item CHMIN_WEEAK
+		item CHMIN_PPSH
+
+		item CHMIN_BULLPUP
+
+		item CHMIN_BAR
+		item CHMIN_SEMISNIPER
+
+		item MINE
+
+		item CHMIN_50CAL
+
+	end
+
+	section ammun5
+		type weapons
+
+		item MINE
+
+	end
+
+end
