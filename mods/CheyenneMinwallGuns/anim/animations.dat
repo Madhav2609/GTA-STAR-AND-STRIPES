@@ -1,0 +1,13 @@
+rifleNew, rifleNew, 4
+	RIFLE_fire,	224, 1052
+	RIFLE_crouchfire,	225, 28
+	RIFLE_load,	226, 1052
+	RIFLE_crouchload,	227, 28
+end
+
+rifleNewBad, rifleNew, 4
+	RIFLE_fire,	224, 1052
+	RIFLE_crouchfire,	225, 28
+	RIFLE_load,	226, 1052
+	RIFLE_crouchload,	227, 28
+end

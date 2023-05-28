@@ -1,0 +1,337 @@
+MINE : [projectile]
+	slot: thrown
+	model: vc_mine
+	fireType: PROJECTILE
+	projectileInfo: {
+		type: mine
+		powerModifer: 0.5
+		elasticity: 0.03
+		attach: [GROUND]
+	}
+	explosive: {
+		particle: explosion_small
+		radius: 9.0
+		visibleDistance: 300.0
+		expireTime: 750
+		explodeVehicle: True
+	}
+	pickup: {
+		maxAmmo: 8
+		color: [27, 89, 130]
+	}
+end
+
+CHMIN_PPSH : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 0.5
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: rifle
+	model: chmin_ppsh
+*	stat: 'CHMIN_PPSH'
+	fireType: INSTANT_HIT
+	fireOffset: [0.78, -0.06, 0.13]
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 80
+		color: [254, 137, 0]
+	}
+end
+
+CHMIN_SABGLOCK : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: handgun
+	model: chmin_sabglock
+	fireType: INSTANT_HIT
+	fireOffset: [0.25, 0.05, 0.09]
+  *	stat: 'CHMIN_SABGLOCK'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 30
+		color: [149, 194, 24]
+	}
+end
+
+CHMIN_HITMAN : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 1.0
+	powerVehicleMoveAfterShot: 20.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: handgun
+	model: chmin_hitman
+	fireType: INSTANT_HIT
+	fireOffset: [0.41, 0.03, 0.12]
+  *	stat: 'CHMIN_HITMAN'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 10
+		color: [149, 194, 24]
+	}
+end
+
+CHMIN_ROSE : [melee]
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: gift
+	model: chmin_rose
+	fireType: MELEE
+	breakPedAfterHit: True
+	meleeCombo: FLOWERS
+	pickup: {
+		maxAmmo: 1
+		color: [97, 97, 97]
+	}
+end
+
+CHMIN_STRIKER : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	powerVehicleMoveAfterShot: 4.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: shotgun
+	model: chmin_striker
+	fireType: INSTANT_HIT
+	fireOffset: [0.75, -0.06, 0.22]
+  *	stat: 'CHMIN_STRIKER'
+	shell: {
+		size: 0.45
+		multiplyOffset: 0.3
+		color: [161, 25, 25]
+	}
+	pillets: 15
+	criticalHitAtShortDistance: False
+	pickup: {
+		maxAmmo: 10
+		color: [45, 155, 90]
+	}
+end
+
+CHMIN_WEEAK : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 0.5
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: smg
+	model: chmin_weeak
+	fireType: INSTANT_HIT
+	fireOffset: [0.78, -0.06, 0.13]
+  *	stat: 'chmin_weeak'
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 80
+		color: [254, 137, 0]
+	}
+end
+
+CHMIN_DEFSHOT : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	powerVehicleMoveAfterShot: 4.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: shotgun
+	model: chmin_defshot
+	fireType: INSTANT_HIT
+	fireOffset: [0.75, -0.06, 0.22]
+  *	stat: 'CHMIN_DEFSHOT'
+	shell: {
+		size: 0.45
+		multiplyOffset: 0.3
+		color: [161, 25, 25]
+	}
+	pillets: 7
+	criticalHitAtShortDistance: True
+	pickup: {
+		maxAmmo: 10
+		color: [45, 155, 90]
+	}
+end
+
+CHMIN_HATCHET : [melee]
+	bodypartToRemove: PELVIS_1
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: chmin_hatchet
+	fireType: MELEE
+	bloodAfterHit: 150
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+CHMIN_CLUB : [melee]
+	fallPowerDeath: 1.5
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	fallPower: 5.0
+	slot: melee
+	model: chmin_club
+	fireType: MELEE
+	bloodAfterHit: 50
+	breakPedAfterHit: True
+	meleeCombo: BBALLBAT
+	pickup: {
+		maxAmmo: 1
+		color: [97, 194, 247]
+	}
+end
+
+CHMIN_SEMISNIPER : SNIPERRIFLE
+model: chmin_semisniper
+end
+
+CHMIN_INGRAMSL : [gun]
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	slot: smg
+	model: chmin_ingramsl
+	fireType: INSTANT_HIT
+	fireOffset: [0.25, 0.0, 0.11]
+  *	stat: 'chmin_ingramsl'
+	shell: {
+		size: 0.3
+		multiplyOffset: 0.2
+		color: [127, 127, 127]
+	}
+	pickup: {
+		maxAmmo: 60
+		color: [255, 227, 79]
+	}
+end
+
+CHMIN_BULLPUP : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 0.5
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	slot: rifle
+	model: chmin_bullpup
+*	stat: 'CHMIN_BULLPUP'
+	fireType: INSTANT_HIT
+	fireOffset: [0.78, -0.06, 0.13]
+	shell: {
+		size: 0.25
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 80
+		color: [254, 137, 0]
+	}
+end
+
+CHMIN_BAR : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	headshotDeathAnim: KO_shot_front
+	deathAnim: KO_shot_front
+	fallPower: 5.0
+	slot: sniper
+	model: chmin_bar
+	fireType: INSTANT_HIT
+	fireOffset: [0.7, -0.05, 0.2]
+	shotEffect: False
+  *	stat: 'CHMIN_BAR'
+	pickup: {
+		maxAmmo: 20
+		color: [249, 131, 215]
+	}
+end
+
+CHMIN_50CAL : [gun]
+	bodypartToRemove: {
+		- 5: SPINE
+		- 6: UPPER_TORSO
+		- 7: HEAD_1
+		- 8: HEAD_2
+		- 9: PELVIS_1
+	}
+	fallPowerDeath: 2.0
+	powerVehicleMoveAfterShot: 20.0
+	headshotDeathAnim: KO_shot_front
+	deathAnim: [KO_skid_front, KO_spin_R, KO_skid_back, KO_spin_L]
+	breakPedAfterHit: True
+	slot: heavy
+	model: chmin_50cal
+	fireType: INSTANT_HIT
+	fireOffset: [1.15, 0.0, 0.40]
+	shell: {
+		size: 0.5
+		multiplyOffset: 0.65
+		color: [127, 127, 127]
+	}
+	delayedShotEffect: True
+	pickup: {
+		maxAmmo: 500
+		color: [164, 40, 178]
+	}
+end

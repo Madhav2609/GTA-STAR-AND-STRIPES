@@ -1,0 +1,128 @@
+MINE:
+	sfx: ["explode_3.wav", "explode_3.wav", "explode_2.wav", "explode_1.wav", "explode_1.wav"]
+	volume: 0.0
+	speed: [1.12, 1.0, 0.88]
+END
+
+CHMIN_PPSH : MP5
+END
+
+CHMIN_SABGLOCK:
+	sfx: [53, 54, 7, 8, 9]
+	volume: 0.0
+	speed: [1.4142, 1.0]
+	reload: {
+		sfx: [56, 67]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+CHMIN_HITMAN : CHMIN_SABGLOCK
+	speed[1]: 0.995
+	reload::sfx: [56, 52]
+END
+
+CHMIN_ROSE:
+	swingHit: {
+		sfx: 88
+		volume: -6.0
+		speed: 0.84
+	}
+	objectHit: {
+		sfx: 55
+		frequency: 0.07
+		speed: 1.0
+	}
+END
+
+CHMIN_STRIKER : SHOTGUN
+END
+
+CHMIN_WEEAK:
+	sfx: [34, 54, 4, 5, 6]
+	volume: 0.0
+	speed: [1.0, 1.0]
+	reload: {
+		sfx: [32, 33]
+		volume: 0.0
+		speed: 1.0
+	}
+END
+
+CHMIN_DEFSHOT : SHOTGUN
+END
+
+CHMIN_HATCHET:
+	swingHit: {
+		sfx: 87
+		volume: 0.0
+		speed: 0.79
+	}
+	objectHit: {
+		sfx: 57
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: 82
+		volume: -10.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: 82
+		volume: -10.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 82
+		volume: -9.0
+		speed: 1.0
+	}
+	useObjectHitSfxOnPed: False
+END
+
+CHMIN_CLUB:
+	swingHit: {
+		sfx: 87
+		volume: 0.0
+		speed: 0.67
+	}
+	objectHit: {
+		sfx: 68
+		frequency: 0.0588
+		speed: 1.0
+	}
+	lowHit: {
+		sfx: [37 - 40]
+		volume: -15.0
+		speed: 1.0
+	}
+	highHit: {
+		sfx: [41 - 44]
+		volume: -15.0
+		speed: 1.0
+	}
+	groundHit: {
+		sfx: 83
+		volume: -6.0
+		speed: 1.0
+	}
+END
+
+CHMIN_SEMISNIPER : SNIPERRIFLE
+END
+
+CHMIN_INGRAMSL : PISTOL_SILENCED
+END
+
+CHMIN_BULLPUP : M4
+END
+
+CHMIN_BAR : COUNTRYRIFLE
+END
+
+CHMIN_50CAL :
+	volume: -12.0
+	sfx[3]: "fn.wav"
+END

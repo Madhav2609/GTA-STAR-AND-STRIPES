@@ -1,0 +1,651 @@
+MINE : GRENADE
+end
+
+CHMIN_PPSH :
+	 POOR: {
+		range::target: 40.0
+		animGrp: riflebad
+		reqStatLevel: 0
+		accuracy: 0.55
+		moveSpeed: 0.9
+	}
+	 STD: {
+		range::target: 42.5
+		animGrp: riflebad
+		reqStatLevel: 200
+		accuracy: 0.70
+		moveSpeed: 1.0
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 PRO: {
+		range::target: 47.5
+		animGrp: rifle
+		reqStatLevel: 999
+		accuracy: 0.85
+		moveSpeed: 1.1
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 range::weapon: 67.5
+	 walkAnimGrp: player2armed
+	 ammoClip: 71
+	 damage: 22
+	 shotSpeed: 1.0
+	 reloadSpeed: 0.9
+	 animLoop: {
+		start: 6
+		fire: 7
+		end: 8
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 7
+		end: 8
+	}
+	 breakoutTime: 99
+	 flags: [CAN_AIM, ANIM_RELOAD, ANIM_CROUCH_FIRE, RELOAD_2START]
+END 
+### CHMIN_PPSH
+
+################ Handguns
+CHMIN_SABGLOCK:
+	 POOR: {
+		range: {
+			target: 30.0
+			weapon: 35.0
+		}
+		animGrp: python
+		ammoClip: 17
+		reqStatLevel: 0
+                                  shotSpeed: 2.3
+		accuracy: 0.92
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 28
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 28
+		}
+	}
+	 STD: {
+		range: {
+			target: 35.0
+			weapon: 40.0
+		}
+		animGrp: python
+		ammoClip: 17
+		reqStatLevel: 199
+                                  shotSpeed: 2.6
+		accuracy: 1.25
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 28
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 28
+		}
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 PRO: {
+		range: {
+			target: 40.0
+			weapon: 40.0
+		}
+		animGrp: colt45
+		ammoClip: 17
+		reqStatLevel: 499
+                                  shotSpeed: 1.6
+		accuracy: 1.35
+		animLoop: {
+			start: 6
+			fire: 6
+			end: 15
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 6
+			end: 15
+		}
+		flags: [AIM_WITH_ARM, MOVE_AIM, MOVE_FIRE]
+	}
+   ADVANCE: {
+		range: {
+			target: 42.5
+			weapon: 42.5
+		}
+		animGrp: colt45pro
+		ammoClip: 34
+		reqStatLevel: 999
+                                  shotSpeed: 1.6
+		accuracy: 1.39
+		animLoop: {
+			start: 6
+			fire: 6
+			end: 18
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 6
+			end: 17
+		}
+		flags: [AIM_WITH_ARM, MOVE_AIM, MOVE_FIRE, TWIN_WEAPON]
+	}
+	 walkAnimGrp: player
+	 damage: 25
+	 moveSpeed: 1.1
+	 reloadSpeed: 1.0
+	 breakoutTime: 40
+	 flags: [CAN_AIM, ANIM_RELOAD, ANIM_CROUCH_FIRE]
+END ### CHMIN_SABGLOCK
+
+CHMIN_HITMAN:
+	 POOR: {
+		range: {
+			target: 35.0
+			weapon: 40.0
+		}
+		animGrp: pythonbad
+                                  ammoClip: 5
+		reqStatLevel: 0
+		accuracy: 0.9
+		moveSpeed: 1.3
+		animLoop: {
+			start: 7
+			fire: 8
+			end: 36
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 30
+		}
+	}
+                                  flags: [MOVE_AIM, MOVE_FIRE]
+	 STD: {
+		range: {
+			target: 39.5
+			weapon: 40.0
+		}
+		animGrp: pythonbad
+                                  ammoClip: 5
+		reqStatLevel: 99
+		accuracy: 1.1
+		moveSpeed: 1.5
+		animLoop: {
+			start: 7
+			fire: 8
+			end: 34
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 26
+		}
+	}
+                                  flags: [MOVE_AIM, MOVE_FIRE]
+	 PRO: {
+		range: {
+			target: 40.0
+			weapon: 42.5
+		}
+		animGrp: colt45
+                                  ammoClip: 5
+		reqStatLevel: 499
+		accuracy: 1.35
+                                  shotSpeed: 1.0
+                                  reloadSpeed: 1.2
+		animLoop: {
+			start: 6
+			fire: 8
+			end: 16
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 6
+			end: 16
+		}
+		flags: [AIM_WITH_ARM, MOVE_AIM, MOVE_FIRE]
+	}
+ ADVANCE: {
+		range: {
+			target: 42.5
+			weapon: 42.5
+		}
+		animGrp: colt45pro
+                                  ammoClip: 10
+		reqStatLevel: 999
+		accuracy: 1.4
+                                  shotSpeed: 1.2
+                                  reloadSpeed: 1.3
+		animLoop: {
+			start: 6
+			fire: 6
+			end: 16
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 6
+			end: 15
+		}
+		flags: [AIM_WITH_ARM, MOVE_AIM, MOVE_FIRE, TWIN_WEAPON]
+	}
+	 walkAnimGrp: player
+	 damage: 95
+	 shotSpeed: 0.95
+	 reloadSpeed: 1.1
+	 breakoutTime: 69
+	 flags: [CAN_AIM, RELOAD_2START, ANIM_RELOAD, ANIM_CROUCH_FIRE]
+END ### CHMIN_HITMAN
+
+CHMIN_ROSE : UNARMED
+END ### CHMIN_ROSE
+
+CHMIN_STRIKER:
+	 POOR: {
+		range: {
+			target: 17.5
+			weapon: 22.5
+		}
+		reqStatLevel: 0
+		accuracy: 0.6
+		moveSpeed: 0.8
+	                 shotSpeed: 1.5
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 16
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 16
+		}
+	}
+	 STD: {
+		range: {
+			target: 22.5
+			weapon: 27.5
+		}
+		reqStatLevel: 200
+		accuracy: 0.7
+		moveSpeed: 0.85
+	                 shotSpeed: 1.6
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 16
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 15
+		}
+		flags: [MOVE_AIM]
+	}
+	 PRO: {
+		range: {
+			target: 25.0
+			weapon: 30.0
+		}
+		reqStatLevel: 999
+		accuracy: 0.75
+		moveSpeed: 0.9
+	                 shotSpeed: 1.65
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 16
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 15
+		}
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 animGrp: buddy
+	 walkAnimGrp: player2armed
+	 ammoClip: 12
+	 damage: 10
+	 reloadSpeed: 0.95
+	 breakoutTime: 45
+	 flags: [CAN_AIM, ANIM_RELOAD, RELOAD_2START, ANIM_CROUCH_FIRE]
+END ### CHMIN_STRIKER
+
+CHMIN_WEEAK:
+	 POOR: {
+		range::target: 40.0
+		animGrp: colt45
+		reqStatLevel: 0
+		accuracy: 0.30
+		moveSpeed: 1.0
+	                 shotSpeed: 1.0
+	 ammoClip: 20
+	 walkAnimGrp: player
+	 animLoop: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+
+	}
+	 STD: {
+		range::target: 45.0
+		animGrp: colt45
+		reqStatLevel: 20
+		accuracy: 0.40
+		moveSpeed: 1.1
+	                 shotSpeed: 1.0
+	 ammoClip: 20
+	 walkAnimGrp: player
+	 animLoop: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+		flags: [MOVE_AIM]
+	}
+	 PRO: {
+		range::target: 50.0
+		animGrp: colt45pro
+		reqStatLevel: 90
+		accuracy: 0.50
+		moveSpeed: 1.2
+	                 shotSpeed: 0.9
+                  ammoClip: 40
+	 walkAnimGrp: player
+	 animLoop: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+		flags: [MOVE_AIM, MOVE_FIRE, TWIN_WEAPON]
+	}
+	 range::weapon: 72.5
+	 damage: 30
+	 reloadSpeed: 1.0
+	 breakoutTime: 99
+	 flags: [CAN_AIM, MOVE_AIM, MOVE_FIRE, ANIM_RELOAD, ANIM_CROUCH_FIRE, AIM_WITH_ARM]
+END ### CHMIN_WEEAK
+
+CHMIN_DEFSHOT:
+	 POOR: {
+		range: {
+			target: 30.0
+			weapon: 35.0
+		}
+		animGrp: riflebad
+		reqStatLevel: 0
+		accuracy: 1.8
+		moveSpeed: 1.1
+	                 shotSpeed: 1.4
+	                 reloadSpeed: 1.0
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 20
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 20
+		}
+		breakoutTime: 28
+                                   flags: [MOVE_AIM]
+	}
+	 STD: {
+		range: {
+			target: 35.0
+			weapon: 37.5
+		}
+		animGrp: rifle
+		reqStatLevel: 200
+		accuracy: 2.0
+		moveSpeed: 1.2
+	                 shotSpeed: 1.6
+	                 reloadSpeed: 1.2
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 20
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 20
+		}
+		breakoutTime: 20
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 PRO: {
+		range: {
+			target: 37.5
+			weapon: 40.0
+		}
+		animGrp: rifle
+		reqStatLevel: 999
+		accuracy: 2.2
+		moveSpeed: 1.4
+	                 shotSpeed: 1.7
+	                 reloadSpeed: 1.4
+		animLoop: {
+			start: 6
+			fire: 7
+			end: 20
+		}
+		animLoopCrouch: {
+			start: 6
+			fire: 7
+			end: 20
+		}
+		breakoutTime: 35
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 walkAnimGrp: player2armed
+	 ammoClip: 10
+	 damage: 10
+	 flags: [CAN_AIM, ANIM_RELOAD, ANIM_CROUCH_FIRE, RELOAD_2START]
+END ### CHMIN_DEFSHOT
+
+CHMIN_HATCHET : UNARMED
+END ### CHMIN_HATCHET
+
+CHMIN_CLUB : BASEBALLBAT
+END ### CHMIN_CLUB
+
+CHMIN_SEMISNIPER : SNIPERRIFLE
+	ammoClip: 4
+END ### CHMIN_SEMISNIPER
+
+CHMIN_INGRAMSL:
+	 POOR: {
+		range: {
+			target: 35.0
+			weapon: 35.0
+		}
+		animGrp: colt45
+		ammoClip: 30
+		reqStatLevel: 0
+		accuracy: 1.1
+	                 shotSpeed: 1.4
+	}
+	 STD: {
+		range: {
+			target: 37.5
+			weapon: 37.5
+		}
+		animGrp: colt45
+		ammoClip: 30
+		reqStatLevel: 200
+		accuracy: 1.2
+	                 shotSpeed: 1.5
+	}
+	 PRO: {
+		range: {
+			target: 40.0
+			weapon: 40.0
+		}
+		animGrp: colt45
+		ammoClip: 30
+		reqStatLevel: 999
+		accuracy: 1.7
+	}
+	 walkAnimGrp: player
+	 damage: 24
+	 moveSpeed: 1.0
+	 reloadSpeed: 1.0
+	 animLoop: {
+		start: 6
+		fire: 6
+		end: 10
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 6
+		end: 10
+	}
+	 breakoutTime: 99
+	 flags: [CAN_AIM, SILENCED, MOVE_AIM, MOVE_FIRE, ANIM_RELOAD, ANIM_CROUCH_FIRE, AIM_WITH_ARM]
+END ### CHMIN_INGRAMSL
+
+CHMIN_BULLPUP :
+	 POOR: {
+		range::target: 50.0
+		animGrp: rifleNewBad
+		reqStatLevel: 0
+		accuracy: 0.50
+		moveSpeed: 0.9
+	                 reloadSpeed: 1.2
+	 shotSpeed: 0.8
+		flags: [MOVE_AIM]
+	}
+	 STD: {
+		range::target: 55.0
+		animGrp: rifleNew
+		reqStatLevel: 200
+		accuracy: 0.75
+		moveSpeed: 1.0
+	                 reloadSpeed: 1.5
+	 shotSpeed: 0.9
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 PRO: {
+		range::target: 60.0
+		animGrp: rifleNew
+		reqStatLevel: 999
+		accuracy: 1.0
+		moveSpeed: 1.1
+	                 reloadSpeed: 1.9
+	 shotSpeed: 0.9
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 range::weapon: 115.0
+	 walkAnimGrp: player2armed
+	 ammoClip: 30
+	 damage: 30
+	 animLoop: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 7
+		end: 10
+	}
+	 breakoutTime: 99
+	 flags: [CAN_AIM, ANIM_RELOAD, ANIM_CROUCH_FIRE, RELOAD_2START]
+END
+
+CHMIN_BAR :
+	 POOR: {
+		range::target: 50.0
+		reqStatLevel: 0
+		accuracy: 0.7
+		moveSpeed: 1.0
+	}
+	 STD: {
+		range::target: 55.0
+		reqStatLevel: 300
+		accuracy: 0.9
+		moveSpeed: 1.2
+		flags: [MOVE_AIM]
+	}
+	 PRO: {
+		range::target: 60.0
+		reqStatLevel: 999
+		accuracy: 1.15
+		moveSpeed: 1.3
+		flags: [MOVE_AIM, MOVE_FIRE]
+	}
+	 range::weapon: 100.0
+	 animGrp: sniper
+	 walkAnimGrp: player2armed
+	 ammoClip: 20
+	 damage: 38
+	 shotSpeed: 1.2
+	 reloadSpeed: 1.0
+	 animLoop: {
+		start: 6
+		fire: 7
+		end: 17
+	}
+	 animLoopCrouch: {
+		start: 6
+		fire: 7
+		end: 17
+	}
+	 breakoutTime: 99
+	 flags: [ONLY_FREE_AIM, ANIM_CROUCH_FIRE, ANIM_RELOAD, RELOAD_2START]
+END ### CHMIN_BAR
+
+CHMIN_50CAL:
+	 range: {
+		weapon: 75.0
+		target: 85.0
+	}
+	 animGrp: flame
+	 walkAnimGrp: playercsaw
+	 ammoClip: 1
+	 damage: 155
+	 accuracy: 1.0
+	 moveSpeed: 1.0
+	 reloadSpeed: 1.0
+	 shotSpeed: 0.5
+	 animLoop: {
+		start: 11
+		fire: 12
+		end: 13
+	}
+	 animLoopCrouch: {
+		start: 11
+		fire: 12
+		end: 13
+	}
+	 breakoutTime: 69
+	 flags: [ONLY_FREE_AIM, HEAVY, MOVE_AIM, MOVE_FIRE, DISABLE_RELOAD]
+END ### CHMIN_50CAL
+
+% rifleNew				0.20	0.48		0.10	0.0		380	897		380	897
+% rifleNewBad			0.16	0.2			0.1		0.0		380	897		380	897
+ENDWEAPONDATA

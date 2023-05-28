@@ -1,0 +1,18 @@
+weap
+	-, vc_mine, vc_mine, grenade, 1, 100, 0
+	-, chmin_ppsh, chmin_ppsh, rifle, 1, 50, 0
+	-, chmin_sabglock, chmin_sabglock, python, 1, 30, 0
+	-, chmin_hitman, chmin_hitman, python, 1, 30, 0
+	-, chmin_rose, chmin_rose, null, 1, 30, 0
+	-, chmin_striker, chmin_striker, buddy, 1, 50, 0
+	-, chmin_weeak, chmin_weeak, uzi, 1, 50, 0
+	-, chmin_defshot, chmin_defshot, rifle, 1, 50, 0
+	-, chmin_hatchet, chmin_hatchet, null, 1, 50, 0
+	-, chmin_club, chmin_club, null, 1, 50, 0
+	-, chmin_semisniper, chmin_semisniper, rifle, 1, 50, 0
+	-, chmin_ingramsl, chmin_ingramsl, colt45, 1, 30, 0
+	-, chmin_bullpup, chmin_bullpup, rifleNew, 1, 30, 0
+                 -, chmin_bar, chmin_bar, rifle, 1, 50, 0
+                 -, chmin_50cal, chmin_50cal, flame, 1, 50, 0
+
+end
